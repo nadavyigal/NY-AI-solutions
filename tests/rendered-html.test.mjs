@@ -71,6 +71,8 @@ test("keeps the lead flow private and client-side", async () => {
   assert.match(page, /linkedin\.com\/company\/140013922\//);
   assert.match(page, /linkedin\.com\/company\/137603901\//);
   assert.doesNotMatch(page, /\/admin\/page-posts\//);
+  assert.doesNotMatch(page, /<h3>RunSmart<\/h3>/);
+  assert.doesNotMatch(page, /<h3>Resumely<\/h3>/);
   assert.equal((page.match(/src="\/favicon\.png"/g) ?? []).length, 1);
   assert.doesNotMatch(page, /logo-on-(light|dark)\.png/);
   assert.match(layout, /openGraph/);

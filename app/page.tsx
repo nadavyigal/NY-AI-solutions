@@ -254,7 +254,6 @@ export default function Home() {
               <img src="/runsmart-logo.png" alt="לוגו RunSmart" width="900" height="272" />
             </div>
             <span>AI RUN COACHING · LIVE ON THE APP STORE</span>
-            <h3>RunSmart</h3>
             <p>אפליקציית iOS לאימון ריצה אישי מבוסס AI, שמתרגמת נתוני משתמש ותהליך אימון לחוויית מוצר ברורה ומעשית.</p>
             <ul className="portfolio-skills" aria-label="יכולות שהודגמו ב־RunSmart">
               <li>אסטרטגיית מוצר</li>
@@ -273,7 +272,6 @@ export default function Home() {
               <img src="/resumely-logo.png" alt="לוגו Resumely" width="920" height="200" />
             </div>
             <span>AI RESUME BUILDER · LIVE ON THE APP STORE</span>
-            <h3>Resumely</h3>
             <p>אפליקציית iOS לבנייה ולשיפור של קורות חיים בעזרת AI, עם תהליך מובנה שהופך מידע גולמי למסמך מקצועי ושימושי.</p>
             <ul className="portfolio-skills" aria-label="יכולות שהודגמו ב־Resumely">
               <li>אפיון חוויית משתמש</li>
