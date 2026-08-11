@@ -82,7 +82,7 @@ export default function Home() {
           <a href="#capabilities">הפתרונות</a>
           <a href="#process">התהליך</a>
           <a href="#about">אודות</a>
-          <a href="#portfolio">פורטפוליו</a>
+          <a href="#products">מוצרים לדוגמה</a>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
@@ -243,13 +243,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="section-shell portfolio-heading" id="portfolio">
-          <p className="section-label section-label-light">פורטפוליו · הוכחת יכולת</p>
-          <h2>שני מוצרי AI חיים.<br />משלב הרעיון ועד ה־App Store.</h2>
-          <p>RunSmart ו־Resumely הן לא הדגמות או רעיונות על הנייר. אלו אפליקציות iOS שתכננתי, בניתי והשקתי — הוכחה ליכולת לקחת בעיה, להפוך אותה למוצר AI שלם ולהביא אותו לידיים של משתמשים אמיתיים.</p>
+        <div className="section-shell portfolio-heading" id="products">
+          <p className="section-label section-label-light">מוצרים לדוגמה</p>
+          <h2>שתי אפליקציות מבוססות AI<br />בעולמות תוכן שונים.</h2>
+          <p>RunSmart ו־Resumely הן לא הדגמות או רעיונות על הנייר. אלו אפליקציות iOS שתכננתי, בניתי והשקתי ב־App Store — כדוגמה ליכולת לקחת בעיה, להפוך אותה למוצר AI שלם ולהביא אותו לידיים של משתמשים אמיתיים.</p>
         </div>
-        <div className="section-shell product-proof" aria-label="פורטפוליו אפליקציות AI שבנה נדב">
+        <div className="section-shell product-proof" aria-label="מוצרים לדוגמה — אפליקציות AI שבנה נדב">
           <article>
+            <div className="product-logo product-logo-runsmart">
+              <img src="/runsmart-logo.png" alt="לוגו RunSmart" width="900" height="272" />
+            </div>
             <span>AI RUN COACHING · LIVE ON THE APP STORE</span>
             <h3>RunSmart</h3>
             <p>אפליקציית iOS לאימון ריצה אישי מבוסס AI, שמתרגמת נתוני משתמש ותהליך אימון לחוויית מוצר ברורה ומעשית.</p>
@@ -266,6 +269,9 @@ export default function Home() {
             </div>
           </article>
           <article>
+            <div className="product-logo product-logo-resumely">
+              <img src="/resumely-logo.png" alt="לוגו Resumely" width="920" height="200" />
+            </div>
             <span>AI RESUME BUILDER · LIVE ON THE APP STORE</span>
             <h3>Resumely</h3>
             <p>אפליקציית iOS לבנייה ולשיפור של קורות חיים בעזרת AI, עם תהליך מובנה שהופך מידע גולמי למסמך מקצועי ושימושי.</p>
