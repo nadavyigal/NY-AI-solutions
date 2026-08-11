@@ -31,9 +31,15 @@ test("server-renders the Hebrew NY AI Solutions landing page", async () => {
   const html = await response.text();
   assert.match(html, /<html[^>]*lang="he"[^>]*dir="rtl"/i);
   assert.match(html, /AI יכול לעשות הרבה יותר/);
-  assert.match(html, /אתם מומחים במה שאתם עושים/);
+  assert.match(html, /מפתרון נקודתי וחכם ועד מערכת AI שלמה/);
+  assert.match(html, /אתם מביאים את המומחיות העסקית/);
   assert.match(html, /בניית סוכני AI/);
-  assert.match(html, /מכירים ומאפיינים את העסק/);
+  assert.match(html, /פיתוח אפליקציות iOS מבוססות AI/);
+  assert.match(html, /מבינים את העסק ואת האנשים/);
+  assert.match(html, /לא רק להמליץ על פתרון/);
+  assert.match(html, /פורטפוליו · הוכחת יכולת/);
+  assert.match(html, /שני מוצרי AI חיים/);
+  assert.match(html, /Agentic OS/);
   assert.match(html, /AI SOLUTIONS/);
   assert.doesNotMatch(html, /AI CONSULTING/i);
   assert.match(html, /RunSmart/);

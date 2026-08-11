@@ -10,44 +10,45 @@ const capabilities = [
   "בניית תהליכי עבודה פנימיים חכמים יותר",
   "חיבור בין מערכות וכלים קיימים",
   "בניית פתרונות AI שמותאמים לצורך ספציפי בעסק",
+  "תכנון ופיתוח אפליקציות iOS מבוססות AI — מהרעיון ועד מוצר חי ב־App Store",
 ];
 
 const processSteps = [
   {
-    title: "מכירים ומאפיינים את העסק",
+    title: "מבינים את העסק ואת האנשים",
     paragraphs: [
       "אני נכנס לעומק של העסק, האנשים ותהליכי העבודה ומבין איך הדברים עובדים היום.",
     ],
   },
   {
-    title: "ממפים את ההזדמנויות",
+    title: "מזהים הזדמנויות עם ערך אמיתי",
     paragraphs: [
       "אני מזהה איפה AI יכול לחסוך זמן וכסף, לצמצם עבודה ידנית, לשפר תהליכים או לפתוח אפשרויות חדשות.",
       "ומצד שני — גם איפה אין צורך לשנות את מה שכבר עובד.",
     ],
   },
   {
-    title: "בוחרים מה באמת כדאי לעשות",
+    title: "מתעדפים את מה שכדאי לעשות עכשיו",
     paragraphs: [
       "לא רשימה אינסופית של רעיונות.",
       "מגדירים סדרי עדיפויות ומחליטים אילו פתרונות יתנו לעסק את הערך הגדול ביותר ביחס לזמן ולהשקעה.",
     ],
   },
   {
-    title: "בונים ומטמיעים",
+    title: "בונים ומחברים לסביבת העבודה",
     paragraphs: [
       "אני מתאים ובונה את הכלים, האוטומציות והמערכות הנדרשות ומחבר אותם ככל האפשר לצורת העבודה הקיימת בעסק.",
     ],
   },
   {
-    title: "מדריכים את האנשים",
+    title: "מטמיעים עם האנשים, לא מעליהם",
     paragraphs: [
       "טכנולוגיה טובה היא טכנולוגיה שאנשים באמת משתמשים בה.",
       "לכן התהליך כולל גם הדרכה והטמעה, כדי שהפתרונות יהפכו לחלק טבעי מהעבודה.",
     ],
   },
   {
-    title: "ממשיכים לשפר",
+    title: "מודדים, לומדים ומשפרים",
     paragraphs: [
       "אחרי שמתחילים לעבוד, בודקים מה עובד, מה אפשר לדייק ואיפה נמצאת ההזדמנות הבאה.",
     ],
@@ -78,9 +79,10 @@ export default function Home() {
         </a>
         <nav className="header-nav" aria-label="קישורי עמוד">
           <a href="#approach">הגישה</a>
-          <a href="#capabilities">מה אפשר לעשות</a>
+          <a href="#capabilities">הפתרונות</a>
           <a href="#process">התהליך</a>
-          <a href="#about">למה נדב</a>
+          <a href="#about">אודות</a>
+          <a href="#portfolio">פורטפוליו</a>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
@@ -88,13 +90,14 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-glow" aria-hidden="true" />
         <div className="hero-copy">
-          <p className="eyebrow">NY AI SOLUTIONS</p>
+          <p className="eyebrow">פתרונות AI לעסקים</p>
           <h1>
             AI יכול לעשות הרבה יותר
             <span>בעסק שלכם.</span>
           </h1>
-          <p className="hero-lead">אתם פשוט לא צריכים להפוך למומחי AI כדי שזה יקרה.</p>
+          <p className="hero-lead">מפתרון נקודתי וחכם ועד מערכת AI שלמה — בהתאם למה שהעסק באמת צריך.</p>
           <div className="hero-opening">
+            <p className="hero-opening-emphasis">אתם פשוט לא צריכים להפוך למומחי AI כדי שזה יקרה.</p>
             <p>כולם מדברים היום על AI.</p>
             <p>כל שבוע יוצא עוד כלי, עוד מערכת, עוד אפשרות חדשה ש”אתם חייבים להכיר”.</p>
             <p>אבל כבעלי עסק, אתם לא באמת צריכים להכיר הכול.</p>
@@ -118,8 +121,9 @@ export default function Home() {
 
       <section className="story-section section-shell" aria-labelledby="expert-title">
         <div className="section-heading">
-          <p className="section-label">אתם לא צריכים להכיר הכול</p>
-          <h2 id="expert-title">אתם מומחים במה שאתם עושים.</h2>
+          <p className="section-label">העסק שלכם הוא נקודת המוצא</p>
+          <h2 id="expert-title">אתם מביאים את המומחיות העסקית.<br />אני מחבר אליה את ה־AI.</h2>
+          <p className="section-intro">במקום ללמוד כל כלי חדש, מתחילים במה שאתם כבר יודעים הכי טוב: איך העסק שלכם עובד ואיפה הוא יכול לעבוד טוב יותר.</p>
         </div>
         <div className="story-grid">
           <div className="copy-stack copy-stack-large">
@@ -128,13 +132,16 @@ export default function Home() {
             <p>אתם כן צריכים לדעת שיש היום טכנולוגיה שיכולה לחסוך לכם זמן, לייעל תהליכים, לצמצם עבודה ידנית ולעזור לעסק שלכם לעבוד טוב יותר.</p>
           </div>
           <aside className="question-card">
-            <span>והשאלה היא:</span>
-            <h3>איפה AI באמת יכול לעזור דווקא לעסק שלכם?</h3>
-            <p>בשביל זה אני כאן.</p>
+            <span>ההזדמנות העסקית</span>
+            <h3>למצוא איפה AI יכול לחסוך זמן, להפחית עומס ולשפר את העבודה.</h3>
+            <p>איפה AI באמת יכול לעזור דווקא לעסק שלכם? בשביל זה אני כאן.</p>
           </aside>
         </div>
         <div className="promise-panel">
-          <p>אני לומד את העסק שלכם, מבין איך אתם עובדים היום, מזהה איפה AI יכול לייצר ערך אמיתי — ואז בונה ומטמיע את הפתרונות המתאימים.</p>
+          <div className="promise-main">
+            <h3>מתרגמים צורך עסקי לפתרון שעובד.</h3>
+            <p>אני לומד את העסק שלכם, מבין איך אתם עובדים היום, מזהה איפה AI יכול לייצר ערך אמיתי — ואז בונה ומטמיע את הפתרונות המתאימים.</p>
+          </div>
           <div>
             <p>בלי שתצטרכו לרדוף אחרי כל כלי חדש.</p>
             <p>בלי להשקיע שעות בללמוד מערכות שלא בטוח שאתם בכלל צריכים.</p>
@@ -146,10 +153,12 @@ export default function Home() {
       <section className="approach-section" id="approach" aria-labelledby="approach-title">
         <div className="section-shell approach-layout">
           <div className="section-heading section-heading-light">
-            <p className="section-label section-label-light">הגישה</p>
-            <h2 id="approach-title">מתחילים מהעסק.<br />לא מהטכנולוגיה.</h2>
+            <p className="section-label section-label-light">מיפוי לפני פיתוח</p>
+            <h2 id="approach-title">קודם מבינים את העבודה.<br />אחר כך בוחרים את הטכנולוגיה.</h2>
+            <p className="section-intro section-intro-light">הפתרון הטוב ביותר אינו בהכרח הכלי החדש ביותר — אלא זה שמתאים לתהליך, לאנשים ולמטרות של העסק.</p>
           </div>
           <div className="copy-stack approach-copy">
+            <p><strong>מתחילים מהעסק. לא מהטכנולוגיה.</strong></p>
             <p>לפני שמדברים על כלים, אוטומציות או מערכות, אני רוצה להבין את העסק.</p>
             <ul className="question-list">
               <li>איך אתם עובדים היום?</li>
@@ -172,10 +181,9 @@ export default function Home() {
       <section className="capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
         <div className="section-shell">
           <div className="section-heading compact-heading">
-            <p className="section-label">האפשרויות</p>
-            <h2 id="capabilities-title">מה AI יכול לעשות בעסק שלכם?</h2>
-            <p>התשובה משתנה מעסק לעסק.</p>
-            <p>זה יכול להיות:</p>
+            <p className="section-label">פתרונות בהתאמה לעסק</p>
+            <h2 id="capabilities-title">מהתייעלות יומיומית ועד מוצר AI שלם.</h2>
+            <p className="section-intro">לא כל צורך דורש מערכת גדולה. לפעמים השיפור הנכון הוא אוטומציה אחת; לפעמים זה סוכן AI, חיבור בין מערכות או אפליקציית iOS ייעודית.</p>
           </div>
           <div className="capabilities-grid">
             {capabilities.map((capability, index) => (
@@ -194,8 +202,9 @@ export default function Home() {
 
       <section className="process-section section-shell" id="process" aria-labelledby="process-title">
         <div className="section-heading compact-heading">
-          <p className="section-label">התהליך</p>
-          <h2 id="process-title">איך זה עובד?</h2>
+          <p className="section-label">מהצורך לתוצאה</p>
+          <h2 id="process-title">תהליך מסודר, החלטות ברורות והטמעה שאנשים מאמצים.</h2>
+          <p className="section-intro">לא מתחילים מרשימת רעיונות אינסופית. מתקדמים שלב אחר שלב, מהבנת העבודה ועד פתרון שמשתלב בה.</p>
         </div>
         <div className="process-list">
           {processSteps.map((step, index) => (
@@ -213,54 +222,76 @@ export default function Home() {
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-shell about-layout">
           <div className="section-heading section-heading-light">
-            <p className="section-label section-label-light">למה נדב</p>
-            <h2 id="about-title">אתם לא צריכים לעקוב אחרי עולם ה־AI.</h2>
-            <p className="about-role">זה התפקיד שלי.</p>
+            <p className="section-label section-label-light">ניסיון עסקי + יכולת ביצוע</p>
+            <h2 id="about-title">לא רק להמליץ על פתרון.<br />לדעת גם לבנות אותו.</h2>
+            <p className="about-role">ייעוץ עסקי, AI ופיתוח מוצר — באותו תהליך.</p>
           </div>
           <div className="copy-stack about-copy">
-            <p><strong>אני נדב יגאל.</strong></p>
-            <p>בעל תואר ראשון בכלכלה וניהול עסקים, עם ניסיון מקצועי בייעוץ, בנקאות וניהול סיכונים.</p>
-            <p>בשנתיים האחרונות אני מתמחה בעולם ה־AI — לומד, חוקר ועובד באופן מעמיק עם הכלים והטכנולוגיות החדשות.</p>
-            <p>במקביל, תכננתי, בניתי ופיתחתי שתי אפליקציות מבוססות AI שנמצאות כיום בתהליך השקה.</p>
+            <p><strong>אני נדב יגאל, ואני עוזר לעסקים להפוך את האפשרויות של AI לפתרונות מעשיים שאנשים באמת יכולים לעבוד איתם.</strong></p>
+            <p>אני בעל תואר ראשון בכלכלה וניהול עסקים, עם ניסיון מקצועי בייעוץ, בנקאות וניהול סיכונים. הרקע הזה לימד אותי להסתכל על טכנולוגיה דרך שאלות עסקיות: מה הבעיה שאנחנו פותרים, מה הערך הצפוי, מה הסיכון, ואיך נדע שהפתרון באמת עובד.</p>
+            <p>בשנתיים האחרונות אני עובד באופן מעמיק ומעשי עם AI — מחקר ובחירת כלים, תכנון תהליכי עבודה, בניית סוכנים ואוטומציות, בדיקות איכות וסיכון, ופיתוח מערכות ומוצרים.</p>
+            <p>כדי להפוך את העבודה הזאת לשיטתית בניתי גם את Agentic OS ו־Builder OS: מערכות עבודה שמחברות בין מחקר, קבלת החלטות, בנייה, בדיקה ושיפור מתמשך.</p>
+            <p>במקביל תכננתי, בניתי והבאתי ל־App Store שתי אפליקציות iOS מבוססות AI. העבודה עליהן כללה מעבר מלא מרעיון וצורך משתמש, דרך החלטות מוצר וחוויית שימוש, ועד פיתוח, השקה ושיפור.</p>
             <div className="three-worlds">
-              <span>הבנה עסקית.</span>
-              <span>ניסיון ייעוצי.</span>
-              <span>ויכולת לקחת טכנולוגיה ולהפוך אותה לפתרון מעשי.</span>
+              <span>הבנה עסקית וניהולית.</span>
+              <span>ייעוץ וניהול סיכונים.</span>
+              <span>בניית מערכות, סוכנים ואוטומציות.</span>
+              <span>פיתוח מוצרי iOS מבוססי AI.</span>
             </div>
-            <p>מבחינתי, בעל עסק לא צריך לדעת מה המודל החדש שיצא השבוע, איזו מערכת מתאימה לאיזו משימה או איך לחבר בין עשרה כלים שונים.</p>
-            <p><strong>זו העבודה שלי.</strong></p>
-            <p><strong>העבודה שלכם היא לנהל את העסק ולהמשיך להיות טובים במה שאתם עושים.</strong></p>
+            <p>החיבור הזה מאפשר לי ללוות אתכם מעבר למצגת או להמלצה: להבין את הצורך, לבחון חלופות, לבחור כיוון, לבנות את הפתרון ולדאוג שהוא ישתלב בעבודה היומיומית.</p>
+            <p><strong>אתם לא צריכים לעקוב אחרי כל מודל וכל כלי חדש. אתם צריכים שותף שמבין את העסק ויודע לגרום ל־AI לעבוד בשבילו.</strong></p>
           </div>
         </div>
 
-        <div className="section-shell product-proof" aria-label="אפליקציות AI שבנה נדב">
+        <div className="section-shell portfolio-heading" id="portfolio">
+          <p className="section-label section-label-light">פורטפוליו · הוכחת יכולת</p>
+          <h2>שני מוצרי AI חיים.<br />משלב הרעיון ועד ה־App Store.</h2>
+          <p>RunSmart ו־Resumely הן לא הדגמות או רעיונות על הנייר. אלו אפליקציות iOS שתכננתי, בניתי והשקתי — הוכחה ליכולת לקחת בעיה, להפוך אותה למוצר AI שלם ולהביא אותו לידיים של משתמשים אמיתיים.</p>
+        </div>
+        <div className="section-shell product-proof" aria-label="פורטפוליו אפליקציות AI שבנה נדב">
           <article>
-            <span>LIVE IOS APP</span>
+            <span>AI RUN COACHING · LIVE ON THE APP STORE</span>
             <h3>RunSmart</h3>
+            <p>אפליקציית iOS לאימון ריצה אישי מבוסס AI, שמתרגמת נתוני משתמש ותהליך אימון לחוויית מוצר ברורה ומעשית.</p>
+            <ul className="portfolio-skills" aria-label="יכולות שהודגמו ב־RunSmart">
+              <li>אסטרטגיית מוצר</li>
+              <li>תהליכי AI</li>
+              <li>פיתוח iOS</li>
+              <li>השקה ושיפור</li>
+            </ul>
             <div className="proof-links">
-              <a href="https://apps.apple.com/il/app/runsmart-ai-run-coaching/id6768297840" target="_blank" rel="noopener noreferrer">App Store</a>
+              <a className="app-store-link" href="https://apps.apple.com/il/app/runsmart-ai-run-coaching/id6768297840" target="_blank" rel="noopener noreferrer">הורדה ב־App Store</a>
               <a href="https://www.facebook.com/profile.php?id=61593058382655" target="_blank" rel="noopener noreferrer">Facebook</a>
               <a href="https://www.linkedin.com/company/140013922/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </article>
           <article>
-            <span>LIVE IOS APP</span>
+            <span>AI RESUME BUILDER · LIVE ON THE APP STORE</span>
             <h3>Resumely</h3>
+            <p>אפליקציית iOS לבנייה ולשיפור של קורות חיים בעזרת AI, עם תהליך מובנה שהופך מידע גולמי למסמך מקצועי ושימושי.</p>
+            <ul className="portfolio-skills" aria-label="יכולות שהודגמו ב־Resumely">
+              <li>אפיון חוויית משתמש</li>
+              <li>תהליכי AI</li>
+              <li>פיתוח iOS</li>
+              <li>השקה ושיפור</li>
+            </ul>
             <div className="proof-links">
-              <a href="https://apps.apple.com/il/app/resume-ai-cv-builder/id6776752349" target="_blank" rel="noopener noreferrer">App Store</a>
+              <a className="app-store-link" href="https://apps.apple.com/il/app/resume-ai-cv-builder/id6776752349" target="_blank" rel="noopener noreferrer">הורדה ב־App Store</a>
               <a href="https://www.facebook.com/profile.php?id=61593060242562" target="_blank" rel="noopener noreferrer">Facebook</a>
               <a href="https://www.linkedin.com/company/137603901/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </article>
         </div>
+        <p className="section-shell portfolio-close">עבור העסק שלכם, אותה יכולת מתורגמת לפתרון המתאים לכם: תהליך חכם יותר, סוכן AI, מערכת פנימית או מוצר דיגיטלי שלם.</p>
       </section>
 
       <section className="contact-section" id="contact" aria-labelledby="contact-title">
         <div className="section-shell contact-layout">
           <div className="contact-copy">
-            <p className="section-label section-label-light">אז איפה מתחילים?</p>
-            <h2 id="contact-title">אז איפה AI יכול לעבוד בשביל העסק שלכם?</h2>
+            <p className="section-label section-label-light">שיחת היכרות ומיפוי</p>
+            <h2 id="contact-title">בואו נמצא את המקום הראשון שבו AI יכול לעבוד טוב יותר בשביל העסק.</h2>
             <div className="copy-stack">
+              <p><strong>לא צריך להתחיל בפרויקט גדול. מתחילים בשיחה ממוקדת ובבעיה אמיתית.</strong></p>
               <p>אפשר להתחיל בפגישת מיפוי ואפיון.</p>
               <p>נכיר את העסק ואת תהליכי העבודה, נזהה את המקומות שבהם AI יכול לייצר את הערך המשמעותי ביותר ונבין מה נכון לעשות — ומה לא.</p>
               <p>ומשם, במידת הצורך, נמשיך לבנייה, הטמעה והדרכה.</p>

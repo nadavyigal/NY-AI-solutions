@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
   const title = "NY AI Solutions | גורמים ל־AI לעבוד בשביל העסק שלכם";
   const description =
-    "פתרונות AI לעסקים בישראל. לומדים את העסק, מזהים היכן AI יכול לייצר ערך אמיתי, ובונים ומטמיעים את הפתרונות המתאימים.";
+    "פתרונות AI לעסקים בישראל — ממיפוי ואוטומציה ועד סוכני AI, מערכות ופיתוח אפליקציות iOS. מבינים את העסק, בונים ומטמיעים פתרון שעובד.";
 
   return {
     metadataBase: new URL(origin),
@@ -27,6 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "פתרונות AI לעסקים",
       "הטמעת AI",
       "אוטומציה עסקית",
+      "פיתוח אפליקציות iOS AI",
       "AI לעסקים בישראל",
       "NY AI Solutions",
     ],
