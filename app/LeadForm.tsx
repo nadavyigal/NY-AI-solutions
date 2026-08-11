@@ -31,7 +31,7 @@ export function LeadForm() {
     };
 
     const message = [
-      "שלום נדב, הגעתי דרך אתר NY AI Consulting.",
+      "שלום נדב, הגעתי דרך אתר NY AI Solutions.",
       "",
       `שם: ${lead.name}`,
       `עסק: ${lead.company}`,

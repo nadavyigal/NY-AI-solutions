@@ -15,20 +15,20 @@ export async function generateMetadata(): Promise<Metadata> {
   const forwardedProtocol = requestHeaders.get("x-forwarded-proto");
   const protocol = forwardedProtocol ?? (host.includes("localhost") ? "http" : "https");
   const origin = `${protocol}://${host}`;
-  const title = "NY AI Consulting | גורמים ל־AI לעבוד בשביל העסק שלכם";
+  const title = "NY AI Solutions | גורמים ל־AI לעבוד בשביל העסק שלכם";
   const description =
-    "ייעוץ והטמעת AI לעסקים בישראל. מתחילים מהעסק ומהכלים שכבר קיימים, בונים Quick Win ומודדים ערך אמיתי.";
+    "פתרונות AI לעסקים בישראל. לומדים את העסק, מזהים היכן AI יכול לייצר ערך אמיתי, ובונים ומטמיעים את הפתרונות המתאימים.";
 
   return {
     metadataBase: new URL(origin),
     title,
     description,
     keywords: [
-      "ייעוץ AI לעסקים",
+      "פתרונות AI לעסקים",
       "הטמעת AI",
       "אוטומציה עסקית",
       "AI לעסקים בישראל",
-      "NY AI Consulting",
+      "NY AI Solutions",
     ],
     icons: {
       icon: "/favicon.png",
@@ -39,7 +39,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       locale: "he_IL",
       url: origin,
-      siteName: "NY AI Consulting",
+      siteName: "NY AI Solutions",
       title,
       description,
       images: [
@@ -47,7 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: `${origin}/og.png`,
           width: 1659,
           height: 948,
-          alt: "NY AI Consulting — AI שעובד בשביל העסק שלכם",
+          alt: "NY AI Solutions — AI שעובד בשביל העסק שלכם",
         },
       ],
     },

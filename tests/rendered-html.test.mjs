@@ -23,7 +23,7 @@ async function render() {
   );
 }
 
-test("server-renders the Hebrew NY AI Consulting landing page", async () => {
+test("server-renders the Hebrew NY AI Solutions landing page", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -31,7 +31,11 @@ test("server-renders the Hebrew NY AI Consulting landing page", async () => {
   const html = await response.text();
   assert.match(html, /<html[^>]*lang="he"[^>]*dir="rtl"/i);
   assert.match(html, /AI יכול לעשות הרבה יותר/);
-  assert.match(html, /ספרינט ערך AI/);
+  assert.match(html, /אתם מומחים במה שאתם עושים/);
+  assert.match(html, /בניית סוכני AI/);
+  assert.match(html, /מכירים ומאפיינים את העסק/);
+  assert.match(html, /AI SOLUTIONS/);
+  assert.doesNotMatch(html, /AI CONSULTING/i);
   assert.match(html, /RunSmart/);
   assert.match(html, /Resumely/);
   assert.match(html, /972545333773/);
@@ -57,6 +61,8 @@ test("keeps the lead flow private and client-side", async () => {
   assert.match(page, /linkedin\.com\/company\/140013922\//);
   assert.match(page, /linkedin\.com\/company\/137603901\//);
   assert.doesNotMatch(page, /\/admin\/page-posts\//);
+  assert.equal((page.match(/src="\/favicon\.png"/g) ?? []).length, 1);
+  assert.doesNotMatch(page, /logo-on-(light|dark)\.png/);
   assert.match(layout, /openGraph/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });
