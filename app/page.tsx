@@ -1,3 +1,4 @@
+import BenefitsPage from "./benefits/page";
 import { LeadForm } from "./LeadForm";
 
 const capabilities = [
@@ -69,7 +70,19 @@ function BusinessCard() {
   );
 }
 
-export default function Home() {
+export default async function Page({
+  searchParams,
+}: {
+  searchParams: Promise<{ v?: string }>;
+}) {
+  const { v } = await searchParams;
+  if (v === "benefits") {
+    return <BenefitsPage />;
+  }
+  return <Home />;
+}
+
+function Home() {
   return (
     <main>
       <header className="site-header" aria-label="ניווט ראשי">
@@ -83,6 +96,7 @@ export default function Home() {
           <a href="#process">התהליך</a>
           <a href="#about">אודות</a>
           <a href="#products">מוצרים לדוגמה</a>
+          <a href="/?v=benefits">גרסה קצרה</a>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>

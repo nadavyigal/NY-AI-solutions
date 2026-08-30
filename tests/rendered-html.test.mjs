@@ -2,13 +2,13 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-async function render() {
+async function render(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request("http://localhost/", {
+    new Request(`http://localhost${path}`, {
       headers: { accept: "text/html", host: "localhost" },
     }),
     {
@@ -77,4 +77,27 @@ test("keeps the lead flow private and client-side", async () => {
   assert.doesNotMatch(page, /logo-on-(light|dark)\.png/);
   assert.match(layout, /openGraph/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
+});
+
+test("server-renders the shorter Hebrew benefits landing page", async () => {
+  const response = await render("/benefits");
+  assert.equal(response.status, 200);
+  assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
+
+  const html = await response.text();
+  assert.match(html, /<html[^>]*lang="he"[^>]*dir="rtl"/i);
+  assert.match(html, /כי אתם לא צריכים מומחה AI/);
+  assert.match(html, /אתם צריכים ש־AI יעבוד בשביל העסק/);
+  assert.match(html, /כי הזמן של האנשים יקר/);
+  assert.match(html, /כי אפשר לגלות אפשרויות שהעסק עוד לא מימש/);
+  assert.match(html, /כי AI צריך ללכת בנתיב של העסק שלכם/);
+  assert.doesNotMatch(html, /מזיזים את המחט/);
+  assert.doesNotMatch(html, /כלי שאף אחד לא משתמש/);
+  assert.match(html, /כי מספיקה בעיה אחת אמיתית/);
+  assert.match(html, /גרסת היתרונות/);
+  assert.match(html, /RunSmart/);
+  assert.match(html, /Resumely/);
+  assert.match(html, /972545333773/);
+  assert.doesNotMatch(html, /מפתרון נקודתי וחכם ועד מערכת AI שלמה/);
+  assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|admin\/page-posts/i);
 });

@@ -16,7 +16,7 @@ function readField(formData: FormData, key: keyof LeadFormData) {
   return String(formData.get(key) ?? "").trim();
 }
 
-export function LeadForm() {
+export function LeadForm({ sourceLine }: { sourceLine?: string } = {}) {
   const [status, setStatus] = useState("");
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -31,7 +31,7 @@ export function LeadForm() {
     };
 
     const message = [
-      "שלום נדב, הגעתי דרך אתר NY AI Solutions.",
+      sourceLine ?? "שלום נדב, הגעתי דרך אתר NY AI Solutions.",
       "",
       `שם: ${lead.name}`,
       `עסק: ${lead.company}`,
