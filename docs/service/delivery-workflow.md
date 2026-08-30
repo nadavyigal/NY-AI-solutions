@@ -1,4 +1,4 @@
-# NY AI Solutions — Delivery Workflow
+# NY AI Solutions: Delivery Workflow
 
 Last updated: 2026-08-30.
 

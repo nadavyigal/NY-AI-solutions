@@ -1,4 +1,4 @@
-# Step 1 — Intake
+# Step 1: Intake
 
 Sent before the fit call. Ten minutes, async. Its job is to make the call about
 one workflow instead of about AI in general.

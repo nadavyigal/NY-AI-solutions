@@ -1,4 +1,4 @@
-# NY AI Solutions — Lessons
+# NY AI Solutions: Lessons
 
 ## Finished work sat undeployed for two weeks
 

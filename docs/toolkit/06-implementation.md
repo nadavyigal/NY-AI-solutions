@@ -1,4 +1,4 @@
-# Step 6 — Implementation
+# Step 6: Implementation
 
 Building the thing and getting it used. The sprint includes exactly one Quick
 Win from this step; the rest is a separate scope and a separate agreement.

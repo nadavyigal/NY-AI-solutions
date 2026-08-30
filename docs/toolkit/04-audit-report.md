@@ -1,4 +1,4 @@
-# Step 4 — Audit Report
+# Step 4: Audit Report
 
 Written after discovery, delivered before the roadmap. Ten pages at most.
 

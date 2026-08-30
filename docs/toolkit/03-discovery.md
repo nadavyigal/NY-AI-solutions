@@ -1,4 +1,4 @@
-# Step 3 — Discovery
+# Step 3: Discovery
 
 60 to 90 minutes with the people who actually do the work. Not the owner
 describing what they believe happens.

@@ -1,4 +1,4 @@
-# CLAUDE.md — NY AI Solutions
+# CLAUDE.md: NY AI Solutions
 
 AI consulting for Israeli professional-services businesses, 10 to 100 employees.
 This repo holds both the public site and the practice: offer, method, and the

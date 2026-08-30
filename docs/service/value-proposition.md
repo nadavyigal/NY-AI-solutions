@@ -1,4 +1,4 @@
-# NY AI Solutions — Value Proposition
+# NY AI Solutions: Value Proposition
 
 Last updated: 2026-08-30. Supersedes nothing; sharpens EXD-026 (2026-08-11).
 

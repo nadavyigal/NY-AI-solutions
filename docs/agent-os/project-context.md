@@ -1,4 +1,4 @@
-# NY AI Solutions — Project Context
+# NY AI Solutions: Project Context
 
 Last updated: 2026-08-30.
 

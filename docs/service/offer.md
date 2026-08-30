@@ -1,4 +1,4 @@
-# NY AI Solutions — Offer
+# NY AI Solutions: Offer
 
 Last updated: 2026-08-30. Implements EXD-026.
 

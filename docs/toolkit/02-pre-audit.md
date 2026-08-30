@@ -1,4 +1,4 @@
-# Step 2 — Pre-audit
+# Step 2: Pre-audit
 
 Desk work. No client time. Two to three hours. The point is to arrive at
 discovery with hypotheses to test rather than questions to ask.

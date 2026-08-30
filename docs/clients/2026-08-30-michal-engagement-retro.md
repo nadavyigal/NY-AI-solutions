@@ -13,9 +13,9 @@ operating-system track first, because the other two run on top of it.
 
 | Track | What it was | State |
 |---|---|---|
-| C — AI operating system | Four assistants on the tool she already paid for, sharing one voice knowledge asset, each restating the privacy rule | Complete |
-| A — Billing | Aliased session notes in, a sessions table and per-client draft messages out. Touches no invoicing system and sends nothing automatically. | Specified, workspace stood up |
-| B — Content | Voice asset, content strategy build-out, publishing plan, analytics reporting | Delivered; analytics awaiting her real platform data |
+| C - AI operating system | Four assistants on the tool she already paid for, sharing one voice knowledge asset, each restating the privacy rule | Complete |
+| A - Billing | Aliased session notes in, a sessions table and per-client draft messages out. Touches no invoicing system and sends nothing automatically. | Specified, workspace stood up |
+| B - Content | Voice asset, content strategy build-out, publishing plan, analytics reporting | Delivered; analytics awaiting her real platform data |
 
 ## What this proved about the offer
 
