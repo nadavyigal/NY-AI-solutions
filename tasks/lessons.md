@@ -24,3 +24,11 @@ Write the retro as the engagement runs.
 The first full engagement never recorded hours, manual steps or handoffs before
 the change, so no improvement can be stated as a number. Baseline capture is now
 a required step-3 artifact.
+
+## A timeout wrapper must prove that it started the child process
+
+In the Codex shell, `npm`, `npx` and `node` were absent from `PATH`. The packet's
+`perl -e 'alarm 300; exec @ARGV' <cmd>` wrapper therefore returned immediately
+with no output and a misleading zero exit status, and its alarm did not stop a
+child launched by absolute path. Use the bundled Node executable directly and
+verify child output or process state before treating a bounded check as a pass.

@@ -1,17 +1,19 @@
-import BenefitsPage from "./benefits/page";
 import { LeadForm } from "./LeadForm";
 
 const capabilities = [
-  "אוטומציה של משימות ותהליכים שחוזרים על עצמם",
-  "בניית סוכני AI וכלים ייעודיים לעסק",
-  "שיפור תהליכי שירות ומענה ללקוחות",
-  "עבודה יעילה יותר עם מסמכים ומידע",
-  "הפקת דוחות, סיכומים וניתוח נתונים",
-  "ייעול תהליכי מכירה ושיווק",
-  "בניית תהליכי עבודה פנימיים חכמים יותר",
-  "חיבור בין מערכות וכלים קיימים",
-  "בניית פתרונות AI שמותאמים לצורך ספציפי בעסק",
-  "תכנון ופיתוח אפליקציות iOS מבוססות AI — מהרעיון ועד מוצר חי ב־App Store",
+  "מיפוי ושיפור של תהליכים ידניים שחוזרים על עצמם",
+  "טיפול עקבי בפניות, מעקבים והכנה לשיחות עם לקוחות",
+  "עבודה בטוחה ויעילה יותר עם מסמכים ומידע מקצועי",
+  "הפקת דוחות, סיכומים ותמונת מצב לקבלת החלטות",
+  "חיבור בין הכלים הקיימים כדי לצמצם העתקות והעברות ידניות",
+];
+
+const sprintDeliverables = [
+  "מלאי של מנויי ה־AI שהעסק כבר משלם עליהם ומי באמת משתמש בהם.",
+  "מיפוי של שלושה עד חמישה תהליכים כפי שהם עובדים בפועל, כולל השלבים הידניים שלא תמיד מדברים עליהם.",
+  "דירוג התהליכים לפי ערך, מאמץ וסיכון — כולל מה שעדיף להשאיר כפי שהוא.",
+  "Quick Win אחד בנוי ועובד.",
+  "תוכנית ל־90 יום שמגדירה גם מה למדוד.",
 ];
 
 const processSteps = [
@@ -70,15 +72,7 @@ function BusinessCard() {
   );
 }
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ v?: string }>;
-}) {
-  const { v } = await searchParams;
-  if (v === "benefits") {
-    return <BenefitsPage />;
-  }
+export default function Page() {
   return <Home />;
 }
 
@@ -96,7 +90,7 @@ function Home() {
           <a href="#process">התהליך</a>
           <a href="#about">אודות</a>
           <a href="#products">מוצרים לדוגמה</a>
-          <a href="/?v=benefits">גרסה קצרה</a>
+          <a href="/benefits">למה זה כדאי</a>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
@@ -192,12 +186,26 @@ function Home() {
         </div>
       </section>
 
+      <section className="privacy-section" aria-labelledby="privacy-title">
+        <div className="section-shell privacy-layout">
+          <div className="section-heading section-heading-light">
+            <p className="section-label section-label-light">פרטיות מתכננים לפני שבונים</p>
+            <h2 id="privacy-title">המידע של הלקוחות שלכם לא נכנס ל־AI.</h2>
+          </div>
+          <div className="privacy-copy">
+            <p><strong>הכלל פשוט:</strong> למודל נכנסים כינויים בלבד. הוא לא רואה שם או פרט מזהה, ואת הזהות האמיתית אתם מחברים מחדש אצלכם, מחוץ למודל, רק ברגע השליחה.</p>
+            <p>את הארכיטקטורה הזאת מתכננים לפני שבונים אוטומציה. התהליך הרגיש ביותר מקבל עוזר שאינו מחובר לשום מערכת, כדי שהגבול יהיה חלק מהפתרון ולא הבטחה שמוסיפים בסוף.</p>
+            <p>שיקול הדעת הזה מגיע משתים־עשרה שנים בניהול סוכנות ביטוח ומעבודה בבנקאות ובניהול סיכונים. זו פרקטיקת ארכיטקטורה — לא הסמכת ציות ולא חוות דעת משפטית.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
         <div className="section-shell">
           <div className="section-heading compact-heading">
             <p className="section-label">פתרונות בהתאמה לעסק</p>
-            <h2 id="capabilities-title">מהתייעלות יומיומית ועד מוצר AI שלם.</h2>
-            <p className="section-intro">לא כל צורך דורש מערכת גדולה. לפעמים השיפור הנכון הוא אוטומציה אחת; לפעמים זה סוכן AI, חיבור בין מערכות או אפליקציית iOS ייעודית.</p>
+            <h2 id="capabilities-title">תהליכי עבודה שמתקדמים בלי לאבד שליטה.</h2>
+            <p className="section-intro">לא מתחילים מרשימת כלי AI. מתחילים בעבודה שחוזרת כל שבוע ובודקים איפה נכון לצמצם עומס, לחבר בין שלבים או להשאיר אדם בהחלטה.</p>
           </div>
           <div className="capabilities-grid">
             {capabilities.map((capability, index) => (
@@ -233,6 +241,33 @@ function Home() {
         </div>
       </section>
 
+      <section className="offer-section" id="sprint" aria-labelledby="sprint-title">
+        <div className="section-shell offer-layout">
+          <div className="fit-call-panel">
+            <p className="section-label">הצעד הראשון — ללא עלות</p>
+            <h2>שיחת התאמה של 30–45 דקות.</h2>
+            <p>נזהה תהליך אחד ששווה למפות — או שנגיד בכנות שאין כרגע התאמה. זו התוצאה של השיחה, בלי מצגת ובלי מסלול מכירה נוסף.</p>
+          </div>
+          <div className="sprint-card">
+            <p className="section-label">הצעד הראשון שאפשר לקנות</p>
+            <h2 id="sprint-title">AI Value Sprint</h2>
+            <p className="sprint-duration">7–10 ימי עסקים</p>
+            <ol>
+              {sprintDeliverables.map((deliverable) => <li key={deliverable}>{deliverable}</li>)}
+            </ol>
+            <strong>בסוף יש תהליך אחד שעובד — לא מצגת.</strong>
+          </div>
+          <div className="offer-form">
+            <div>
+              <p className="section-label section-label-light">מתחילים בשיחת התאמה</p>
+              <h2>ספרו לי מה כבר קניתם ואיזה תהליך עדיין מכביד.</h2>
+              <p>הטופס פותח הודעת WhatsApp אצלכם. שום פרט לא נשמר באתר.</p>
+            </div>
+            <LeadForm sourceLine="שלום נדב, אני רוצה לבדוק התאמה ל־AI Value Sprint." />
+          </div>
+        </div>
+      </section>
+
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-shell about-layout">
           <div className="section-heading section-heading-light">
@@ -254,6 +289,16 @@ function Home() {
             </div>
             <p>החיבור הזה מאפשר לי ללוות אתכם מעבר למצגת או להמלצה: להבין את הצורך, לבחון חלופות, לבחור כיוון, לבנות את הפתרון ולדאוג שהוא ישתלב בעבודה היומיומית.</p>
             <p><strong>אתם לא צריכים לעקוב אחרי כל מודל וכל כלי חדש. אתם צריכים שותף שמבין את העסק ויודע לגרום ל־AI לעבוד בשבילו.</strong></p>
+          </div>
+        </div>
+
+        <div className="section-shell engagement-proof" aria-labelledby="engagement-proof-title">
+          <p className="section-label section-label-light">הוכחה מהשטח, עם הגבולות שלה</p>
+          <h2 id="engagement-proof-title">תהליך אמיתי, לא רשימת יכולות.</h2>
+          <div>
+            <p>בפרקטיקה עצמאית של שירותים מקצועיים נבנתה מערכת עבודה שמרכזת תהליכים חוזרים ועוזרים ייעודיים.</p>
+            <p>המערכת כולה פועלת במנוי הבסיסי שכבר היה בתשלום, בלי פלטפורמה חדשה ובלי מעבר נתונים.</p>
+            <p>ארכיטקטורת הפרטיות מונעת ממידע שמזהה לקוחות להגיע למודל; לא נטען כאן ל־ROI, כי לא נמדד קו בסיס לפני השינוי.</p>
           </div>
         </div>
 
@@ -300,7 +345,7 @@ function Home() {
             </div>
           </article>
         </div>
-        <p className="section-shell portfolio-close">עבור העסק שלכם, אותה יכולת מתורגמת לפתרון המתאים לכם: תהליך חכם יותר, סוכן AI, מערכת פנימית או מוצר דיגיטלי שלם.</p>
+        <p className="section-shell portfolio-close">פיתוח מוצרי iOS מופיע כאן כהוכחה ליכולת לבנות ולהשיק תוכנה שעובדת — לא כשירות נוסף בתפריט.</p>
       </section>
 
       <section className="contact-section" id="contact" aria-labelledby="contact-title">

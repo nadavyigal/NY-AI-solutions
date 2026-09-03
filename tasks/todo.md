@@ -1,12 +1,12 @@
 # NY AI Solutions - Todo
 
 ## Now
-- [ ] NYAI-01: close the four page gaps (`docs/work-packets/NYAI-01-page-then-calls.md`)
-  - [ ] Story 1: privacy section
-  - [ ] Story 2: name the AI Value Sprint and the fit call
-  - [ ] Story 3: cut capabilities to five
-  - [ ] Story 4: anonymised engagement proof, with its limit stated
-  - [ ] Story 5: resolve `/benefits`
+- [x] NYAI-01: close the four page gaps (`docs/work-packets/NYAI-01-page-then-calls.md`)
+  - [x] Story 1: privacy section
+  - [x] Story 2: name the AI Value Sprint and the fit call
+  - [x] Story 3: cut capabilities to five
+  - [x] Story 4: anonymised engagement proof, with its limit stated
+  - [x] Story 5: keep `/benefits` and link it from the homepage as "למה זה כדאי"
 - [ ] Deploy (`git push sites`) - needs an explicit yes, and the prior SHA recorded first
 
 ## The actual gate
