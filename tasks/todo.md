@@ -7,7 +7,7 @@
   - [x] Story 3: cut capabilities to five
   - [x] Story 4: anonymised engagement proof, with its limit stated
   - [x] Story 5: keep `/benefits` and link it from the homepage as "למה זה כדאי"
-- [ ] Deploy (`git push sites`) - needs an explicit yes, and the prior SHA recorded first
+- [x] Deploy publicly; completed 2026-09-03. Prior `sites/main` rollback SHA: `a9e75c018c29ff869d24fad1998f5e16179898b7`
 
 ## The actual gate
 - [ ] **Ten fit calls, or 2026-09-11.** Count today: **0**. Log every call in `docs/gtm/fit-call-log.md` with source and named workflow problem.

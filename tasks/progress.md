@@ -1,15 +1,23 @@
 # NY AI Solutions: Progress
 
-- **Status:** page changes implemented; deployment approval pending
+- **Status:** page changes deployed
 - **Current Phase:** first outreach cycle before the EXD-026 gate
-- **Active Story:** NYAI-01 is complete in the working tree. Publishing is waiting for explicit approval to push `sites`.
+- **Active Story:** NYAI-01 is complete and live. The homepage links to `/benefits` as "למה זה כדאי".
 - **Last Completed Story:** five landing-page changes: privacy architecture, fit call and AI Value Sprint, five workflow-shaped capabilities, anonymised engagement proof, and a homepage link to `/benefits`
-- **Next Recommended Story:** none. Deploy after approval, then start fit-call outreach the same day.
-- **Blockers:** production build and lint again stalled past five minutes; rendered tests could not run. The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-08-30 - targeted homepage TypeScript compile passed; full `tsc --noEmit` produced only the three known Workers-type errors. Production build and lint did not complete within five minutes, so `npm test` did not reach its rendered tests.
-- **Last Updated:** 2026-08-30
+- **Next Recommended Story:** none. Start fit-call outreach and share the live benefits page.
+- **Blockers:** the EXD-026 gate still has zero recorded fit calls. Local production build and targeted TypeScript checks again stalled at zero output; the Sites remote build succeeded.
+- **Last Validation:** 2026-09-03 - Sites production deployment succeeded; the live homepage and `/benefits` both return HTTP 200, the homepage contains the `/benefits` link, and the benefits page contains the expected Hebrew headline and WhatsApp links.
+- **Last Updated:** 2026-09-03
 
 ## Log
+
+### 2026-09-03
+Explicit deployment approval received. The reviewed page changes were committed,
+integrated onto the current GitHub `main`, saved as Sites version 6, and deployed
+publicly. The live `/benefits` route returns HTTP 200 and the homepage links to it.
+Rollback point before deployment: `a9e75c018c29ff869d24fad1998f5e16179898b7`.
+Local build and targeted TypeScript commands again stalled without output; the
+authoritative Sites remote build completed successfully.
 
 ### 2026-08-30
 NYAI-01 implemented in the working tree. The homepage now states the privacy
