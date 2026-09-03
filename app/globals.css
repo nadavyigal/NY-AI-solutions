@@ -412,6 +412,31 @@ main { overflow: hidden; }
 .principle-statement p { margin: 0; color: rgba(255,255,255,0.72); font-size: clamp(25px, 3vw, 39px); line-height: 1.4; }
 .principle-statement strong { display: block; color: var(--white); }
 
+.privacy-section {
+  padding-block: 108px;
+  background: radial-gradient(circle at 82% 18%, rgba(35,136,243,0.2), transparent 30%), var(--navy-950);
+  color: var(--white);
+}
+
+.privacy-layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(50px, 9vw, 130px);
+  align-items: start;
+}
+
+.privacy-copy {
+  display: grid;
+  gap: 18px;
+  padding: 34px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.055);
+}
+
+.privacy-copy p { margin: 0; color: rgba(255,255,255,0.72); font-size: 18px; }
+.privacy-copy strong { color: var(--white); }
+
 .capabilities-section {
   padding-block: 112px;
   border-bottom: 1px solid var(--line);
@@ -475,6 +500,58 @@ main { overflow: hidden; }
 .process-list div { display: grid; gap: 10px; }
 .process-list div p { margin: 0; color: var(--muted); }
 
+.offer-section {
+  padding-block: 112px;
+  background: linear-gradient(180deg, var(--paper-blue), var(--paper));
+}
+
+.offer-layout { display: grid; gap: 24px; }
+
+.fit-call-panel,
+.sprint-card {
+  padding: clamp(28px, 4vw, 48px);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--white);
+  box-shadow: 0 18px 48px rgba(10, 27, 49, 0.07);
+}
+
+.fit-call-panel h2,
+.sprint-card h2,
+.offer-form h2 {
+  margin: 0;
+  color: var(--navy-950);
+  font-size: clamp(32px, 4vw, 50px);
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+
+.fit-call-panel > p:last-child {
+  max-width: 780px;
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.sprint-card { border-top: 5px solid var(--blue-600); }
+.sprint-duration { margin: 10px 0 28px; color: var(--blue-600); font-size: 20px; font-weight: 850; }
+.sprint-card ol { display: grid; gap: 14px; margin: 0; padding-inline-start: 26px; color: var(--muted); font-size: 17px; }
+.sprint-card li::marker { color: var(--blue-600); font-weight: 850; }
+.sprint-card > strong { display: block; margin-top: 28px; color: var(--navy-950); font-size: 24px; }
+
+.offer-form {
+  display: grid;
+  grid-template-columns: 0.88fr 1.12fr;
+  gap: clamp(40px, 7vw, 90px);
+  align-items: start;
+  padding: clamp(28px, 4vw, 48px);
+  border-radius: 22px;
+  background: var(--navy-900);
+}
+
+.offer-form h2 { color: var(--white); }
+.offer-form > div > p:last-child { margin: 22px 0 0; color: rgba(255,255,255,0.68); font-size: 17px; }
+
 .about-section {
   padding-block: 112px;
   background: radial-gradient(circle at 85% 12%, rgba(35,136,243,0.23), transparent 28%), var(--navy-950);
@@ -516,6 +593,25 @@ main { overflow: hidden; }
   padding-top: 76px;
   border-top: 1px solid rgba(255,255,255,0.13);
 }
+
+.engagement-proof {
+  margin-top: 86px;
+  padding: 46px;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.055);
+}
+
+.engagement-proof h2 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(34px, 4.2vw, 52px);
+  letter-spacing: -0.045em;
+  line-height: 1.12;
+}
+
+.engagement-proof > div { display: grid; gap: 12px; max-width: 900px; margin-top: 24px; }
+.engagement-proof > div p { margin: 0; color: rgba(255,255,255,0.72); font-size: 18px; }
 
 .portfolio-heading h2 {
   max-width: 840px;
@@ -847,11 +943,11 @@ main { overflow: hidden; }
   .business-card-name { grid-template-columns: 28px auto 28px; gap: 9px; }
   .business-card-name strong { font-size: 14px; letter-spacing: 0.18em; }
   .business-card > p { font-size: 12px; }
-  .story-section, .approach-section, .capabilities-section, .process-section, .about-section, .contact-section, .outcomes-section, .short-how-section, .compact-proof-section { padding-block: 76px; }
+  .story-section, .approach-section, .privacy-section, .capabilities-section, .process-section, .offer-section, .about-section, .contact-section, .outcomes-section, .short-how-section, .compact-proof-section { padding-block: 76px; }
   .benefits-hero { padding-block: 104px 56px; }
   .outcome-grid, .short-process { grid-template-columns: 1fr; }
   .outcome-close { padding: 26px 22px; }
-  .story-grid, .approach-layout, .about-layout, .contact-layout { grid-template-columns: 1fr; gap: 38px; }
+  .story-grid, .approach-layout, .privacy-layout, .offer-form, .about-layout, .contact-layout { grid-template-columns: 1fr; gap: 38px; }
   .promise-panel, .small-change-note { grid-template-columns: 1fr; padding: 30px 24px; }
   .promise-panel > strong { grid-column: auto; }
   .principle-statement { grid-template-columns: 1fr; margin-top: 54px; padding: 34px 24px; }
@@ -862,6 +958,7 @@ main { overflow: hidden; }
   .process-list article > div { grid-column: 2; }
   .product-proof { grid-template-columns: 1fr; }
   .portfolio-heading { margin-top: 58px; padding-top: 56px; }
+  .engagement-proof { margin-top: 58px; padding: 30px 24px; }
   .portfolio-close { padding: 24px; }
   .form-row, .footer-layout { grid-template-columns: 1fr; }
   .lead-form { padding: 24px; }
