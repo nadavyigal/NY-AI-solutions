@@ -20,7 +20,10 @@ repeated abstract benefits and product showcase; retained contact form inside
 native disclosure. Existing homepage unchanged. Updated route metadata and
 existing rendered assertions. `git diff --check` passed. Local development and
 build processes stalled without output again; remote build fallback required.
-Publication pending at this source revision.
+Published as Sites version 7 on 2026-09-06. Remote build and deployment succeeded.
+Live `/benefits` and homepage return HTTP 200; new deliverables, illustrative
+example, contact links and stylesheet assets verified. Local rendering tests
+could not run because the local build stalled.
 
 ### 2026-09-03
 Explicit deployment approval received. The reviewed page changes were committed,
