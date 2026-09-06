@@ -1,61 +1,202 @@
 import type { Metadata } from "next";
 import { LeadForm } from "../LeadForm";
 
-const title = "NY AI Solutions | פתרון עובד למשימה שחוזרת בעסק";
-const description = "בתוך 7–10 ימי עסקים: פתרון AI אחד שעובד בעסק שלכם, הדרכה לשימוש ותוכנית המשך. מתחילים בשיחת התאמה ללא עלות.";
-const origin = "https://ny-ai-consulting.nadav-yigal.chatgpt.site";
-const whatsapp = "https://wa.me/972545333773?text=" + encodeURIComponent("שלום נדב, קראתי את דף היתרונות ואשמח לבדוק איך אפשר לשפר משימה שחוזרת בעסק שלי.");
-
 export const metadata: Metadata = {
-  title, description,
-  openGraph: { title, description, type: "website", locale: "he_IL", url: origin + "/benefits", siteName: "NY AI Solutions", images: [{ url: origin + "/og.png", width: 1659, height: 948, alt: "NY AI Solutions" }] },
-  twitter: { card: "summary_large_image", title, description, images: [origin + "/og.png"] },
+  title: "NY AI Solutions | למה העסק צריך את זה",
+  description:
+    "כי הזמן של האנשים יקר, כי תהליכים יכולים לעבוד טוב יותר, וכי AI פותח לעסק אפשרויות חדשות — כשהוא יושב בנתיב שלכם.",
 };
 
-const deliverables = [
-  { title: "פתרון שעושה חלק מהעבודה", body: "כלי שמוגדר למשימה שבחרנו יחד — למשל הכנת סיכומים או טיוטות ללקוחות — ופועל בסביבת העבודה שלכם." },
-  { title: "היכולת להשתמש בו בעצמכם", body: "הדרכה והוראות ברורות: מה מכניסים, מה מקבלים ומה בודקים לפני שמשתמשים בתוצאה." },
-  { title: "תוכנית ברורה להמשך", body: "מפת הזדמנויות ותוכנית ל־90 יום: מה כדאי לשפר אחר כך, מה להשאיר כפי שהוא ואיך למדוד את השינוי." },
+const reasons = [
+  {
+    title: "כי הזמן של האנשים יקר",
+    body: "הצוות הוא לא משאב שאפשר לבזבז על עבודה שחוזרת על עצמה. כל שעה שחוזרת ללקוח, להחלטה או לצמיחה — העסק מרגיש מיד.",
+  },
+  {
+    title: "כי תהליכים טובים יותר משחררים את העסק",
+    body: "ייעול הוא לא קיצור שפוגע באיכות. זה יום עבודה שרץ חלק יותר: פחות צווארי בקבוק, פחות המתנה, יותר קצב במה שחשוב באמת.",
+  },
+  {
+    title: "כי אפשר לגלות אפשרויות שהעסק עוד לא מימש",
+    body: "AI לא רק מזרז את מה שכבר קיים. הוא פותח דרכים חדשות לשרת לקוחות, להבין נתונים, ולבנות הצעות שהעסק לא יכול היה להחזיק קודם — בלי להכפיל את הצוות.",
+  },
+  {
+    title: "כי AI צריך ללכת בנתיב של העסק שלכם",
+    body: "לא כתוספת בצד, אלא כחלק מהדרך שבה אתם עובדים ומתקדמים. כדי שהטכנולוגיה תשרת את הכיוון שלכם — לא תמשוך אתכם לכיוון שלה.",
+  },
 ];
+
+const contrasts = [
+  {
+    title: "למה לא לבד",
+    body: "תשומת הלב שלכם שייכת לעסק. כשלומדים כל כלי לבד, הזמן הזה יורד מהניהול, מהלקוחות ומהצמיחה.",
+  },
+  {
+    title: "למה לא AI בצד",
+    body: "כלי שלא נכנס לנתיב העבודה לא משנה את העסק. הערך נוצר רק כשהוא יושב בתהליך האמיתי.",
+  },
+  {
+    title: "למה מישהו שמבין את העסק",
+    body: "כי החיבור נעשה מתוך מה שאתם כבר עושים ולאן שאתם הולכים — לא מתוך רשימת טכנולוגיות.",
+  },
+];
+
+function BusinessCard() {
+  return (
+    <div className="business-card" role="img" aria-label="NY AI Solutions — Making AI work for your business">
+      <img src="/favicon.png" alt="" width="512" height="512" />
+      <div className="business-card-name">
+        <span />
+        <strong>AI SOLUTIONS</strong>
+        <span />
+      </div>
+      <p>Making AI work for your business.</p>
+    </div>
+  );
+}
 
 export default function BenefitsPage() {
   return (
-    <main className="benefits-v2">
-      <header className="bv-header">
-        <a className="header-wordmark" href="/" aria-label="NY AI Solutions — האתר המלא"><strong>NY</strong><span>AI SOLUTIONS</span></a>
-        <a href="/" className="bv-more">עוד על השירות ←</a>
+    <main className="benefits-page">
+      <header className="site-header" aria-label="ניווט ראשי">
+        <a className="header-wordmark" href="#top" aria-label="NY AI Solutions — לראש העמוד">
+          <strong>NY</strong>
+          <span>AI SOLUTIONS</span>
+        </a>
+        <nav className="header-nav" aria-label="קישורי עמוד">
+          <a href="#why">למה זה חשוב</a>
+          <a href="#instead">למה דווקא ככה</a>
+          <a href="#proof">למה אפשר לסמוך</a>
+          <a href="/">הגרסה המלאה</a>
+        </nav>
+        <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
-      <section className="bv-intro" aria-labelledby="benefits-title">
-        <p className="bv-label">שירות מעשי להטמעת AI בעסק</p>
-        <h1 id="benefits-title">פחות עבודה ידנית.<br /><span>יותר זמן ללקוחות שלכם.</span></h1>
-        <p className="bv-lead">בתוך 7–10 ימי עסקים תקבלו פתרון אחד למשימה שחוזרת בעסק — מוכן לשימוש, עם הדרכה ותוכנית המשך.</p>
-        <p className="bv-clarify">זהו ליווי אישי לבנייה ולהטמעה בעסק שלכם, ולא קורס. מתחילים מהכלים שכבר יש לכם.</p>
-        <a className="button button-primary" href={whatsapp} target="_blank" rel="noopener noreferrer">נבדוק מה אפשר לשפר בעסק שלי</a>
-        <p className="bv-caption">שיחת התאמה ללא עלות · 30–45 דקות</p>
-      </section>
-      <section className="bv-deliverables" aria-labelledby="takeaway-title">
-        <h2 id="takeaway-title">מה נשאר אצלכם בסוף?</h2>
-        <div className="bv-grid">
-          {deliverables.map((item, i) => <article key={item.title}><span className="bv-number">0{i + 1}</span><h3>{item.title}</h3><p>{item.body}</p></article>)}
+
+      <section className="hero benefits-hero" id="top">
+        <div className="hero-glow" aria-hidden="true" />
+        <div className="hero-copy">
+          <p className="eyebrow">למה העסק צריך את זה</p>
+          <h1>
+            כי אתם לא צריכים מומחה AI.
+            <span>אתם צריכים ש־AI יעבוד בשביל העסק.</span>
+          </h1>
+          <p className="hero-lead">הזמן של האנשים הוא המשאב היקר ביותר בעסק. כש־AI מחובר לתהליכים האמיתיים — העבודה זורמת טוב יותר, ונפתחות אפשרויות שהעסק עוד לא מימש.</p>
+          <div className="hero-actions">
+            <a className="button button-primary" href="#contact">בואו נדבר</a>
+            <a className="text-link" href="#why">למה זה חשוב עכשיו ←</a>
+          </div>
+        </div>
+
+        <div className="hero-stage">
+          <BusinessCard />
+          <div className="value-flow" aria-label="למה זה חשוב">
+            <p className="value-flow-label">WHY IT MATTERS</p>
+            <div><span>01</span><p>הזמן של האנשים יקר</p></div>
+            <div><span>02</span><p>נפתחות הזדמנויות חדשות</p></div>
+            <div><span>03</span><p>AI בנתיב של העסק, לא לידו</p></div>
+          </div>
         </div>
       </section>
-      <section className="bv-example" aria-labelledby="example-title">
-        <p className="bv-label">דוגמה אפשרית — הפתרון ייבחר לפי העסק שלכם</p>
-        <h2 id="example-title">סיימתם שיחה עם לקוח. מה עכשיו?</h2>
-        <div className="bv-comparison">
-          <div><h3>היום</h3><p>מנסחים סיכום, מכינים רשימת משימות וכותבים הודעת המשך — בכל פעם מחדש.</p></div>
-          <div><h3>עם הפתרון</h3><p>מזינים נקודות מהשיחה בלי פרטים מזהים, ומקבלים סיכום, משימות וטיוטת הודעה. אתם בודקים, מוסיפים את פרטי הלקוח אצלכם ושולחים.</p></div>
+
+      <section className="outcomes-section section-shell" id="why" aria-labelledby="why-title">
+        <div className="section-heading compact-heading">
+          <p className="section-label">הסיבה, לא השיטה</p>
+          <h2 id="why-title">ארבע סיבות שהעסק מרגיש כבר עכשיו.</h2>
+          <p className="section-intro">לא רשימת פיצ׳רים. לא תהליך. למה העסק מרוויח כש־AI יושב בזמן, בתהליכים ובנתיב שלכם.</p>
         </div>
-        <p className="bv-example-note">פחות ניסוח חוזר, עם אישור שלכם לפני השליחה. את החיסכון בודקים מול אופן העבודה הקודם.</p>
+        <div className="outcome-grid">
+          {reasons.map((reason, index) => (
+            <article key={reason.title}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h3>{reason.title}</h3>
+              <p>{reason.body}</p>
+            </article>
+          ))}
+        </div>
+        <div className="outcome-close">
+          <p>אתם ממשיכים להתמחות בעסק.</p>
+          <strong>אני דואג ש־AI יעבוד בשבילו — כי זה לא התפקיד שלכם.</strong>
+        </div>
       </section>
-      <section className="bv-contact" id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">איזו משימה הייתם שמחים להוריד מהעומס?</h2>
-        <p>בשיחה נבחר משימה ששווה לבדוק. אם יש התאמה, תקבלו הצעה עם היקף, מחיר ותוצאה מוגדרים מראש.</p>
-        <a className="button button-primary" href={whatsapp} target="_blank" rel="noopener noreferrer">נדבר על המשימה שלכם ב־WhatsApp</a>
-        <p className="bv-caption">נדב יגאל · NY AI Solutions · <a href="mailto:nadav.yigal@gmail.com">שלחו לי מייל</a></p>
-        <details className="bv-form"><summary>מעדיפים לפרט לפני השיחה?</summary><LeadForm sourceLine="שלום נדב, הגעתי דרך גרסת היתרונות באתר NY AI Solutions." /></details>
+
+      <section className="short-how-section" id="instead" aria-labelledby="instead-title">
+        <div className="section-shell">
+          <div className="section-heading section-heading-light compact-heading">
+            <p className="section-label section-label-light">למה דווקא ככה</p>
+            <h2 id="instead-title">כי AI שווה משהו רק כשהוא הולך בדרך של העסק — לא כשהוא יושב בצד.</h2>
+            <p className="section-intro section-intro-light">לכן השירות הזה קיים: לחבר את הטכנולוגיה לזמן, לתהליכים ולהזדמנויות שלכם — בלי שתיקחו את זה על עצמכם.</p>
+          </div>
+          <div className="short-process">
+            {contrasts.map((item) => (
+              <article key={item.title}>
+                <span>כי</span>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </article>
+            ))}
+          </div>
+          <p className="short-how-close">המטרה היא לא להכניס AI לעסק. המטרה היא לגרום לעסק לעבוד טוב יותר בעזרת AI.</p>
+        </div>
       </section>
-      <footer className="bv-footer"><span>© {new Date().getFullYear()} NY AI Solutions</span><a href="/">עוד על השירות ועל נדב ←</a></footer>
+
+      <section className="compact-proof-section" id="proof" aria-labelledby="proof-title">
+        <div className="section-shell compact-proof-copy">
+          <p className="section-label">למה אפשר לסמוך על זה</p>
+          <h2 id="proof-title">כי ייעוץ בלי ביצוע הוא בדיוק הסיבה שרוב פרויקטי ה־AI נתקעים.</h2>
+          <p>נדב יגאל מחבר הבנה עסקית עם יכולת לבנות. שתי אפליקציות iOS מבוססות AI כבר חיות ב־App Store — לא כהדגמה, אלא כהוכחה שהעבודה מגיעה לידיים של אנשים אמיתיים.</p>
+        </div>
+        <div className="section-shell product-proof compact-product-proof" aria-label="מוצרים לדוגמה">
+          <article>
+            <div className="product-logo product-logo-runsmart">
+              <img src="/runsmart-logo.png" alt="לוגו RunSmart" width="900" height="272" />
+            </div>
+            <span>AI RUN COACHING · LIVE ON THE APP STORE</span>
+            <p>כי רעיון בלי מוצר חי לא משנה כלום למשתמש.</p>
+            <div className="proof-links">
+              <a className="app-store-link" href="https://apps.apple.com/il/app/runsmart-ai-run-coaching/id6768297840" target="_blank" rel="noopener noreferrer">הורדה ב־App Store</a>
+            </div>
+          </article>
+          <article>
+            <div className="product-logo product-logo-resumely">
+              <img src="/resumely-logo.png" alt="לוגו Resumely" width="920" height="200" />
+            </div>
+            <span>AI RESUME BUILDER · LIVE ON THE APP STORE</span>
+            <p>כי תהליך ברור הוא מה שהופך AI לשימושי, לא למרשים.</p>
+            <div className="proof-links">
+              <a className="app-store-link" href="https://apps.apple.com/il/app/resume-ai-cv-builder/id6776752349" target="_blank" rel="noopener noreferrer">הורדה ב־App Store</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section className="contact-section" id="contact" aria-labelledby="contact-title">
+        <div className="section-shell contact-layout">
+          <div className="contact-copy">
+            <p className="section-label section-label-light">למה להתחיל בשיחה</p>
+            <h2 id="contact-title">כי מספיקה בעיה אחת אמיתית כדי להרגיש את ההבדל.</h2>
+            <div className="copy-stack">
+              <p><strong>לא צריך תוכנית שינוי גדולה. צריך מקום אחד שבו הזמן יקר, התהליך יכול לעבוד טוב יותר, או שנפתחת הזדמנות שהעסק עוד לא לקח.</strong></p>
+              <p>משם נבין אם AI באמת יכול לעזור — ומה לא שווה לגעת בו.</p>
+              <p><strong>AI הוא לא עוד משהו שצריך להספיק ללמוד. הוא כלי שאמור לעבוד בשבילכם.</strong></p>
+            </div>
+            <a className="button button-light direct-cta" href="https://wa.me/972545333773" target="_blank" rel="noopener noreferrer">בואו נדבר</a>
+            <div className="contact-direct">
+              <a href="https://wa.me/972545333773" target="_blank" rel="noopener noreferrer">WhatsApp: 054-533-3773</a>
+              <a href="mailto:nadav.yigal@gmail.com">nadav.yigal@gmail.com</a>
+              <a href="/">לגרסה המלאה של האתר ←</a>
+            </div>
+          </div>
+          <LeadForm sourceLine="שלום נדב, הגעתי דרך גרסת היתרונות באתר NY AI Solutions." />
+        </div>
+      </section>
+
+      <footer className="site-footer">
+        <div className="section-shell footer-layout">
+          <div className="footer-wordmark"><strong>NY</strong><span>AI SOLUTIONS</span></div>
+          <div><p>Making AI work for your business.</p><span>© {new Date().getFullYear()} NY AI Solutions · Nadav Yigal</span></div>
+          <a href="/">לגרסה המלאה ←</a>
+        </div>
+      </footer>
     </main>
   );
 }

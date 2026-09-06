@@ -1,15 +1,46 @@
 # NY AI Solutions: Progress
 
-- **Status:** page changes deployed
+- **Status:** homepage trimmed and previous benefits page restored; not deployed
 - **Current Phase:** first outreach cycle before the EXD-026 gate
-- **Active Story:** NYAI-01 is complete and live. The homepage links to `/benefits` as "למה זה כדאי".
-- **Last Completed Story:** five landing-page changes: privacy architecture, fit call and AI Value Sprint, five workflow-shaped capabilities, anonymised engagement proof, and a homepage link to `/benefits`
-- **Next Recommended Story:** none. Start fit-call outreach and share the live benefits page.
-- **Blockers:** the EXD-026 gate still has zero recorded fit calls. Local production build and targeted TypeScript checks again stalled at zero output; the Sites remote build succeeded.
-- **Last Validation:** 2026-09-03 - Sites production deployment succeeded; the live homepage and `/benefits` both return HTTP 200, the homepage contains the `/benefits` link, and the benefits page contains the expected Hebrew headline and WhatsApp links.
-- **Last Updated:** 2026-09-06
+- **Active Story:** homepage trim + `/benefits` rollback, on branch `benefits-restore-and-homepage-trim`. Awaiting founder review before any Sites deploy.
+- **Last Completed Story:** restored the previous `/benefits` page (reverting the 2026-09-06 short rewrite) and applied ten founder-marked homepage changes, including a new "עם מה תצאו מהתהליך" outcomes section
+- **Next Recommended Story:** founder review of the branch, then deploy on explicit instruction and start fit-call outreach.
+- **Blockers:** the EXD-026 gate still has zero recorded fit calls.
+- **Last Validation:** 2026-09-06 - local build succeeded, `npm test` 3/3 pass, `tsc` clean for `app/` (3 pre-existing Cloudflare-type errors in `db/`+`worker/`), eslint unchanged from main (3 pre-existing `no-html-link-for-pages` errors in `app/benefits/page.tsx`). Local server render verified for both routes.
+- **Last Updated: 2026-09-06**
 
 ## Log
+
+### 2026-09-06 (later)
+Founder reviewed the live site on mobile and rejected the shorter `/benefits`
+rewrite from earlier the same day. Restored `app/benefits/page.tsx` verbatim from
+`3a76591` (the four-reason "למה העסק צריך את זה" page) and restored its test
+assertions; all of its CSS classes were still present in `globals.css`.
+
+Applied ten founder-marked changes to the homepage, which is where every marked
+section actually lived:
+- dropped "פשוט" from the hero emphasis line;
+- value-flow label "BUSINESS FIRST" -> "איך זה עובד — בגדול";
+- removed the whole capabilities section ("תהליכי עבודה שמתקדמים בלי לאבד שליטה"
+  plus its five numbered points);
+- removed the whole six-step process section ("תהליך מסודר, החלטות ברורות",
+  "מתעדפים...") as repetitive;
+- removed the AI Value Sprint card and its 7–10 business-day commitment;
+- rewrote the About section: dropped its top block ("לא רק להמליץ על פתרון" +
+  role line), led with who Nadav is, added the twelve years running an insurance
+  agency, and deleted "בשנתיים האחרונות";
+- added a new "עם מה תצאו מהתהליך" outcomes section directly after the hero,
+  ten cards, reusing the existing `.outcome-grid` styles (no new CSS).
+
+Two wording departures from the founder's draft list, both to stay inside the
+repo's no-ROI-without-baseline rule: "חיסכון משמעותי בזמן" -> "חיסכון בזמן", and
+the outcomes intro frames the list as what the process aims at rather than a
+promised result. Nothing else was reworded away from the founder's copy.
+
+Header nav updated (the `#capabilities` and `#process` anchors no longer exist);
+offer section id renamed `#sprint` -> `#offer`; lead-form source line no longer
+mentions the sprint. Not deployed: `git push sites` still requires explicit
+instruction.
 
 ### 2026-09-06
 Founder feedback from readers outside the AI field: benefits page was too long
