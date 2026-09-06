@@ -96,17 +96,17 @@ test("server-renders the shorter Hebrew benefits landing page", async () => {
 
   const html = await response.text();
   assert.match(html, /<html[^>]*lang="he"[^>]*dir="rtl"/i);
-  assert.match(html, /כי אתם לא צריכים מומחה AI/);
-  assert.match(html, /אתם צריכים ש־AI יעבוד בשביל העסק/);
-  assert.match(html, /כי הזמן של האנשים יקר/);
-  assert.match(html, /כי אפשר לגלות אפשרויות שהעסק עוד לא מימש/);
-  assert.match(html, /כי AI צריך ללכת בנתיב של העסק שלכם/);
+  assert.match(html, /פחות עבודה ידנית/);
+  assert.match(html, /מה נשאר אצלכם בסוף/);
+  assert.match(html, /7–10 ימי עסקים/);
+  assert.match(html, /ליווי אישי לבנייה ולהטמעה/);
+  assert.match(html, /דוגמה אפשרית/);
+  assert.match(html, /בלי פרטים מזהים/);
   assert.doesNotMatch(html, /מזיזים את המחט/);
   assert.doesNotMatch(html, /כלי שאף אחד לא משתמש/);
-  assert.match(html, /כי מספיקה בעיה אחת אמיתית/);
+  assert.match(html, /איזו משימה הייתם שמחים להוריד מהעומס/);
   assert.match(html, /גרסת היתרונות/);
-  assert.match(html, /RunSmart/);
-  assert.match(html, /Resumely/);
+  assert.match(html, /<details class="bv-form">/);
   assert.match(html, /972545333773/);
   assert.doesNotMatch(html, /מפתרון נקודתי וחכם ועד מערכת AI שלמה/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|admin\/page-posts/i);

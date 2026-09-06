@@ -7,9 +7,20 @@
 - **Next Recommended Story:** none. Start fit-call outreach and share the live benefits page.
 - **Blockers:** the EXD-026 gate still has zero recorded fit calls. Local production build and targeted TypeScript checks again stalled at zero output; the Sites remote build succeeded.
 - **Last Validation:** 2026-09-03 - Sites production deployment succeeded; the live homepage and `/benefits` both return HTTP 200, the homepage contains the `/benefits` link, and the benefits page contains the expected Hebrew headline and WhatsApp links.
-- **Last Updated:** 2026-09-03
+- **Last Updated:** 2026-09-06
 
 ## Log
+
+### 2026-09-06
+Founder feedback from readers outside the AI field: benefits page was too long
+and did not explain what the client receives. Rewrote `/benefits` around three
+takeaways (working solution, usage guidance, 90-day plan), the 7–10 business-day
+engagement, and a clearly illustrative client follow-up example. Removed the
+repeated abstract benefits and product showcase; retained contact form inside
+native disclosure. Existing homepage unchanged. Updated route metadata and
+existing rendered assertions. `git diff --check` passed. Local development and
+build processes stalled without output again; remote build fallback required.
+Publication pending at this source revision.
 
 ### 2026-09-03
 Explicit deployment approval received. The reviewed page changes were committed,
