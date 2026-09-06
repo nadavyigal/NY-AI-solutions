@@ -1,12 +1,13 @@
 # NY AI Solutions: Progress
 
-- **Status:** homepage trimmed and previous benefits page restored; not deployed
+- **Status:** merged to `main`; NOT deployed (blocked on `sites` credentials)
 - **Current Phase:** first outreach cycle before the EXD-026 gate
-- **Active Story:** homepage trim + `/benefits` rollback, on branch `benefits-restore-and-homepage-trim`. Awaiting founder review before any Sites deploy.
-- **Last Completed Story:** restored the previous `/benefits` page (reverting the 2026-09-06 short rewrite) and applied ten founder-marked homepage changes, including a new "עם מה תצאו מהתהליך" outcomes section
-- **Next Recommended Story:** founder review of the branch, then deploy on explicit instruction and start fit-call outreach.
-- **Blockers:** the EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-06 - local build succeeded, `npm test` 3/3 pass, `tsc` clean for `app/` (3 pre-existing Cloudflare-type errors in `db/`+`worker/`), eslint unchanged from main (3 pre-existing `no-html-link-for-pages` errors in `app/benefits/page.tsx`). Local server render verified for both routes.
+- **Active Story:** none in code. Remaining step is one command: `git push sites main`.
+- **Last Completed Story:** restored the previous `/benefits` page, applied ten founder-marked homepage changes, and added the shared "עם מה תצאו מהתהליך" outcomes list to both routes (PR #3, merged as `5d02495`)
+- **Next Recommended Story:** founder runs `git push sites main` from an interactive terminal to publish, then verifies both routes and starts fit-call outreach.
+- **Blockers:** `git push sites` fails with "could not read Username for 'https://git.chatgpt-team.site'". No credential is stored in the macOS keychain for that host and this session cannot prompt. The EXD-026 gate still has zero recorded fit calls.
+- **Last Validation:** 2026-09-06 - `npm test` 3/3 pass, `tsc` clean for `app/` (3 pre-existing Cloudflare-type errors in `db/`+`worker/`), eslint unchanged from main (3 pre-existing `no-html-link-for-pages` errors). Local production server render verified section-by-section on both routes.
+- **Rollback point (last deployed):** `55c37d969c6817a0ef72eb304509a2b84ebc87bb`
 - **Last Updated: 2026-09-06**
 
 ## Log
@@ -39,8 +40,18 @@ promised result. Nothing else was reworded away from the founder's copy.
 
 Header nav updated (the `#capabilities` and `#process` anchors no longer exist);
 offer section id renamed `#sprint` -> `#offer`; lead-form source line no longer
-mentions the sprint. Not deployed: `git push sites` still requires explicit
-instruction.
+mentions the sprint.
+
+On founder instruction the outcomes list was then added to `/benefits` as well.
+It moved into `app/outcomes.ts` so both routes share one source; on `/benefits` it
+renders as a compact two-column checklist (`.takeaway-list`) placed after the hero,
+because that page already opens with four cards on `.outcome-grid`.
+
+Merged to `main` as `5d02495` (PR #3). Deployment was attempted on explicit founder
+instruction and FAILED: `git push sites main` cannot authenticate to
+`git.chatgpt-team.site` (no keychain entry, no interactive prompt available in the
+session). The site is still serving `55c37d9`. Publishing needs the founder to run
+`git push sites main` from an interactive terminal.
 
 ### 2026-09-06
 Founder feedback from readers outside the AI field: benefits page was too long
