@@ -3,14 +3,25 @@
 - **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 11.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** moved the outcomes section lower in the page, reprioritized its first outcome, and softened the fit-call copy.
-- **Next Recommended Story:** collect reader feedback on the revised page hierarchy and fit-call language.
+- **Last Completed Story:** clarified the founder experience statement and replaced the abstract engagement proof with an anonymised billing-workflow example.
+- **Next Recommended Story:** collect reader feedback on whether the billing example makes the delivered value concrete.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
 - **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the new section order, first outcome and fit-call copy were verified in production.
 - **Rollback point (last deployed):** `a6e42d2b565965910782aecbe76603ac5e1f440d` (Sites version 11)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (founder background and billing example clarified)
+Expanded the About copy to connect twelve years of insurance-agency management
+with improving work processes and results at the intersection of information
+systems, financial systems and day-to-day business operations. Replaced the
+abstract engagement-proof block with an anonymised, concrete example: the owner
+tells the chat which sessions took place; the assistant structures the data and
+prepares a per-client draft; the owner restores identifying details outside the
+chat and issues the invoice in the existing system. The example states that no
+invoicing system was replaced, nothing is sent automatically and identifying
+client data remains outside the model.
 
 ### 2026-09-07 (outcomes hierarchy and fit-call copy refined)
 Moved “עם מה תצאו מהתהליך” from immediately below the hero to after the story
