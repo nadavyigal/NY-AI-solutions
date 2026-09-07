@@ -1,16 +1,26 @@
 # NY AI Solutions: Progress
 
-- **Status:** merged to `main`; NOT deployed (blocked on `sites` credentials). PR #4 open.
+- **Status:** live; previous long-form `/benefits` page restored and deployed as Sites version 8.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** restored the previous `/benefits` page, applied ten founder-marked homepage changes, and added the shared outcomes list to both routes (PR #3, merged as `5d02495`)
+- **Last Completed Story:** restored the previous long-form `/benefits` page on the live site while preserving later homepage work.
 - **Next Recommended Story:** founder decides whether the site names the AI Value Sprint and shows the six-step process. Today the page stops at "fit call" and a visitor cannot tell what comes after it. Blocked on a founder copy decision, not on code.
-- **Blockers:** `git push sites` fails with "could not read Username for 'https://git.chatgpt-team.site'"; re-verified 2026-09-07, still failing, no credential in the keychain and this session cannot prompt. **7 commits are unpublished**, so every 2026-09-06 page change is invisible to visitors. The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - `npm test` 3/3 pass; `npx eslint app` 0 errors (down from 3) and 6 unchanged `no-img-element` warnings; `tsc --noEmit` clean for `app/`.
-- **Rollback point (last deployed):** `55c37d969c6817a0ef72eb304509a2b84ebc87bb`
+- **Blockers:** The EXD-026 gate still has zero recorded fit calls.
+- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; live `/benefits` returned HTTP 200 with the restored copy and without the rejected short-version copy.
+- **Rollback point (last deployed):** `4a769e2c960de1a66d68d08a32f7de70b820fdb9` (Sites version 8)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (benefits rollback deployed)
+Founder rejected the shorter benefits-page rewrite and asked to return to the
+previous version before making further edits. Restored the prior long-form
+four-reason page, removed the later shared-outcomes block from `/benefits`, and
+preserved the newer homepage and internal `next/link` navigation work. Production
+build and all three rendered HTML tests passed. Published as Sites version 8;
+the live route returned HTTP 200 and was checked for the restored headline,
+four-reason section, RunSmart/Resumely proof, and contact close. The rejected
+short-page copy and the added outcomes block are absent from the live route.
 
 ### 2026-09-07
 Two commits on `nyai-connect-the-tools` (PR #4).
