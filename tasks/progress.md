@@ -1,13 +1,13 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 10, with the next revision ready to publish.
+- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 11.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
 - **Last Completed Story:** moved the outcomes section lower in the page, reprioritized its first outcome, and softened the fit-call copy.
 - **Next Recommended Story:** collect reader feedback on the revised page hierarchy and fit-call language.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build passed and rendered HTML tests 3/3 passed for the next revision.
-- **Rollback point (last deployed):** `6a4c885b13b84ef8dc7aae4bc7cbf51927cb183f` (Sites version 10)
+- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the new section order, first outcome and fit-call copy were verified in production.
+- **Rollback point (last deployed):** `a6e42d2b565965910782aecbe76603ac5e1f440d` (Sites version 11)
 - **Last Updated: 2026-09-07**
 
 ## Log
@@ -20,6 +20,9 @@ the sales-framed “בלי מצגת ובלי מסלול מכירה נוסף” c
 clarity about the possibilities and the right next step. Changed the form prompt
 to “ספרו לי איך אתם עובדים היום ולאן הייתם רוצים להגיע.” Production build and
 all three rendered HTML tests passed.
+Published as Sites version 11; both public routes returned HTTP 200 and the live
+HTML was verified for the preserved jump link, revised section order, promoted
+first outcome, and updated fit-call language.
 
 ### 2026-09-07 (founder-marked trim deployed)
 Applied the founder's nine mobile screenshots and supplied outcomes copy. Removed
