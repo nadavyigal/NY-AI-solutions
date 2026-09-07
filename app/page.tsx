@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LeadForm } from "./LeadForm";
 import { outcomes } from "./outcomes";
 
@@ -32,7 +33,7 @@ function Home() {
           <a href="#approach">הגישה</a>
           <a href="#about">אודות</a>
           <a href="#products">מוצרים לדוגמה</a>
-          <a href="/benefits">למה זה כדאי</a>
+          <Link href="/benefits">למה זה כדאי</Link>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
