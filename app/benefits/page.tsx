@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LeadForm } from "../LeadForm";
-import { outcomes } from "../outcomes";
 
 export const metadata: Metadata = {
   title: "NY AI Solutions | למה העסק צריך את זה",
@@ -66,7 +65,6 @@ export default function BenefitsPage() {
           <span>AI SOLUTIONS</span>
         </a>
         <nav className="header-nav" aria-label="קישורי עמוד">
-          <a href="#takeaway">מה תצאו מזה</a>
           <a href="#why">למה זה חשוב</a>
           <a href="#instead">למה דווקא ככה</a>
           <a href="#proof">למה אפשר לסמוך</a>
@@ -99,22 +97,6 @@ export default function BenefitsPage() {
             <div><span>03</span><p>AI בנתיב של העסק, לא לידו</p></div>
           </div>
         </div>
-      </section>
-
-      <section className="takeaway-section section-shell" id="takeaway" aria-labelledby="takeaway-title">
-        <div className="section-heading compact-heading">
-          <p className="section-label">התוצאה, לא רשימת הכלים</p>
-          <h2 id="takeaway-title">עם מה תצאו מהתהליך.</h2>
-          <p className="section-intro">אלה הדברים שהתהליך מכוון אליהם. מה מתוכם רלוונטי לכם — נקבע לפי העסק שלכם, לא לפי רשימה אחידה.</p>
-        </div>
-        <ul className="takeaway-list">
-          {outcomes.map((outcome) => (
-            <li key={outcome.title}>
-              <strong>{outcome.title}</strong>
-              <span>{outcome.body}</span>
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section className="outcomes-section section-shell" id="why" aria-labelledby="why-title">

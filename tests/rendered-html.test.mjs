@@ -110,11 +110,7 @@ test("server-renders the Hebrew benefits landing page", async () => {
   assert.match(html, /כי אפשר לגלות אפשרויות שהעסק עוד לא מימש/);
   assert.match(html, /כי AI צריך ללכת בנתיב של העסק שלכם/);
   assert.match(html, /WHY IT MATTERS/);
-  assert.match(html, /עם מה תצאו מהתהליך/);
-  assert.match(html, /ייעול תהליכי עבודה/);
-  assert.match(html, /עסק יעיל, מתקדם ותחרותי יותר/);
-  assert.equal((html.match(/class="takeaway-list"/g) ?? []).length, 1);
-  assert.equal((html.match(/<li><strong>/g) ?? []).length, 10);
+  assert.doesNotMatch(html, /עם מה תצאו מהתהליך/);
   assert.doesNotMatch(html, /מזיזים את המחט/);
   assert.doesNotMatch(html, /כלי שאף אחד לא משתמש/);
   assert.doesNotMatch(html, /מה נשאר אצלכם בסוף/);
