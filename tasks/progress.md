@@ -1,16 +1,26 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; previous long-form `/benefits` page restored and deployed as Sites version 8.
+- **Status:** live; screenshot-matched full landing page restored at both `/` and `/benefits` as Sites version 9.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** restored the previous long-form `/benefits` page on the live site while preserving later homepage work.
-- **Next Recommended Story:** founder decides whether the site names the AI Value Sprint and shows the six-step process. Today the page stops at "fit call" and a visitor cannot tell what comes after it. Blocked on a founder copy decision, not on code.
+- **Last Completed Story:** restored the full landing page identified by the founder's mobile screenshot, including the AI Value Sprint and six-step process, at both public URLs.
+- **Next Recommended Story:** collect the founder's next copy edits against the restored full page.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; live `/benefits` returned HTTP 200 with the restored copy and without the rejected short-version copy.
-- **Rollback point (last deployed):** `4a769e2c960de1a66d68d08a32f7de70b820fdb9` (Sites version 8)
+- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; `/` and `/benefits` both returned HTTP 200 with the screenshot-matched hero; mobile viewport visually verified.
+- **Rollback point (last deployed):** `7014f41861dbdb217b5d9d1c1d74d0e1849020b5` (Sites version 9)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (screenshot-matched page restored)
+Founder clarified with a mobile screenshot that the intended rollback target was
+the full landing page headed "AI יכול לעשות הרבה יותר בעסק שלכם", not the separate
+four-reason benefits page. Restored that exact historical homepage content,
+including "אתם פשוט לא צריכים להפוך למומחי AI", the six-step process and AI Value
+Sprint. `/benefits` now renders the same full page so the share link opens the
+requested version. Production build and all three rendered HTML tests passed.
+Published as Sites version 9; both URLs returned HTTP 200 and the first mobile
+viewport was visually checked against the founder's screenshot.
 
 ### 2026-09-07 (benefits rollback deployed)
 Founder rejected the shorter benefits-page rewrite and asked to return to the
