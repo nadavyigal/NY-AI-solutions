@@ -2,6 +2,10 @@ import { LeadForm } from "./LeadForm";
 
 const outcomes = [
   {
+    title: "פתרונות AI שמותאמים לעסק עצמו",
+    body: "לא עוד כלי גנרי שלא באמת משתמשים בו.",
+  },
+  {
     title: "ייעול תהליכי עבודה",
     body: "פחות שלבים מיותרים ועבודה ידנית.",
   },
@@ -28,10 +32,6 @@ const outcomes = [
   {
     title: "קבלת החלטות טובה ומהירה יותר",
     body: "מידע נגיש ומסודר יותר.",
-  },
-  {
-    title: "פתרונות AI שמותאמים לעסק עצמו",
-    body: "לא עוד כלי גנרי שלא באמת משתמשים בו.",
   },
   {
     title: "הטמעה אמיתית בקרב העובדים",
@@ -96,21 +96,6 @@ function Home() {
         </div>
       </section>
 
-      <section className="outcomes-section section-shell" id="outcomes" aria-labelledby="outcomes-title">
-        <div className="section-heading compact-heading">
-          <h2 id="outcomes-title">עם מה תצאו מהתהליך:</h2>
-        </div>
-        <div className="outcome-grid">
-          {outcomes.map((outcome, index) => (
-            <article key={outcome.title}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <h3>{outcome.title}</h3>
-              <p>{outcome.body}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section className="story-section section-shell" aria-labelledby="expert-title">
         <div className="section-heading">
           <p className="section-label">העסק שלכם הוא נקודת המוצא</p>
@@ -170,17 +155,32 @@ function Home() {
         </div>
       </section>
 
+      <section className="outcomes-section section-shell" id="outcomes" aria-labelledby="outcomes-title">
+        <div className="section-heading compact-heading">
+          <h2 id="outcomes-title">עם מה תצאו מהתהליך:</h2>
+        </div>
+        <div className="outcome-grid">
+          {outcomes.map((outcome, index) => (
+            <article key={outcome.title}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h3>{outcome.title}</h3>
+              <p>{outcome.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="offer-section" id="offer" aria-labelledby="offer-title">
         <div className="section-shell offer-layout">
           <div className="fit-call-panel">
             <p className="section-label">הצעד הראשון — ללא עלות</p>
             <h2 id="offer-title">שיחת התאמה של 30–45 דקות.</h2>
-            <p>נזהה תהליך אחד ששווה למפות — או שנגיד בכנות שאין כרגע התאמה. זו התוצאה של השיחה, בלי מצגת ובלי מסלול מכירה נוסף.</p>
+            <p>נזהה תהליך אחד ששווה למפות — או שנגיד בכנות שאין כרגע התאמה. בסוף השיחה תהיה לכם תמונה ברורה יותר של האפשרויות ושל הצעד הבא שנכון לעסק.</p>
           </div>
           <div className="offer-form">
             <div>
               <p className="section-label section-label-light">מתחילים בשיחת התאמה</p>
-              <h2>ספרו לי מה כבר קניתם ואיזה תהליך עדיין מכביד.</h2>
+              <h2>ספרו לי איך אתם עובדים היום ולאן הייתם רוצים להגיע.</h2>
               <p>הטופס פותח הודעת WhatsApp אצלכם. שום פרט לא נשמר באתר.</p>
             </div>
             <LeadForm sourceLine="שלום נדב, אני רוצה לבדוק התאמה לתהליך AI בעסק שלי." />

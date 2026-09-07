@@ -1,16 +1,25 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; founder-marked shorter landing page published at both `/` and `/benefits` as Sites version 10.
+- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 10, with the next revision ready to publish.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** shortened the restored page from founder-marked mobile screenshots and added the exact ten-item client-outcomes section.
-- **Next Recommended Story:** collect the founder's next copy edits against the restored full page.
+- **Last Completed Story:** moved the outcomes section lower in the page, reprioritized its first outcome, and softened the fit-call copy.
+- **Next Recommended Story:** collect reader feedback on the revised page hierarchy and fit-call language.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; both URLs returned HTTP 200; 390×844 mobile view passed design QA with no horizontal overflow and all marked sections absent.
+- **Last Validation:** 2026-09-07 - production build passed and rendered HTML tests 3/3 passed for the next revision.
 - **Rollback point (last deployed):** `6a4c885b13b84ef8dc7aae4bc7cbf51927cb183f` (Sites version 10)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (outcomes hierarchy and fit-call copy refined)
+Moved “עם מה תצאו מהתהליך” from immediately below the hero to after the story
+and approach sections, while preserving both links that jump directly to its
+anchor. Promoted “פתרונות AI שמותאמים לעסק עצמו” from item 8 to item 1. Replaced
+the sales-framed “בלי מצגת ובלי מסלול מכירה נוסף” close with a calmer promise of
+clarity about the possibilities and the right next step. Changed the form prompt
+to “ספרו לי איך אתם עובדים היום ולאן הייתם רוצים להגיע.” Production build and
+all three rendered HTML tests passed.
 
 ### 2026-09-07 (founder-marked trim deployed)
 Applied the founder's nine mobile screenshots and supplied outcomes copy. Removed

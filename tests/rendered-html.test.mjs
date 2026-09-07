@@ -38,6 +38,13 @@ test("server-renders the Hebrew NY AI Solutions landing page", async () => {
   assert.match(html, /עסק יעיל, מתקדם ותחרותי יותר/);
   assert.equal((html.match(/class="outcome-grid"/g) ?? []).length, 1);
   assert.equal((html.match(/<article><span>\d\d<\/span><h3>/g) ?? []).length, 10);
+  assert.ok(html.indexOf('id="approach"') < html.indexOf('id="outcomes"'));
+  assert.ok(html.indexOf('id="outcomes"') < html.indexOf('id="offer"'));
+  assert.match(html, /<article><span>01<\/span><h3>פתרונות AI שמותאמים לעסק עצמו<\/h3>/);
+  assert.match(html, /בסוף השיחה תהיה לכם תמונה ברורה יותר של האפשרויות ושל הצעד הבא שנכון לעסק/);
+  assert.match(html, /ספרו לי איך אתם עובדים היום ולאן הייתם רוצים להגיע/);
+  assert.doesNotMatch(html, /בלי מצגת ובלי מסלול מכירה נוסף/);
+  assert.doesNotMatch(html, /ספרו לי מה כבר קניתם ואיזה תהליך עדיין מכביד/);
   assert.doesNotMatch(html, /מחיר|₪/);
   assert.doesNotMatch(html, /אתם פשוט לא צריכים/);
   assert.doesNotMatch(html, /המידע של הלקוחות שלכם לא נכנס ל־AI/);
