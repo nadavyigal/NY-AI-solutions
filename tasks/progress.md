@@ -1,16 +1,27 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; screenshot-matched full landing page restored at both `/` and `/benefits` as Sites version 9.
+- **Status:** live; founder-marked shorter landing page published at both `/` and `/benefits` as Sites version 10.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** restored the full landing page identified by the founder's mobile screenshot, including the AI Value Sprint and six-step process, at both public URLs.
+- **Last Completed Story:** shortened the restored page from founder-marked mobile screenshots and added the exact ten-item client-outcomes section.
 - **Next Recommended Story:** collect the founder's next copy edits against the restored full page.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; `/` and `/benefits` both returned HTTP 200 with the screenshot-matched hero; mobile viewport visually verified.
-- **Rollback point (last deployed):** `7014f41861dbdb217b5d9d1c1d74d0e1849020b5` (Sites version 9)
+- **Last Validation:** 2026-09-07 - production build passed; rendered HTML tests 3/3 passed; both URLs returned HTTP 200; 390×844 mobile view passed design QA with no horizontal overflow and all marked sections absent.
+- **Rollback point (last deployed):** `6a4c885b13b84ef8dc7aae4bc7cbf51927cb183f` (Sites version 10)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (founder-marked trim deployed)
+Applied the founder's nine mobile screenshots and supplied outcomes copy. Removed
+"פשוט" from the hero, the large hero business card, the privacy section, the
+five-item capabilities section, the six-step process and the AI Value Sprint
+card. Preserved the compact three-step value panel. Added the ten requested
+client outcomes in the supplied order and tightened the section to its heading
+and cards only. Both routes render the same shareable page. Production build and
+all three rendered HTML tests passed; mobile design QA confirmed zero marked
+sections, exactly ten outcome cards and no horizontal overflow. Published as
+Sites version 10 and verified live with HTTP 200 on `/` and `/benefits`.
 
 ### 2026-09-07 (screenshot-matched page restored)
 Founder clarified with a mobile screenshot that the intended rollback target was
