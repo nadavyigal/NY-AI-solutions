@@ -1,13 +1,13 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 11.
+- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 12.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
 - **Last Completed Story:** clarified the founder experience statement and replaced the abstract engagement proof with an anonymised billing-workflow example.
 - **Next Recommended Story:** collect reader feedback on whether the billing example makes the delivered value concrete.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the new section order, first outcome and fit-call copy were verified in production.
-- **Rollback point (last deployed):** `a6e42d2b565965910782aecbe76603ac5e1f440d` (Sites version 11)
+- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the revised background and anonymised billing example were verified in production.
+- **Rollback point (last deployed):** `6de9c6cf905aef6afca72885205e46742e2f569c` (Sites version 12)
 - **Last Updated: 2026-09-07**
 
 ## Log
@@ -22,6 +22,9 @@ prepares a per-client draft; the owner restores identifying details outside the
 chat and issues the invoice in the existing system. The example states that no
 invoicing system was replaced, nothing is sent automatically and identifying
 client data remains outside the model.
+Published as Sites version 12; both public routes returned HTTP 200 and the live
+HTML was verified for the revised founder background, billing example and privacy
+boundary.
 
 ### 2026-09-07 (outcomes hierarchy and fit-call copy refined)
 Moved “עם מה תצאו מהתהליך” from immediately below the hero to after the story
