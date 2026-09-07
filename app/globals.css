@@ -215,6 +215,15 @@ main { overflow: hidden; }
 
 .hero h1 span { display: block; color: var(--blue-600); }
 
+.hero-compact {
+  grid-template-columns: minmax(0, 840px);
+  justify-content: center;
+  min-height: auto;
+  padding-block: 164px 96px;
+}
+
+.hero-compact .hero-copy { max-width: 840px; }
+
 .hero-lead {
   margin: 24px 0 0;
   color: var(--navy-800);
@@ -825,6 +834,8 @@ main { overflow: hidden; }
   background: var(--white);
   box-shadow: 0 16px 40px rgba(10, 27, 49, 0.06);
 }
+
+.outcome-grid > article:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
 .outcome-grid span {
   color: var(--blue-600);
