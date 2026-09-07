@@ -5,6 +5,14 @@ is a map. It restates nothing: each row points at the file that owns the claim.
 
 Last updated: 2026-09-07.
 
+## Start here
+
+Running an engagement, in order, with what to send at each step:
+**[START-HERE.md](START-HERE.md)**.
+
+First test run of the method, on this business itself:
+[runs/2026-09-07-self-audit/README.md](runs/2026-09-07-self-audit/README.md).
+
 ## The one sentence
 
 > **Your team already pays for AI. I make it actually do the work, inside the
