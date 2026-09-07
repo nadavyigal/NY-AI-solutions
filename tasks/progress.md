@@ -1,16 +1,26 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 13.
+- **Status:** live; concise founder-edited landing page published at both `/` and `/benefits` as Sites version 14.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** replaced the founder background with the founder-supplied wording on risk consulting, process improvement, business development and global banking.
-- **Next Recommended Story:** collect reader feedback on whether the billing example makes the delivered value concrete.
+- **Last Completed Story:** replaced the long landing page with the founder-supplied concise five-section narrative and removed the marked opportunity-card sentence.
+- **Next Recommended Story:** collect reader feedback on whether the five outcomes make the delivered value immediately clear.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; live `/benefits` returned HTTP 200; the founder-supplied background appeared and the superseded insurance-agency claim was absent.
-- **Rollback point (last deployed):** `aea05ef5663f531a5a77ed44cfb204e178f3f37e` (Sites version 13)
+- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; mobile browser QA passed with no horizontal overflow; live `/` and `/benefits` returned HTTP 200 with the new copy and without the marked sentence.
+- **Rollback point (last deployed):** `7417ce8d9d5c96d5aaa2fa01acbd49057621f922` (Sites version 14)
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (concise full-page rewrite deployed)
+Replaced the previous long landing page with the founder's supplied copy and
+five-section structure: compact hero, three-step process, business-first discovery
+questions, five client outcomes and a shorter founder background. Removed the
+marked opportunity-card sentence and the superseded story, proof example, product
+showcase and sprint sections. Preserved the direct outcomes link and the existing
+contact flow. Production build and all three rendered HTML tests passed; mobile
+browser QA confirmed working anchor links, no horizontal overflow and no console
+errors. Published as Sites version 14 and verified both public routes with HTTP 200.
 
 ### 2026-09-07 (founder background corrected)
 Replaced the About paragraph with the founder's supplied wording. It now names
