@@ -1,0 +1,223 @@
+{"kind":"deck","id":"pr/eacadi","name":"Deck"}
+{"kind":"layout","layoutId":"87abb517-a8db-408c-8bf5-486231c09351","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"2025f78a-db5f-43d4-ac6a-35b021399ec1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/abaesx","slide":1,"title":"NY AI SOLUTIONS","textShapes":11}
+{"kind":"textbox","id":"sh/cz2dsr21","slide":1,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,44,300,24]}
+{"kind":"textbox","id":"sh/bytczm1g","slide":1,"text":"‏להפוך את הבינה המלאכותית","textPreview":"‏להפוך את הבינה המלאכותית","textChars":25,"textLines":1,"bbox":[300,118,914,66]}
+{"kind":"textbox","id":"sh/ax0vqhkv","slide":1,"text":"‏מנושא שמדברים עליו","textPreview":"‏מנושא שמדברים עליו","textChars":19,"textLines":1,"bbox":[300,184,914,66]}
+{"kind":"textbox","id":"sh/pwruxwja","slide":1,"text":"‏ליכולת שעובדת בעסק","textPreview":"‏ליכולת שעובדת בעסק","textChars":19,"textLines":1,"bbox":[300,250,914,66]}
+{"kind":"textbox","id":"sh/ovidor25","slide":1,"text":"‏ליווי עסקי וטכנולוגי לעסקים קטנים","textPreview":"‏ליווי עסקי וטכנולוגי לעסקים קטנים","textChars":34,"textLines":1,"bbox":[520,382,694,38]}
+{"kind":"textbox","id":"sh/nu9cvm1k","slide":1,"text":"‏מהבנת הצורך וקבלת ההחלטה, ועד בנייה והטמעה של הפתרון","textPreview":"‏מהבנת הצורך וקבלת ההחלטה, ועד בנייה והטמעה של הפתרון","textChars":53,"textLines":1,"bbox":[520,426,694,48]}
+{"kind":"shape","id":"sh/2t0vmhkz","slide":1,"bbox":[1136,505,78,5]}
+{"kind":"textbox","id":"sh/9svetgju","slide":1,"text":"‏נדב יגאל","textPreview":"‏נדב יגאל","textChars":9,"textLines":1,"bbox":[994,536,220,34]}
+{"kind":"textbox","id":"sh/8rmd0b29","slide":1,"text":"‏ייעוץ עסקי, ניהול סיכונים ובניית מוצרים","textPreview":"‏ייעוץ עסקי, ניהול סיכונים ובניית מוצרים","textChars":40,"textLines":1,"bbox":[480,572,734,34]}
+{"kind":"textbox","id":"sh/61kbelkj","slide":1,"text":"העסק קודם. הטכנולוגיה משרתת אותו.","textPreview":"העסק קודם. הטכנולוגיה משרתת אותו.","textChars":33,"textLines":1,"bbox":[64,622,560,36]}
+{"kind":"textbox","id":"sh/72ts7ql4","slide":1,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/832tgv2p","slide":1,"text":"‏01","textPreview":"‏01","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"notes","id":"nt/abaesx","slide":1,"text":"הפתיחה מציגה את ההצעה המשולבת: ייעוץ עסקי יחד עם יכולת טכנולוגית מעשית.\n\n[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/8hoy3o","slide":2,"title":"‏מה אני מביא לתהליך","textShapes":15}
+{"kind":"textbox","id":"sh/0bitcbat","slide":2,"text":"‏מה אני מביא לתהליך","textPreview":"‏מה אני מביא לתהליך","textChars":19,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/fa9sj6t8","slide":2,"text":"‏שלושה עולמות מתחברים לאחריות אחת","textPreview":"‏שלושה עולמות מתחברים לאחריות אחת","textChars":33,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/e90balsn","slide":2,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/pgbap0ra","slide":2,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/of2tgvap","slide":2,"text":"‏02","textPreview":"‏02","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/netsnqtk","slide":2,"text":"‏אני לא מגיע עם כלי שמחפש בעיה. אני מתחיל מהעסק, בוחן את האפשרויות — ונשאר גם כדי לבנות.","textPreview":"‏אני לא מגיע עם כלי שמחפש בעיה. אני מתחיל מהעסק, בוחן את האפשרויות — ונשאר גם כדי לבנות.","textChars":88,"textLines":1,"bbox":[344,218,870,76]}
+{"kind":"textbox","id":"sh/2d0belsz","slide":2,"text":"‏ייעוץ עסקי","textPreview":"‏ייעוץ עסקי","textChars":11,"textLines":1,"bbox":[902,326,312,48]}
+{"kind":"textbox","id":"sh/5k7adwb6","slide":2,"text":"‏מטרות, מודל עסקי, לקוחות, תהליכים והחלטות","textPreview":"‏מטרות, מודל עסקי, לקוחות, תהליכים והחלטות","textChars":42,"textLines":1,"bbox":[314,326,548,48]}
+{"kind":"textbox","id":"sh/4jy94ral","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[64,326,70,48]}
+{"kind":"shape","id":"sh/29cru54j","slide":2,"bbox":[154,349,120,2]}
+{"kind":"textbox","id":"sh/3u5snal4","slide":2,"text":"‏חשיבה ובקרת סיכון","textPreview":"‏חשיבה ובקרת סיכון","textChars":18,"textLines":1,"bbox":[902,418,312,48]}
+{"kind":"textbox","id":"sh/ove9wfmp","slide":2,"text":"‏חלופות, הנחות, פרטיות, תלות ושיקול דעת אנושי","textPreview":"‏חלופות, הנחות, פרטיות, תלות ושיקול דעת אנושי","textChars":45,"textLines":1,"bbox":[314,418,548,48]}
+{"kind":"textbox","id":"sh/pwnap03u","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[64,418,70,48]}
+{"kind":"shape","id":"sh/qxwry54f","slide":2,"bbox":[154,441,120,2]}
+{"kind":"textbox","id":"sh/by5sral0","slide":2,"text":"‏בנייה והטמעה","textPreview":"‏בנייה והטמעה","textChars":13,"textLines":1,"bbox":[902,510,312,48]}
+{"kind":"textbox","id":"sh/cze90fml","slide":2,"text":"‏כלי בינה מלאכותית, סוכנים, אוטומציות, מערכות ומוצרים","textPreview":"‏כלי בינה מלאכותית, סוכנים, אוטומציות, מערכות ומוצרים","textChars":53,"textLines":1,"bbox":[314,510,548,48]}
+{"kind":"textbox","id":"sh/d0natk36","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[64,510,70,48]}
+{"kind":"shape","id":"sh/y1gb2p4r","slide":2,"bbox":[154,533,120,2]}
+{"kind":"textbox","id":"sh/z2psvulc","slide":2,"text":"‏הייעוץ מגדיר מה נכון לעשות. השיטות בודקות שהכיוון מחזיק. יכולת הבנייה הופכת את ההחלטה למציאות.","textPreview":"‏הייעוץ מגדיר מה נכון לעשות. השיטות בודקות שהכיוון מחזיק. יכולת הבנייה הופכת את ההחלטה למציאות.","textChars":95,"textLines":1,"bbox":[188,608,1026,42]}
+{"kind":"notes","id":"nt/8hoy3o","slide":2,"text":"זהו לב ההצעה. לא שירות אוטומציה בלבד ולא ייעוץ שנגמר במצגת.\n\n[Sources]\n- app/page.tsx\n- Builder OS: 02-Products/AI-Advisory/2026-08-11-ny-ai-consulting-launch.md"}
+{"kind":"slide","id":"sl/s00xov","slide":3,"title":"‏הבעיה העסקית","textShapes":15}
+{"kind":"textbox","id":"sh/c3elorad","slide":3,"text":"‏הבעיה העסקית","textPreview":"‏הבעיה העסקית","textChars":13,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/b25kvmts","slide":3,"text":"‏לבעל עסק קטן לא חסרים כלים. חסרה דרך לבחור נכון.","textPreview":"‏לבעל עסק קטן לא חסרים כלים. חסרה דרך לבחור נכון.","textChars":49,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/q1w3m1s7","slide":3,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/ls721gbu","slide":3,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/krylsba9","slide":3,"text":"‏03","textPreview":"‏03","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/z6pkz6to","slide":3,"text":"‏כל שבוע מופיעים עוד כלים, עוד הבטחות ועוד רעיונות. אבל הזמן של הבעלים מוגבל, העבודה חייבת להמשיך, והחלטה לא נכונה עולה בזמן, כסף ואמון.","textPreview":"‏כל שבוע מופיעים עוד כלים, עוד הבטחות ועוד רעיונות. אבל הזמן של הבעלים מוגבל, העבודה חייבת להמשיך, והחלטה לא נכונה עולה בזמן, כסף ואמון.","textChars":136,"textLines":1,"bbox":[552,220,662,118]}
+{"kind":"shape","id":"sh/y5w3q1s3","slide":3,"bbox":[1184,374,14,14]}
+{"kind":"textbox","id":"sh/9w7m5gbq","slide":3,"text":"‏יותר מדי אפשרויות","textPreview":"‏יותר מדי אפשרויות","textChars":18,"textLines":1,"bbox":[840,364,320,38]}
+{"kind":"textbox","id":"sh/8vylwba5","slide":3,"text":"‏קשה לדעת מה באמת מתאים לעסק","textPreview":"‏קשה לדעת מה באמת מתאים לעסק","textChars":28,"textLines":1,"bbox":[248,364,552,38]}
+{"kind":"shape","id":"sh/y98nad03","slide":3,"bbox":[1184,434,14,14]}
+{"kind":"textbox","id":"sh/zaho3i1o","slide":3,"text":"‏תהליך שלא ברור עד הסוף","textPreview":"‏תהליך שלא ברור עד הסוף","textChars":23,"textLines":1,"bbox":[840,424,320,38]}
+{"kind":"textbox","id":"sh/kbqpc3i9","slide":3,"text":"‏אוטומציה מוקדמת רק מקבעת את הבעיה","textPreview":"‏אוטומציה מוקדמת רק מקבעת את הבעיה","textChars":34,"textLines":1,"bbox":[248,424,552,38]}
+{"kind":"shape","id":"sh/lcj658ju","slide":3,"bbox":[1184,494,14,14]}
+{"kind":"textbox","id":"sh/mds7ed0f","slide":3,"text":"‏מידע רגיש","textPreview":"‏מידע רגיש","textChars":10,"textLines":1,"bbox":[840,484,320,38]}
+{"kind":"textbox","id":"sh/7e1o7i1k","slide":3,"text":"‏צריך לתכנן את הגבולות לפני שמחברים מערכת","textPreview":"‏צריך לתכנן את הגבולות לפני שמחברים מערכת","textChars":41,"textLines":1,"bbox":[248,484,552,38]}
+{"kind":"shape","id":"sh/8fapgni5","slide":3,"bbox":[1184,554,14,14]}
+{"kind":"textbox","id":"sh/9gj69sjq","slide":3,"text":"‏פער בין רעיון לביצוע","textPreview":"‏פער בין רעיון לביצוע","textChars":21,"textLines":1,"bbox":[840,544,320,38]}
+{"kind":"textbox","id":"sh/2hon2t0v","slide":3,"text":"‏גם המלצה טובה לא יוצרת שינוי בלי הטמעה","textPreview":"‏גם המלצה טובה לא יוצרת שינוי בלי הטמעה","textChars":39,"textLines":1,"bbox":[248,544,552,38]}
+{"kind":"shape","id":"sh/nixovy1g","slide":3,"bbox":[64,230,410,314]}
+{"kind":"textbox","id":"sh/rmdk3uh8","slide":3,"text":"‏השאלה הנכונה","textPreview":"‏השאלה הנכונה","textChars":13,"textLines":1,"bbox":[94,258,340,30]}
+{"kind":"textbox","id":"sh/6l43apgn","slide":3,"text":"‏איפה הבינה המלאכותית יכולה לשפר את העסק — בלי לייצר מערכת מיותרת, סיכון חדש או עומס נוסף?","textPreview":"‏איפה הבינה המלאכותית יכולה לשפר את העסק — בלי לייצר מערכת מיותרת, סיכון חדש או עומס נוסף?","textChars":90,"textLines":1,"bbox":[94,308,340,184]}
+{"kind":"notes","id":"nt/s00xov","slide":3,"text":"ממסגרים את הבעיה כהחלטה עסקית, לא כפער ידע טכנולוגי.\n\n[Sources]\n- app/page.tsx\n- app/benefits/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/qi3qoj","slide":4,"title":"‏מהבנת העסק עד ביצוע","textShapes":25}
+{"kind":"textbox","id":"sh/fi1s7m18","slide":4,"text":"‏מהבנת העסק עד ביצוע","textPreview":"‏מהבנת העסק עד ביצוע","textChars":20,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/gjut0rit","slide":4,"text":"‏כך כל השיטות מתחברות לתהליך עסקי אחד","textPreview":"‏כך כל השיטות מתחברות לתהליך עסקי אחד","textChars":37,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/hk3u9wje","slide":4,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/2lcb2h0z","slide":4,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/3mlcbm1k","slide":4,"text":"‏04","textPreview":"‏04","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"shape","id":"sh/4nut4rip","slide":4,"bbox":[110,336,1060,2]}
+{"kind":"shape","id":"sh/po3udwja","slide":4,"bbox":[1064,324,26,26]}
+{"kind":"textbox","id":"sh/qpcb610v","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[988,228,178,26]}
+{"kind":"textbox","id":"sh/rq5cf61g","slide":4,"text":"מבינים","textPreview":"מבינים","textChars":6,"textLines":1,"bbox":[988,264,178,40]}
+{"kind":"textbox","id":"sh/jix876lg","slide":4,"text":"ייעוץ עסקי","textPreview":"ייעוץ עסקי","textChars":10,"textLines":1,"bbox":[988,374,178,38]}
+{"kind":"textbox","id":"sh/iho7e14v","slide":4,"text":"מגדירים את המטרה, הלקוחות, האנשים והמגבלות","textPreview":"מגדירים את המטרה, הלקוחות, האנשים והמגבלות","textChars":42,"textLines":1,"bbox":[988,422,178,112]}
+{"kind":"shape","id":"sh/5kfq9w36","slide":4,"bbox":[842,324,26,26]}
+{"kind":"textbox","id":"sh/kj6pgrml","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[766,228,178,26]}
+{"kind":"textbox","id":"sh/ved83ml4","slide":4,"text":"ממפים","textPreview":"ממפים","textChars":5,"textLines":1,"bbox":[766,264,178,40]}
+{"kind":"textbox","id":"sh/ad47ah4j","slide":4,"text":"Audit Toolkit","textPreview":"Audit Toolkit","textChars":13,"textLines":1,"bbox":[766,374,178,38]}
+{"kind":"textbox","id":"sh/xgvq5w3a","slide":4,"text":"רואים איך העבודה באמת מתבצעת ואיפה נמצא הערך","textPreview":"רואים איך העבודה באמת מתבצעת ואיפה נמצא הערך","textChars":44,"textLines":1,"bbox":[766,422,178,112]}
+{"kind":"shape","id":"sh/wfmpcrmp","slide":4,"bbox":[620,324,26,26]}
+{"kind":"textbox","id":"sh/fah8fql8","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[544,228,178,26]}
+{"kind":"textbox","id":"sh/u987ml43","slide":4,"text":"מרחיבים","textPreview":"מרחיבים","textChars":7,"textLines":1,"bbox":[544,264,178,40]}
+{"kind":"textbox","id":"sh/q5sbepob","slide":4,"text":"Innovation + STORM","textPreview":"Innovation + STORM","textChars":18,"textLines":1,"bbox":[544,374,178,38]}
+{"kind":"textbox","id":"sh/r61s7a5g","slide":4,"text":"יוצרים חלופות ובוחנים את הנושא מכמה זוויות","textPreview":"יוצרים חלופות ובוחנים את הנושא מכמה זוויות","textChars":42,"textLines":1,"bbox":[544,422,178,112]}
+{"kind":"shape","id":"sh/c7atgf61","slide":4,"bbox":[398,324,26,26]}
+{"kind":"textbox","id":"sh/d83a9knm","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[322,228,178,26]}
+{"kind":"textbox","id":"sh/e9cbipo7","slide":4,"text":"מאתגרים","textPreview":"מאתגרים","textChars":7,"textLines":1,"bbox":[322,264,178,40]}
+{"kind":"textbox","id":"sh/zalsbu5s","slide":4,"text":"Red Team","textPreview":"Red Team","textChars":8,"textLines":1,"bbox":[322,374,178,38]}
+{"kind":"textbox","id":"sh/0vutkz6d","slide":4,"text":"בודקים הנחות, פרטיות, תלות ותסריטי כשל","textPreview":"בודקים הנחות, פרטיות, תלות ותסריטי כשל","textChars":38,"textLines":1,"bbox":[322,422,178,112]}
+{"kind":"shape","id":"sh/1w3ad4ny","slide":4,"bbox":[176,324,26,26]}
+{"kind":"textbox","id":"sh/ud8r65o3","slide":4,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[100,228,178,26]}
+{"kind":"textbox","id":"sh/fehszq5o","slide":4,"text":"מבצעים","textPreview":"מבצעים","textChars":6,"textLines":1,"bbox":[100,264,178,40]}
+{"kind":"textbox","id":"sh/xs7e5876","slide":4,"text":"Build + Embed","textPreview":"Build + Embed","textChars":13,"textLines":1,"bbox":[100,374,178,38]}
+{"kind":"textbox","id":"sh/wrydc3ql","slide":4,"text":"בונים, בודקים, מדריכים ומודדים","textPreview":"בונים, בודקים, מדריכים ומודדים","textChars":30,"textLines":1,"bbox":[100,422,178,112]}
+{"kind":"textbox","id":"sh/bq5w3yp0","slide":4,"text":"‏הלקוח לא צריך להכיר את שמות השיטות. הוא צריך לקבל החלטה ברורה, פתרון מתאים וסיבה טובה לסמוך עליו.","textPreview":"‏הלקוח לא צריך להכיר את שמות השיטות. הוא צריך לקבל החלטה ברורה, פתרון מתאים וסיבה טובה לסמוך עליו.","textChars":98,"textLines":1,"bbox":[164,584,1050,46]}
+{"kind":"notes","id":"nt/qi3qoj","slide":4,"text":"החיבור המבוקש: Audit Toolkit למיפוי, Innovation ו-STORM להרחבת חלופות, Red Team לבדיקת עמידות, ובנייה להטמעה.\n\n[Sources]\n- docs/toolkit/README.md\n- Builder OS: 01-Agentic-OS/Workflows/IDEATION v0.2.md\n- Builder OS: 04-Prompts/Claude/thinking-tools-guide.md"}
+{"kind":"slide","id":"sl/90aa78","slide":5,"title":"‏מה אפשר לבנות","textShapes":14}
+{"kind":"textbox","id":"sh/6x436hwv","slide":5,"text":"‏מה אפשר לבנות","textPreview":"‏מה אפשר לבנות","textChars":14,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/t0vm1cv6","slide":5,"text":"‏הפתרון נקבע לפי הצורך — לא לפי רשימת מוצרים מוכנה","textPreview":"‏הפתרון נקבע לפי הצורך — לא לפי רשימת מוצרים מוכנה","textChars":50,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/8zml87e1","slide":5,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/jud4v2x4","slide":5,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/ytk32xwj","slide":5,"text":"‏05","textPreview":"‏05","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/lwvmxcfa","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[844,232,80,32]}
+{"kind":"textbox","id":"sh/kvml47ep","slide":5,"text":"‏להפיק יותר מכלי קיים","textPreview":"‏להפיק יותר מכלי קיים","textChars":21,"textLines":1,"bbox":[844,288,346,62]}
+{"kind":"shape","id":"sh/3qx47mdo","slide":5,"bbox":[844,372,58,4]}
+{"kind":"textbox","id":"sh/ipo3e1w3","slide":5,"text":"‏עוזר מותאם, מאגר ידע, תבניות עבודה או שימוש נכון יותר במנוי שכבר קיים","textPreview":"‏עוזר מותאם, מאגר ידע, תבניות עבודה או שימוש נכון יותר במנוי שכבר קיים","textChars":70,"textLines":1,"bbox":[844,404,346,126]}
+{"kind":"textbox","id":"sh/cn210reh","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[454,232,80,32]}
+{"kind":"textbox","id":"sh/xob2twf2","slide":5,"text":"‏לשפר תהליך חוזר","textPreview":"‏לשפר תהליך חוזר","textChars":16,"textLines":1,"bbox":[454,288,346,62]}
+{"kind":"shape","id":"sh/alkjyhgr","slide":5,"bbox":[454,372,58,4]}
+{"kind":"textbox","id":"sh/bmtkrmxw","slide":5,"text":"‏חיבור בין שלבים, אוטומציה, טיפול במסמכים, מעקבים, סיכומים או הכנה להחלטה","textPreview":"‏חיבור בין שלבים, אוטומציה, טיפול במסמכים, מעקבים, סיכומים או הכנה להחלטה","textChars":73,"textLines":1,"bbox":[454,404,346,126]}
+{"kind":"textbox","id":"sh/oj21wryl","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[64,232,80,32]}
+{"kind":"textbox","id":"sh/pkb2pwf6","slide":5,"text":"‏לבנות כלי או מוצר","textPreview":"‏לבנות כלי או מוצר","textChars":18,"textLines":1,"bbox":[64,288,346,62]}
+{"kind":"shape","id":"sh/2x0juhgf","slide":5,"bbox":[64,372,58,4]}
+{"kind":"textbox","id":"sh/ni9knmx0","slide":5,"text":"‏מערכת פנימית, סוכן ייעודי או מוצר חדש כאשר פתרון מוכן אינו מספיק","textPreview":"‏מערכת פנימית, סוכן ייעודי או מוצר חדש כאשר פתרון מוכן אינו מספיק","textChars":65,"textLines":1,"bbox":[64,404,346,126]}
+{"kind":"shape","id":"sh/0vi1s7y9","slide":5,"bbox":[454,230,1,330]}
+{"kind":"shape","id":"sh/1wrilcfu","slide":5,"bbox":[844,230,1,330]}
+{"kind":"textbox","id":"sh/hcjip87y","slide":5,"text":"‏לפעמים התשובה הנכונה היא לא לבנות דבר — אלא לשנות החלטה, תהליך או דרך עבודה.","textPreview":"‏לפעמים התשובה הנכונה היא לא לבנות דבר — אלא לשנות החלטה, תהליך או דרך עבודה.","textChars":77,"textLines":1,"bbox":[180,596,1034,38]}
+{"kind":"notes","id":"nt/90aa78","slide":5,"text":"מבהירים שהיכולת רחבה אך הבחירה ממוקדת. פתרון חדש הוא אפשרות, לא ברירת מחדל.\n\n[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/61qhaj","slide":6,"title":"‏ספרינט ערך בבינה מלאכותית","textShapes":18}
+{"kind":"textbox","id":"sh/f2lkz6t0","slide":6,"text":"‏ספרינט ערך בבינה מלאכותית","textPreview":"‏ספרינט ערך בבינה מלאכותית","textChars":26,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/g3u1sba5","slide":6,"text":"‏ההתקשרות הראשונה מחברת בין ייעוץ, החלטה וביצוע","textPreview":"‏ההתקשרות הראשונה מחברת בין ייעוץ, החלטה וביצוע","textChars":47,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/h4321gbq","slide":6,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/6dsjm1s3","slide":6,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/7elkvmto","slide":6,"text":"‏06","textPreview":"‏06","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"shape","id":"sh/szu1ora9","slide":6,"bbox":[64,220,360,374]}
+{"kind":"textbox","id":"sh/t032xwbu","slide":6,"text":"7–10","textPreview":"7–10","textChars":4,"textLines":1,"bbox":[94,248,296,86]}
+{"kind":"textbox","id":"sh/i9sjihc7","slide":6,"text":"ימי עסקים","textPreview":"ימי עסקים","textChars":9,"textLines":1,"bbox":[94,330,296,42]}
+{"kind":"shape","id":"sh/ja1krmts","slide":6,"bbox":[132,396,224,2]}
+{"kind":"textbox","id":"sh/nq90fah0","slide":6,"text":"‏מתחילים בשיחת התאמה קצרה ומסיימים עם החלטות ברורות, פתרון מהיר שעובד ותוכנית להמשך.","textPreview":"‏מתחילים בשיחת התאמה קצרה ומסיימים עם החלטות ברורות, פתרון מהיר שעובד ותוכנית להמשך.","textChars":84,"textLines":1,"bbox":[94,424,296,126]}
+{"kind":"textbox","id":"sh/mpgz65gf","slide":6,"text":"‏01","textPreview":"‏01","textChars":3,"textLines":1,"bbox":[1144,222,70,40]}
+{"kind":"textbox","id":"sh/9crih0z6","slide":6,"text":"‏מפת הכלים והמנויים שכבר קיימים בעסק","textPreview":"‏מפת הכלים והמנויים שכבר קיימים בעסק","textChars":36,"textLines":1,"bbox":[486,222,632,44]}
+{"kind":"shape","id":"sh/orih8fyl","slide":6,"bbox":[486,279,728,1]}
+{"kind":"textbox","id":"sh/be90jaxc","slide":6,"text":"‏02","textPreview":"‏02","textChars":3,"textLines":1,"bbox":[1144,293,70,40]}
+{"kind":"textbox","id":"sh/ad0za5gr","slide":6,"text":"‏מיפוי של 3–5 תהליכים כפי שהם עובדים בפועל","textPreview":"‏מיפוי של 3–5 תהליכים כפי שהם עובדים בפועל","textChars":42,"textLines":1,"bbox":[486,293,632,44]}
+{"kind":"shape","id":"sh/xgrilkf2","slide":6,"bbox":[486,350,728,1]}
+{"kind":"textbox","id":"sh/wfihcfyh","slide":6,"text":"‏03","textPreview":"‏03","textChars":3,"textLines":1,"bbox":[1144,364,70,40]}
+{"kind":"textbox","id":"sh/ri507qhs","slide":6,"text":"‏תעדוף לפי ערך, מאמץ וסיכון — כולל מה לא לשנות","textPreview":"‏תעדוף לפי ערך, מאמץ וסיכון — כולל מה לא לשנות","textChars":46,"textLines":1,"bbox":[486,364,632,44]}
+{"kind":"shape","id":"sh/qhwzelg7","slide":6,"bbox":[486,421,728,1]}
+{"kind":"textbox","id":"sh/epob2d47","slide":6,"text":"‏04","textPreview":"‏04","textChars":3,"textLines":1,"bbox":[1144,435,70,40]}
+{"kind":"textbox","id":"sh/fqxcvils","slide":6,"text":"‏פתרון מהיר אחד שנבנה ומופעל","textPreview":"‏פתרון מהיר אחד שנבנה ומופעל","textChars":28,"textLines":1,"bbox":[486,435,632,44]}
+{"kind":"shape","id":"sh/gr6t4nmd","slide":6,"bbox":[486,492,728,1]}
+{"kind":"textbox","id":"sh/1sfuxs3i","slide":6,"text":"‏05","textPreview":"‏05","textChars":3,"textLines":1,"bbox":[1144,506,70,40]}
+{"kind":"textbox","id":"sh/6l4byd4v","slide":6,"text":"‏תוכנית ל־90 יום עם מדדים והחלטות המשך","textPreview":"‏תוכנית ל־90 יום עם מדדים והחלטות המשך","textChars":38,"textLines":1,"bbox":[486,506,632,44]}
+{"kind":"textbox","id":"sh/rmdcri5g","slide":6,"text":"‏המחיר נקבע לאחר שיחת ההתאמה ובהתאם להיקף. אין הבטחת החזר השקעה לפני שנמדד קו בסיס.","textPreview":"‏המחיר נקבע לאחר שיחת ההתאמה ובהתאם להיקף. אין הבטחת החזר השקעה לפני שנמדד קו בסיס.","textChars":83,"textLines":1,"bbox":[486,590,728,38]}
+{"kind":"notes","id":"nt/61qhaj","slide":6,"text":"זהו המוצר הראשון שנמכר כיום. הוא רחב יותר מפיילוט יחיד: קודם מיפוי ותעדוף, ואז Quick Win אחד.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/jrivo3","slide":7,"title":"‏למה דווקא נדב","textShapes":16}
+{"kind":"textbox","id":"sh/l4buxwjy","slide":7,"text":"‏למה דווקא נדב","textPreview":"‏למה דווקא נדב","textChars":14,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/y1kbmh07","slide":7,"text":"‏הערך מגיע מהחיבור בין שיקול דעת עסקי ליכולת לבנות","textPreview":"‏הערך מגיע מהחיבור בין שיקול דעת עסקי ליכולת לבנות","textChars":50,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/j2tcvm1s","slide":7,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/8rmtsrip","slide":7,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/tsvu1wju","slide":7,"text":"‏07","textPreview":"‏07","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/6p4bq10j","slide":7,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[64,222,250,120]}
+{"kind":"textbox","id":"sh/7qdcz614","slide":7,"text":"שנים בניהול סוכנות ביטוח","textPreview":"שנים בניהול סוכנות ביטוח","textChars":24,"textLines":1,"bbox":[64,338,344,58]}
+{"kind":"textbox","id":"sh/gvmtwbil","slide":7,"text":"לצד ניסיון בייעוץ, בנקאות וניהול סיכונים","textPreview":"לצד ניסיון בייעוץ, בנקאות וניהול סיכונים","textChars":40,"textLines":1,"bbox":[64,406,344,64]}
+{"kind":"shape","id":"sh/hwfu5gj6","slide":7,"bbox":[454,226,1,324]}
+{"kind":"textbox","id":"sh/ps7y50ru","slide":7,"text":"‏הכשרה עסקית","textPreview":"‏הכשרה עסקית","textChars":12,"textLines":1,"bbox":[958,218,256,36]}
+{"kind":"textbox","id":"sh/4ryhwfa9","slide":7,"text":"‏תואר ראשון בכלכלה וניהול עסקים","textPreview":"‏תואר ראשון בכלכלה וניהול עסקים","textChars":31,"textLines":1,"bbox":[500,252,714,44]}
+{"kind":"textbox","id":"sh/3qpg3a9o","slide":7,"text":"‏חשיבה מקצועית","textPreview":"‏חשיבה מקצועית","textChars":14,"textLines":1,"bbox":[958,304,256,36]}
+{"kind":"textbox","id":"sh/25gzu5s3","slide":7,"text":"‏בחינת ערך, סיכון, חלופות ומדידה לפני בחירת טכנולוגיה","textPreview":"‏בחינת ערך, סיכון, חלופות ומדידה לפני בחירת טכנולוגיה","textChars":53,"textLines":1,"bbox":[500,338,714,44]}
+{"kind":"textbox","id":"sh/dwri9krq","slide":7,"text":"‏ניסיון מעשי בבינה מלאכותית","textPreview":"‏ניסיון מעשי בבינה מלאכותית","textChars":27,"textLines":1,"bbox":[958,390,256,36]}
+{"kind":"textbox","id":"sh/cvih0fa5","slide":7,"text":"‏מחקר, סוכנים, אוטומציות, מערכות עבודה ובדיקות איכות","textPreview":"‏מחקר, סוכנים, אוטומציות, מערכות עבודה ובדיקות איכות","textChars":52,"textLines":1,"bbox":[500,424,714,44]}
+{"kind":"textbox","id":"sh/ru9g7a90","slide":7,"text":"‏יכולת מוצר","textPreview":"‏יכולת מוצר","textChars":11,"textLines":1,"bbox":[958,476,256,36]}
+{"kind":"textbox","id":"sh/qt0zy5sf","slide":7,"text":"‏שתי אפליקציות מבוססות בינה מלאכותית שתוכננו, נבנו והושקו","textPreview":"‏שתי אפליקציות מבוססות בינה מלאכותית שתוכננו, נבנו והושקו","textChars":57,"textLines":1,"bbox":[500,510,714,44]}
+{"kind":"textbox","id":"sh/t0nyxgrm","slide":7,"text":"‏לא רק להמליץ על פתרון. לדעת גם לקחת עליו אחריות עד שהוא עובד.","textPreview":"‏לא רק להמליץ על פתרון. לדעת גם לקחת עליו אחריות עד שהוא עובד.","textChars":62,"textLines":1,"bbox":[500,588,714,42]}
+{"kind":"notes","id":"nt/jrivo3","slide":7,"text":"הניסיון וההוכחות מבוססים על הטקסט הציבורי הקיים באתר.\n\n[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/8inhw6","slide":8,"title":"‏הוכחת ביצוע","textShapes":9}
+{"kind":"textbox","id":"sh/yxc3qh4r","slide":8,"text":"‏הוכחת ביצוע","textPreview":"‏הוכחת ביצוע","textChars":12,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/l0321cn2","slide":8,"text":"‏המוצרים שבניתי מוכיחים יכולת לעבור מבעיה למוצר חי","textPreview":"‏המוצרים שבניתי מוכיחים יכולת לעבור מבעיה למוצר חי","textChars":50,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/0zulsrmx","slide":8,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/72lk3m58","slide":8,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/m1c3uh4n","slide":8,"text":"‏08","textPreview":"‏08","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"shape","id":"sh/94n25wne","slide":8,"bbox":[64,226,552,318]}
+{"kind":"shape","id":"sh/83ulwrmt","slide":8,"bbox":[664,226,552,318]}
+{"kind":"textbox","id":"sh/kba9cbu9","slide":8,"text":"אימון ריצה אישי מבוסס בינה מלאכותית","textPreview":"אימון ריצה אישי מבוסס בינה מלאכותית","textChars":35,"textLines":1,"bbox":[102,376,472,40]}
+{"kind":"textbox","id":"sh/lcjqlgvu","slide":8,"text":"אסטרטגיית מוצר  ·  תהליכים חכמים  ·  פיתוח אפליקציה  ·  השקה","textPreview":"אסטרטגיית מוצר  ·  תהליכים חכמים  ·  פיתוח אפליקציה  ·  השקה","textChars":60,"textLines":1,"bbox":[92,438,492,68]}
+{"kind":"textbox","id":"sh/y9sra1cj","slide":8,"text":"בנייה ושיפור של קורות חיים בעזרת בינה מלאכותית","textPreview":"בנייה ושיפור של קורות חיים בעזרת בינה מלאכותית","textChars":46,"textLines":1,"bbox":[702,376,476,40]}
+{"kind":"textbox","id":"sh/ja18j6d4","slide":8,"text":"חוויית משתמש  ·  תהליכים חכמים  ·  פיתוח אפליקציה  ·  השקה","textPreview":"חוויית משתמש  ·  תהליכים חכמים  ·  פיתוח אפליקציה  ·  השקה","textChars":58,"textLines":1,"bbox":[692,438,492,68]}
+{"kind":"textbox","id":"sh/8fu9gbul","slide":8,"text":"‏אלו אינן הדגמות. אלו מוצרים שנבנו מקצה לקצה, הושקו והגיעו למשתמשים אמיתיים.","textPreview":"‏אלו אינן הדגמות. אלו מוצרים שנבנו מקצה לקצה, הושקו והגיעו למשתמשים אמיתיים.","textChars":76,"textLines":1,"bbox":[164,586,1050,42]}
+{"kind":"image","id":"im/m94jip87","slide":8,"name":"","alt":"RunSmart logo","bbox":[106,258,468,92]}
+{"kind":"image","id":"im/nadkbu9s","slide":8,"name":"","alt":"Resumely logo","bbox":[708,258,464,92]}
+{"kind":"notes","id":"nt/8inhw6","slide":8,"text":"RunSmart ו-Resumely מוצגות כהוכחה ליכולת ביצוע, לא כהוכחת ROI ללקוחות ייעוץ.\n\n[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/bp6ex0","slide":9,"title":"‏הוכחה מהשטח — בעילום שם","textShapes":14}
+{"kind":"textbox","id":"sh/zilgj2pw","slide":9,"text":"‏הוכחה מהשטח — בעילום שם","textPreview":"‏הוכחה מהשטח — בעילום שם","textChars":24,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/03uxs761","slide":9,"text":"‏בפרקטיקה מקצועית אחת, הייעוץ הפך למערכת עבודה אמיתית","textPreview":"‏בפרקטיקה מקצועית אחת, הייעוץ הפך למערכת עבודה אמיתית","textChars":53,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/143ylc7m","slide":9,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/qdsfmxoz","slide":9,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/re1gf2pk","slide":9,"text":"‏09","textPreview":"‏09","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/cfaxo765","slide":9,"text":"‏המצב","textPreview":"‏המצב","textChars":5,"textLines":1,"bbox":[1012,222,202,40]}
+{"kind":"textbox","id":"sh/dgjyhc7q","slide":9,"text":"‏תהליכי חיוב ותוכן חזרו על עצמם בלי מערכת עבודה שמחברת ביניהם","textPreview":"‏תהליכי חיוב ותוכן חזרו על עצמם בלי מערכת עבודה שמחברת ביניהם","textChars":61,"textLines":1,"bbox":[222,222,744,72]}
+{"kind":"textbox","id":"sh/a9wfy1oj","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[64,222,80,40]}
+{"kind":"shape","id":"sh/ba5grm5o","slide":9,"bbox":[64,312,1150,1]}
+{"kind":"textbox","id":"sh/3294zix4","slide":9,"text":"‏הפתרון","textPreview":"‏הפתרון","textChars":7,"textLines":1,"bbox":[1012,334,202,40]}
+{"kind":"textbox","id":"sh/i10n6dwj","slide":9,"text":"‏נבנו ארבעה עוזרים חכמים עם נכס ידע משותף, בתוך המנוי שכבר היה קיים","textPreview":"‏נבנו ארבעה עוזרים חכמים עם נכס ידע משותף, בתוך המנוי שכבר היה קיים","textChars":67,"textLines":1,"bbox":[222,334,744,72]}
+{"kind":"textbox","id":"sh/54bm18va","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[64,334,80,40]}
+{"kind":"shape","id":"sh/43i583ep","slide":9,"bbox":[64,424,1150,1]}
+{"kind":"textbox","id":"sh/r6to3idg","slide":9,"text":"‏גבול הפרטיות","textPreview":"‏גבול הפרטיות","textChars":13,"textLines":1,"bbox":[1012,446,202,40]}
+{"kind":"textbox","id":"sh/q5knadwv","slide":9,"text":"‏למודל נכנסים כינויים בלבד. זהויות אמיתיות מתחברות מחדש מחוץ למודל בזמן השליחה","textPreview":"‏למודל נכנסים כינויים בלבד. זהויות אמיתיות מתחברות מחדש מחוץ למודל בזמן השליחה","textChars":78,"textLines":1,"bbox":[222,446,744,72]}
+{"kind":"textbox","id":"sh/d8b65sv6","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[64,446,80,40]}
+{"kind":"shape","id":"sh/s725cne1","slide":9,"bbox":[64,568,1150,66]}
+{"kind":"textbox","id":"sh/fato72dc","slide":9,"text":"‏מה זה מוכיח: השיטה ניתנת ליישום. מה זה לא מוכיח: לא נמדד קו בסיס, ולכן לא מוצג החזר השקעה.","textPreview":"‏מה זה מוכיח: השיטה ניתנת ליישום. מה זה לא מוכיח: לא נמדד קו בסיס, ולכן לא מוצג החזר השקעה.","textChars":91,"textLines":1,"bbox":[92,580,1094,42]}
+{"kind":"notes","id":"nt/bp6ex0","slide":9,"text":"המקרה הוא שותפות עם פרקטיקה עצמאית, לא לקוח זרוע-ארוכה. יש להציג אותו כהוכחת שיטה בלבד.\n\n[Sources]\n- docs/clients/2026-08-30-michal-engagement-retro.md\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/70vztz","slide":10,"title":"‏הצעד הבא","textShapes":18}
+{"kind":"textbox","id":"sh/psj6d4f2","slide":10,"text":"‏הצעד הבא","textPreview":"‏הצעד הבא","textChars":9,"textLines":1,"bbox":[700,40,514,24]}
+{"kind":"textbox","id":"sh/2psn2pgr","slide":10,"text":"‏לשיחה הראשונה מביאים שאלה עסקית — לא פתרון טכנולוגי","textPreview":"‏לשיחה הראשונה מביאים שאלה עסקית — לא פתרון טכנולוגי","textChars":52,"textLines":1,"bbox":[64,76,1150,100]}
+{"kind":"shape","id":"sh/nq1obuhc","slide":10,"bbox":[1138,184,76,5]}
+{"kind":"textbox","id":"sh/cfup8jyt","slide":10,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/xg36hofe","slide":10,"text":"‏10","textPreview":"‏10","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"textbox","id":"sh/ats769gn","slide":10,"text":"30–45 דקות","textPreview":"30–45 דקות","textChars":10,"textLines":1,"bbox":[64,232,320,58]}
+{"kind":"textbox","id":"sh/be1ofex8","slide":10,"text":"שיחת התאמה ללא עלות","textPreview":"שיחת התאמה ללא עלות","textChars":19,"textLines":1,"bbox":[64,300,360,52]}
+{"kind":"textbox","id":"sh/kjupcjyp","slide":10,"text":"המטרה היא להבין אם קיימת הזדמנות אמיתית לעסק — ואם אני האדם הנכון לעזור לממש אותה.","textPreview":"המטרה היא להבין אם קיימת הזדמנות אמיתית לעסק — ואם אני האדם הנכון לעזור לממש אותה.","textChars":82,"textLines":1,"bbox":[64,378,390,116]}
+{"kind":"shape","id":"sh/lk36lofa","slide":10,"bbox":[500,224,1,356]}
+{"kind":"textbox","id":"sh/1knytony","slide":10,"text":"‏מה הייתם רוצים שהעסק יעשה טוב יותר?","textPreview":"‏מה הייתם רוצים שהעסק יעשה טוב יותר?","textChars":36,"textLines":1,"bbox":[842,218,372,38]}
+{"kind":"textbox","id":"sh/gjeh03mt","slide":10,"text":"‏מטרה, עומס, צמיחה או שירות","textPreview":"‏מטרה, עומס, צמיחה או שירות","textChars":27,"textLines":1,"bbox":[542,252,672,34]}
+{"kind":"textbox","id":"sh/fi5gry58","slide":10,"text":"‏איפה העבודה נתקעת היום?","textPreview":"‏איפה העבודה נתקעת היום?","textChars":24,"textLines":1,"bbox":[842,300,372,38]}
+{"kind":"textbox","id":"sh/ehwzyt4n","slide":10,"text":"‏תהליך, החלטה, מידע או מערכת","textPreview":"‏תהליך, החלטה, מידע או מערכת","textChars":28,"textLines":1,"bbox":[542,334,672,34]}
+{"kind":"textbox","id":"sh/p87ix8na","slide":10,"text":"‏מה כבר ניסיתם?","textPreview":"‏מה כבר ניסיתם?","textChars":15,"textLines":1,"bbox":[842,382,372,38]}
+{"kind":"textbox","id":"sh/o7yh43mp","slide":10,"text":"‏כלים, מנויים, אוטומציות או פתרונות קודמים","textPreview":"‏כלים, מנויים, אוטומציות או פתרונות קודמים","textChars":42,"textLines":1,"bbox":[542,416,672,34]}
+{"kind":"textbox","id":"sh/3mpgvy54","slide":10,"text":"‏מה אסור לנו לסכן?","textPreview":"‏מה אסור לנו לסכן?","textChars":18,"textLines":1,"bbox":[842,464,372,38]}
+{"kind":"textbox","id":"sh/2lgz2t4j","slide":10,"text":"‏מידע, איכות, אמון או שליטה אנושית","textPreview":"‏מידע, איכות, אמון או שליטה אנושית","textChars":34,"textLines":1,"bbox":[542,498,672,34]}
+{"kind":"shape","id":"sh/5c3yl4n6","slide":10,"bbox":[542,574,672,58]}
+{"kind":"textbox","id":"sh/4buhsjml","slide":10,"text":"WhatsApp  054-533-3773    |    nadav.yigal@gmail.com","textPreview":"WhatsApp  054-533-3773    |    nadav.yigal@gmail.com","textChars":52,"textLines":1,"bbox":[566,584,624,38]}
+{"kind":"textbox","id":"sh/wvyh8juh","slide":10,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,676,240,18]}
+{"kind":"textbox","id":"sh/xw7y1ovm","slide":10,"text":"‏10","textPreview":"‏10","textChars":3,"textLines":1,"bbox":[1160,676,54,18]}
+{"kind":"notes","id":"nt/70vztz","slide":10,"text":"הסיום מגדיר בדיוק איך לנהל את השיחה הראשונה ומה הלקוח צריך להביא.\n\n[Sources]\n- docs/service/offer.md\n- docs/toolkit/01-intake.md\n- app/page.tsx"}

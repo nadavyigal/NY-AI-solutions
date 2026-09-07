@@ -17,3 +17,5 @@ First full run: [../clients/2026-08-30-michal-engagement-retro.md](../clients/20
 **Three things every engagement must produce, or the sprint is not done:**
 a measured baseline (step 3), a privacy path for every proposed workflow
 (step 4), and a "leave this alone" finding (step 4).
+
+Part of the practice: [../README.md](../README.md) is the operating index.

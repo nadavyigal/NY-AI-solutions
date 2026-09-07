@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LeadForm } from "../LeadForm";
 import { outcomes } from "../outcomes";
 
@@ -69,7 +70,7 @@ export default function BenefitsPage() {
           <a href="#why">למה זה חשוב</a>
           <a href="#instead">למה דווקא ככה</a>
           <a href="#proof">למה אפשר לסמוך</a>
-          <a href="/">הגרסה המלאה</a>
+          <Link href="/">הגרסה המלאה</Link>
         </nav>
         <a className="header-cta" href="#contact">בואו נדבר</a>
       </header>
@@ -201,7 +202,7 @@ export default function BenefitsPage() {
             <div className="contact-direct">
               <a href="https://wa.me/972545333773" target="_blank" rel="noopener noreferrer">WhatsApp: 054-533-3773</a>
               <a href="mailto:nadav.yigal@gmail.com">nadav.yigal@gmail.com</a>
-              <a href="/">לגרסה המלאה של האתר ←</a>
+              <Link href="/">לגרסה המלאה של האתר ←</Link>
             </div>
           </div>
           <LeadForm sourceLine="שלום נדב, הגעתי דרך גרסת היתרונות באתר NY AI Solutions." />
@@ -212,7 +213,7 @@ export default function BenefitsPage() {
         <div className="section-shell footer-layout">
           <div className="footer-wordmark"><strong>NY</strong><span>AI SOLUTIONS</span></div>
           <div><p>Making AI work for your business.</p><span>© {new Date().getFullYear()} NY AI Solutions · Nadav Yigal</span></div>
-          <a href="/">לגרסה המלאה ←</a>
+          <Link href="/">לגרסה המלאה ←</Link>
         </div>
       </footer>
     </main>

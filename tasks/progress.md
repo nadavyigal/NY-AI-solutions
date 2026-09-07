@@ -1,16 +1,37 @@
 # NY AI Solutions: Progress
 
-- **Status:** merged to `main`; NOT deployed (blocked on `sites` credentials)
-- **Current Phase:** first outreach cycle before the EXD-026 gate
-- **Active Story:** none in code. Remaining step is one command: `git push sites main`.
-- **Last Completed Story:** restored the previous `/benefits` page, applied ten founder-marked homepage changes, and added the shared "עם מה תצאו מהתהליך" outcomes list to both routes (PR #3, merged as `5d02495`)
-- **Next Recommended Story:** founder runs `git push sites main` from an interactive terminal to publish, then verifies both routes and starts fit-call outreach.
-- **Blockers:** `git push sites` fails with "could not read Username for 'https://git.chatgpt-team.site'". No credential is stored in the macOS keychain for that host and this session cannot prompt. The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-06 - `npm test` 3/3 pass, `tsc` clean for `app/` (3 pre-existing Cloudflare-type errors in `db/`+`worker/`), eslint unchanged from main (3 pre-existing `no-html-link-for-pages` errors). Local production server render verified section-by-section on both routes.
+- **Status:** merged to `main`; NOT deployed (blocked on `sites` credentials). PR #4 open.
+- **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
+- **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
+- **Last Completed Story:** restored the previous `/benefits` page, applied ten founder-marked homepage changes, and added the shared outcomes list to both routes (PR #3, merged as `5d02495`)
+- **Next Recommended Story:** founder decides whether the site names the AI Value Sprint and shows the six-step process. Today the page stops at "fit call" and a visitor cannot tell what comes after it. Blocked on a founder copy decision, not on code.
+- **Blockers:** `git push sites` fails with "could not read Username for 'https://git.chatgpt-team.site'"; re-verified 2026-09-07, still failing, no credential in the keychain and this session cannot prompt. **7 commits are unpublished**, so every 2026-09-06 page change is invisible to visitors. The EXD-026 gate still has zero recorded fit calls.
+- **Last Validation:** 2026-09-07 - `npm test` 3/3 pass; `npx eslint app` 0 errors (down from 3) and 6 unchanged `no-img-element` warnings; `tsc --noEmit` clean for `app/`.
 - **Rollback point (last deployed):** `55c37d969c6817a0ef72eb304509a2b84ebc87bb`
-- **Last Updated: 2026-09-06**
+- **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07
+Two commits on `nyai-connect-the-tools` (PR #4).
+
+`docs/README.md` is a new operating index: offer ladder to the six-step toolkit
+that delivers it, sales assets, both site routes, and the evidence record. It
+points and restates nothing, so no claim gains a second owner. Every relative
+link was verified to resolve. The root README led with the vinext starter text
+and now leads with a pointer to the index plus the publishing rule.
+
+`docs/research/` (the whole IDEATION-2026-09-06-AI-WORK-01 run) and `docs/sales/`
+(three pitch assets, four decks) had never been committed and existed on this
+disk only. Both are tracked now; the run's disposable `qa/` renders are ignored.
+Removed three stale iCloud conflict copies dated 2026-08-30 whose tracked
+counterparts are strictly newer.
+
+Four internal links were plain `<a>` and forced a full document reload on every
+hop between `/` and `/benefits`. Converted to `next/link`. That cleared the
+repo's three long-standing eslint errors; no copy changed.
+
+Deploy was re-tested and is still blocked on `sites` credentials.
 
 ### 2026-09-06 (later)
 Founder reviewed the live site on mobile and rejected the shorter `/benefits`
