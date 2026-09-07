@@ -3,7 +3,7 @@
 - **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 12.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** clarified the founder experience statement and replaced the abstract engagement proof with an anonymised billing-workflow example.
+- **Last Completed Story:** replaced the founder background with the founder-supplied wording on risk consulting, process improvement, business development and global banking.
 - **Next Recommended Story:** collect reader feedback on whether the billing example makes the delivered value concrete.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
 - **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the revised background and anonymised billing example were verified in production.
@@ -11,6 +11,13 @@
 - **Last Updated: 2026-09-07**
 
 ## Log
+
+### 2026-09-07 (founder background corrected)
+Replaced the About paragraph with the founder's supplied wording. It now names
+professional experience in risk-management and process-improvement consulting,
+business development and global banking, then describes work at the intersection
+of information systems, financial systems and business operations. Removed the
+incorrect twelve-year insurance-agency-management claim.
 
 ### 2026-09-07 (founder background and billing example clarified)
 Expanded the About copy to connect twelve years of insurance-agency management

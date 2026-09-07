@@ -55,8 +55,9 @@ test("server-renders the Hebrew NY AI Solutions landing page", async () => {
   assert.match(html, /שתי אפליקציות מבוססות AI/);
   assert.match(html, /בעולמות תוכן שונים/);
   assert.match(html, /השקתי ב־App Store/);
-  assert.match(html, /שיפור תהליכי עבודה ותוצאות/);
-  assert.match(html, /מערכות מידע, מערכות פיננסיות והעבודה העסקית היומיומית/);
+  assert.match(html, /ייעוץ לניהול סיכונים ושיפור תהליכים, פיתוח עסקי, ובנקאות גלובאלית/);
+  assert.match(html, /בתפר שבין מערכות מידע, מערכות פיננסיות והעבודה העסקית/);
+  assert.doesNotMatch(html, /שתים־עשרה שנות ניסיון בניהול סוכנות ביטוח/);
   assert.match(html, /דוגמה אנונימית מהשטח/);
   assert.match(html, /כך הצ׳אט מקצר את הדרך מהפגישות שהתקיימו להפקת החשבוניות/);
   assert.match(html, /היא כותבת לצ׳אט אילו פגישות התקיימו/);
