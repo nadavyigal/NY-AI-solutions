@@ -1,13 +1,13 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 12.
+- **Status:** live; founder-edited landing page published at both `/` and `/benefits` as Sites version 13.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
 - **Last Completed Story:** replaced the founder background with the founder-supplied wording on risk consulting, process improvement, business development and global banking.
 - **Next Recommended Story:** collect reader feedback on whether the billing example makes the delivered value concrete.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; both live routes returned HTTP 200; the revised background and anonymised billing example were verified in production.
-- **Rollback point (last deployed):** `6de9c6cf905aef6afca72885205e46742e2f569c` (Sites version 12)
+- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; live `/benefits` returned HTTP 200; the founder-supplied background appeared and the superseded insurance-agency claim was absent.
+- **Rollback point (last deployed):** `aea05ef5663f531a5a77ed44cfb204e178f3f37e` (Sites version 13)
 - **Last Updated: 2026-09-07**
 
 ## Log
@@ -18,6 +18,8 @@ professional experience in risk-management and process-improvement consulting,
 business development and global banking, then describes work at the intersection
 of information systems, financial systems and business operations. Removed the
 incorrect twelve-year insurance-agency-management claim.
+Published as Sites version 13; live `/benefits` returned HTTP 200 and the rendered
+copy was verified against the founder-supplied wording.
 
 ### 2026-09-07 (founder background and billing example clarified)
 Expanded the About copy to connect twelve years of insurance-agency management
