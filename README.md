@@ -1,3 +1,16 @@
+# NY AI Solutions
+
+The practice site and its delivery system. **Start at
+[docs/README.md](docs/README.md)**: the operating index connecting the
+offer, the six-step toolkit that delivers it, the sales assets, the site, and
+the evidence record that decides whether the offer survives.
+
+Publishing note: merging to `main` does not publish. The live site is served by
+the `sites` remote; publishing is `git push sites main` from an interactive
+terminal.
+
+---
+
 # vinext-starter
 
 A clean full-stack starter running on

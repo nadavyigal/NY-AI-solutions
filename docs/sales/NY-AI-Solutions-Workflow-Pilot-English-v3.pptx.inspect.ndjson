@@ -1,0 +1,275 @@
+{"kind":"deck","id":"pr/3yrhe3","name":"Deck"}
+{"kind":"layout","layoutId":"23868a6a-8aa1-4b4e-b401-d4d7d715cba3","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"c396321d-5b12-4186-91b0-e7e170206c15","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ufwdkq","slide":1,"title":"NY AI SOLUTIONS","textShapes":12}
+{"kind":"textbox","id":"sh/mxkjmx4n","slide":1,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,48,320,28]}
+{"kind":"textbox","id":"sh/90vihc3e","slide":1,"text":"Make one recurring workflow\neasier to run.","textPreview":"Make one recurring workflow | easier to run.","textChars":42,"textLines":2,"bbox":[64,130,820,170]}
+{"kind":"textbox","id":"sh/8zm1o7mt","slide":1,"text":"A fixed-scope, 10-business-day AI Workflow Pilot\nfor professional-services teams.","textPreview":"A fixed-scope, 10-business-day AI Workflow Pilot | for professional-services teams.","textChars":81,"textLines":2,"bbox":[66,326,720,78]}
+{"kind":"shape","id":"sh/v2d0jmlk","slide":1,"bbox":[850,126,344,430]}
+{"kind":"textbox","id":"sh/a14jqh4z","slide":1,"text":"ONE","textPreview":"ONE","textChars":3,"textLines":1,"bbox":[890,170,270,40]}
+{"kind":"textbox","id":"sh/x4vilc3q","slide":1,"text":"workflow","textPreview":"workflow","textChars":8,"textLines":1,"bbox":[890,210,270,55]}
+{"kind":"shape","id":"sh/w3m1c7m5","slide":1,"bbox":[890,286,240,2]}
+{"kind":"textbox","id":"sh/b6907i50","slide":1,"text":"ONE","textPreview":"ONE","textChars":3,"textLines":1,"bbox":[890,314,270,40]}
+{"kind":"textbox","id":"sh/q50zed4v","slide":1,"text":"owner","textPreview":"owner","textChars":5,"textLines":1,"bbox":[890,354,270,55]}
+{"kind":"shape","id":"sh/4r2xwn6p","slide":1,"bbox":[890,430,240,2]}
+{"kind":"textbox","id":"sh/5svy5snu","slide":1,"text":"ONE","textPreview":"ONE","textChars":3,"textLines":1,"bbox":[890,458,270,40]}
+{"kind":"textbox","id":"sh/ipkfudoj","slide":1,"text":"working pilot","textPreview":"working pilot","textChars":13,"textLines":1,"bbox":[890,492,270,45]}
+{"kind":"textbox","id":"sh/jqtg3i54","slide":1,"text":"Not a broad AI audit. Not a transformation programme.","textPreview":"Not a broad AI audit. Not a transformation programme.","textChars":53,"textLines":1,"bbox":[64,590,900,36]}
+{"kind":"textbox","id":"sh/sfmx07ml","slide":1,"text":"NY AI SOLUTIONS · WORKFLOW PILOT","textPreview":"NY AI SOLUTIONS · WORKFLOW PILOT","textChars":32,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/dgvy9sn6","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"notes","id":"nt/ufwdkq","slide":1,"text":"Open with the outcome. The buyer is purchasing one usable pilot, not a methodology or an open-ended advisory project.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/value-proposition.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/jr95w1","slide":2,"title":"THE OFFER","textShapes":18}
+{"kind":"textbox","id":"sh/sv2to3u9","slide":2,"text":"THE OFFER","textPreview":"THE OFFER","textChars":9,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/ratsvydo","slide":2,"text":"Buy one working pilot—not an AI strategy project.","textPreview":"Buy one working pilot—not an AI strategy project.","textChars":49,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/q9kbmtc3","slide":2,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/10vu18vq","slide":2,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/0zmts3u5","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/fydczydk","slide":2,"bbox":[64,228,250,248]}
+{"kind":"textbox","id":"sh/ex4bqdcz","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,246,56,34]}
+{"kind":"textbox","id":"sh/h4rapov6","slide":2,"text":"SCOPE","textPreview":"SCOPE","textChars":5,"textLines":1,"bbox":[86,290,206,30]}
+{"kind":"textbox","id":"sh/w3itgju1","slide":2,"text":"One named, recurring workflow","textPreview":"One named, recurring workflow","textChars":29,"textLines":1,"bbox":[86,334,206,112]}
+{"kind":"shape","id":"sh/uxojm9of","slide":2,"bbox":[370,228,250,248]}
+{"kind":"textbox","id":"sh/vyx0fep0","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[392,246,56,34]}
+{"kind":"textbox","id":"sh/gz61oj6l","slide":2,"text":"CLIENT BRINGS","textPreview":"CLIENT BRINGS","textChars":13,"textLines":1,"bbox":[392,290,206,30]}
+{"kind":"textbox","id":"sh/h0fiho7q","slide":2,"text":"An owner, current steps and sample material","textPreview":"An owner, current steps and sample material","textChars":43,"textLines":1,"bbox":[392,334,206,112]}
+{"kind":"shape","id":"sh/i1ojqtob","slide":2,"bbox":[676,228,250,248]}
+{"kind":"textbox","id":"sh/32h0jypw","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[698,246,56,34]}
+{"kind":"textbox","id":"sh/43q1s36h","slide":2,"text":"WE DO","textPreview":"WE DO","textChars":5,"textLines":1,"bbox":[698,290,206,30]}
+{"kind":"textbox","id":"sh/54zil872","slide":2,"text":"Map, design, build, test and hand over","textPreview":"Map, design, build, test and hand over","textChars":38,"textLines":1,"bbox":[698,334,206,112]}
+{"kind":"shape","id":"sh/q58juton","slide":2,"bbox":[982,228,250,248]}
+{"kind":"textbox","id":"sh/r6h0nyp8","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1004,246,56,34]}
+{"kind":"textbox","id":"sh/nu10byl0","slide":2,"text":"RESULT","textPreview":"RESULT","textChars":6,"textLines":1,"bbox":[1004,290,206,30]}
+{"kind":"textbox","id":"sh/2tsz2d4v","slide":2,"text":"A working pilot with rules and an operating plan","textPreview":"A working pilot with rules and an operating plan","textChars":48,"textLines":1,"bbox":[1004,334,206,112]}
+{"kind":"shape","id":"sh/pwjid836","slide":2,"bbox":[64,514,1168,98]}
+{"kind":"textbox","id":"sh/ovah43ml","slide":2,"text":"Commercial structure","textPreview":"Commercial structure","textChars":20,"textLines":1,"bbox":[90,532,220,28]}
+{"kind":"textbox","id":"sh/f6h07yl4","slide":2,"text":"Free 30–45 min fit call  →  fixed-price pilot quoted after workflow confirmation","textPreview":"Free 30–45 min fit call  →  fixed-price pilot quoted after workflow confirmation","textChars":80,"textLines":1,"bbox":[90,564,1090,34]}
+{"kind":"notes","id":"nt/jr95w1","slide":2,"text":"Keep the scope literal. Pricing is intentionally not shown because no approved price exists yet.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/ry46ab","slide":3,"title":"WHAT CHANGES","textShapes":19}
+{"kind":"textbox","id":"sh/y5o7qlsn","slide":3,"text":"WHAT CHANGES","textPreview":"WHAT CHANGES","textChars":12,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/l8zql0re","slide":3,"text":"A simple example: preparing a client response.","textPreview":"A simple example: preparing a client response.","textChars":46,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/k7qpsvat","slide":3,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/7ah8nq9k","slide":3,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/6987ulsz","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"textbox","id":"sh/twzqp0ra","slide":3,"text":"ILLUSTRATIVE — THE ACTUAL WORKFLOW IS CHOSEN ON THE FIT CALL","textPreview":"ILLUSTRATIVE — THE ACTUAL WORKFLOW IS CHOSEN ON THE FIT CALL","textChars":60,"textLines":1,"bbox":[758,48,458,24]}
+{"kind":"textbox","id":"sh/8bqpwvap","slide":3,"text":"TODAY","textPreview":"TODAY","textChars":5,"textLines":1,"bbox":[64,220,180,30]}
+{"kind":"textbox","id":"sh/nexob690","slide":3,"text":"WITH THE PILOT","textPreview":"WITH THE PILOT","textChars":14,"textLines":1,"bbox":[662,220,260,30]}
+{"kind":"shape","id":"sh/md47i1sf","slide":3,"bbox":[66,275,18,18]}
+{"kind":"textbox","id":"sh/c76dsby9","slide":3,"text":"Request arrives","textPreview":"Request arrives","textChars":15,"textLines":1,"bbox":[98,270,410,30]}
+{"kind":"shape","id":"sh/d8fu1gfu","slide":3,"bbox":[74,299,2,25]}
+{"kind":"shape","id":"sh/q54vq1g3","slide":3,"bbox":[66,327,18,18]}
+{"kind":"textbox","id":"sh/b6xcz6xo","slide":3,"text":"Search files","textPreview":"Search files","textChars":12,"textLines":1,"bbox":[98,322,410,30]}
+{"kind":"shape","id":"sh/0v6dwvy5","slide":3,"bbox":[74,351,2,25]}
+{"kind":"shape","id":"sh/lwfu50fq","slide":3,"bbox":[66,379,18,18]}
+{"kind":"textbox","id":"sh/y9ovulgz","slide":3,"text":"Copy context","textPreview":"Copy context","textChars":12,"textLines":1,"bbox":[98,374,410,30]}
+{"kind":"shape","id":"sh/zuxc3qxk","slide":3,"bbox":[74,403,2,25]}
+{"kind":"shape","id":"sh/gzmtkry1","slide":3,"bbox":[66,431,18,18]}
+{"kind":"textbox","id":"sh/10vutwzm","slide":3,"text":"Draft","textPreview":"Draft","textChars":5,"textLines":1,"bbox":[98,426,410,30]}
+{"kind":"shape","id":"sh/xk321ony","slide":3,"bbox":[74,455,2,25]}
+{"kind":"shape","id":"sh/wju18jmd","slide":3,"bbox":[66,483,18,18]}
+{"kind":"textbox","id":"sh/vilkze58","slide":3,"text":"Chase review","textPreview":"Chase review","textChars":12,"textLines":1,"bbox":[98,478,410,30]}
+{"kind":"shape","id":"sh/ahcj6t4n","slide":3,"bbox":[74,507,2,25]}
+{"kind":"shape","id":"sh/5o3258na","slide":3,"bbox":[66,535,18,18]}
+{"kind":"textbox","id":"sh/knu1c3mp","slide":3,"text":"Send","textPreview":"Send","textChars":4,"textLines":1,"bbox":[98,530,410,30]}
+{"kind":"shape","id":"sh/jmlk3y54","slide":3,"bbox":[664,275,18,18]}
+{"kind":"textbox","id":"sh/ilcjat4j","slide":3,"text":"Request arrives","textPreview":"Request arrives","textChars":15,"textLines":1,"bbox":[696,270,430,34]}
+{"kind":"shape","id":"sh/tcn298n6","slide":3,"bbox":[672,299,2,35]}
+{"kind":"shape","id":"sh/sre1g3ml","slide":3,"bbox":[664,337,18,18]}
+{"kind":"textbox","id":"sh/qxoza5k3","slide":3,"text":"Minimum context assembled","textPreview":"Minimum context assembled","textChars":25,"textLines":1,"bbox":[696,332,430,34]}
+{"kind":"shape","id":"sh/byhg3alo","slide":3,"bbox":[672,361,2,35]}
+{"kind":"shape","id":"sh/czqhcf29","slide":3,"bbox":[664,399,18,18]}
+{"kind":"textbox","id":"sh/d0zy5k3u","slide":3,"text":"Draft prepared","textPreview":"Draft prepared","textChars":14,"textLines":1,"bbox":[696,394,430,34]}
+{"kind":"shape","id":"sh/y18zepkf","slide":3,"bbox":[672,423,2,35]}
+{"kind":"shape","id":"sh/zmhg7ul0","slide":3,"bbox":[664,461,18,18]}
+{"kind":"textbox","id":"sh/0nqhgf25","slide":3,"text":"Professional reviews","textPreview":"Professional reviews","textChars":20,"textLines":1,"bbox":[696,456,430,34]}
+{"kind":"shape","id":"sh/lozy9k3q","slide":3,"bbox":[672,485,2,35]}
+{"kind":"shape","id":"sh/mp8zipkb","slide":3,"bbox":[664,523,18,18]}
+{"kind":"textbox","id":"sh/nq1gbulw","slide":3,"text":"Send","textPreview":"Send","textChars":4,"textLines":1,"bbox":[696,518,430,34]}
+{"kind":"shape","id":"sh/v6xgvud0","slide":3,"bbox":[562,256,2,328]}
+{"kind":"textbox","id":"sh/uloz2pcf","slide":3,"text":"The professional still approves the work before it leaves the firm.","textPreview":"The professional still approves the work before it leaves the firm.","textChars":67,"textLines":1,"bbox":[662,585,506,42]}
+{"kind":"notes","id":"nt/ry46ab","slide":3,"text":"Use this as a conversation example, not as a promise about the prospect's exact process.\n\n[Sources]\n- docs/service/value-proposition.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/n2pzn7","slide":4,"title":"10 BUSINESS DAYS","textShapes":20}
+{"kind":"textbox","id":"sh/p0nuxk72","slide":4,"text":"10 BUSINESS DAYS","textPreview":"10 BUSINESS DAYS","textChars":16,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/2dcbm58b","slide":4,"text":"The pilot has four clear stages.","textPreview":"The pilot has four clear stages.","textChars":32,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/ne5cvapw","slide":4,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/w3etsfqd","slide":4,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/x4nu1k7y","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/a1wbqp87","slide":4,"bbox":[64,226,260,360]}
+{"kind":"textbox","id":"sh/b25czaps","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,244,70,34]}
+{"kind":"textbox","id":"sh/k7ydwzqp","slide":4,"text":"DAYS 1–2","textPreview":"DAYS 1–2","textChars":8,"textLines":1,"bbox":[86,292,210,26]}
+{"kind":"textbox","id":"sh/l87u547u","slide":4,"text":"DIAGNOSE","textPreview":"DIAGNOSE","textChars":8,"textLines":1,"bbox":[86,330,210,60]}
+{"kind":"shape","id":"sh/hsvqtkza","slide":4,"bbox":[86,406,52,4]}
+{"kind":"textbox","id":"sh/grm9kfi5","slide":4,"text":"Observe the workflow, name the owner, record the baseline and trace the data path.","textPreview":"Observe the workflow, name the owner, record the baseline and trace the data path.","textChars":82,"textLines":1,"bbox":[86,428,214,126]}
+{"kind":"shape","id":"sh/fqd8rahk","slide":4,"bbox":[356,226,260,360]}
+{"kind":"textbox","id":"sh/up4ri50z","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[378,244,70,34]}
+{"kind":"textbox","id":"sh/pwfqxkzm","slide":4,"text":"DAYS 3–4","textPreview":"DAYS 3–4","textChars":8,"textLines":1,"bbox":[378,292,210,26]}
+{"kind":"textbox","id":"sh/4v69ozi1","slide":4,"text":"DESIGN","textPreview":"DESIGN","textChars":6,"textLines":1,"bbox":[378,330,210,60]}
+{"kind":"shape","id":"sh/3ux8vuhg","slide":4,"bbox":[378,406,52,4]}
+{"kind":"textbox","id":"sh/2tormp0v","slide":4,"text":"Choose the smallest viable approach and define human approval and data boundaries.","textPreview":"Choose the smallest viable approach and define human approval and data boundaries.","textChars":82,"textLines":1,"bbox":[378,428,214,126]}
+{"kind":"shape","id":"sh/50bql0z2","slide":4,"bbox":[648,226,260,360]}
+{"kind":"textbox","id":"sh/kz2psvix","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[670,244,70,34]}
+{"kind":"textbox","id":"sh/wfqhozup","slide":4,"text":"DAYS 5–8","textPreview":"DAYS 5–8","textChars":8,"textLines":1,"bbox":[670,292,210,26]}
+{"kind":"textbox","id":"sh/xgzix4va","slide":4,"text":"BUILD + TEST","textPreview":"BUILD + TEST","textChars":12,"textLines":1,"bbox":[670,330,210,60]}
+{"kind":"shape","id":"sh/at8zmpcz","slide":4,"bbox":[670,406,52,4]}
+{"kind":"textbox","id":"sh/vuh0vud4","slide":4,"text":"Configure the pilot—preferably in existing tools—and test it with the workflow owner.","textPreview":"Configure the pilot—preferably in existing tools—and test it with the workflow owner.","textChars":85,"textLines":1,"bbox":[670,428,214,126]}
+{"kind":"shape","id":"sh/kjqhszu1","slide":4,"bbox":[940,226,260,360]}
+{"kind":"textbox","id":"sh/5kji14bm","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[962,244,70,34]}
+{"kind":"textbox","id":"sh/ih8zq9cv","slide":4,"text":"DAYS 9–10","textPreview":"DAYS 9–10","textChars":9,"textLines":1,"bbox":[962,292,210,26]}
+{"kind":"textbox","id":"sh/jih0zutg","slide":4,"text":"LAUNCH","textPreview":"LAUNCH","textChars":6,"textLines":1,"bbox":[962,330,210,60]}
+{"kind":"shape","id":"sh/sna1wjux","slide":4,"bbox":[962,406,52,4]}
+{"kind":"textbox","id":"sh/toji5obi","slide":4,"text":"Train the owner, hand over the SOP and agree what will be measured next.","textPreview":"Train the owner, hand over the SOP and agree what will be measured next.","textChars":72,"textLines":1,"bbox":[962,428,214,126]}
+{"kind":"notes","id":"nt/n2pzn7","slide":4,"text":"Walk through the work in chronological order. Each stage has a decision and an output.\n\n[Sources]\n- docs/service/delivery-workflow.md\n- docs/service/offer.md"}
+{"kind":"slide","id":"sl/do51r2","slide":5,"title":"WHAT IS DELIVERED","textShapes":19}
+{"kind":"textbox","id":"sh/fehsfy14","slide":5,"text":"WHAT IS DELIVERED","textPreview":"WHAT IS DELIVERED","textChars":17,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/0fq9o32p","slide":5,"text":"You leave with five usable assets.","textPreview":"You leave with five usable assets.","textChars":34,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/10jah8ja","slide":5,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/21srqd0v","slide":5,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/n21sji1g","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"textbox","id":"sh/o3a9sni1","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[64,218,54,52]}
+{"kind":"textbox","id":"sh/p4jal8j6","slide":5,"text":"Working pilot","textPreview":"Working pilot","textChars":13,"textLines":1,"bbox":[132,218,260,52]}
+{"kind":"textbox","id":"sh/i5ore9kr","slide":5,"text":"One workflow configured and tested with its owner.","textPreview":"One workflow configured and tested with its owner.","textChars":50,"textLines":1,"bbox":[420,218,750,52]}
+{"kind":"shape","id":"sh/36x87e1w","slide":5,"bbox":[64,286,1104,1]}
+{"kind":"textbox","id":"sh/v2xs7218","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[64,304,54,52]}
+{"kind":"textbox","id":"sh/u14byxkn","slide":5,"text":"Workflow map","textPreview":"Workflow map","textChars":12,"textLines":1,"bbox":[132,304,260,52]}
+{"kind":"textbox","id":"sh/h4fa9cjy","slide":5,"text":"Current and pilot-state steps, decisions and handoffs.","textPreview":"Current and pilot-state steps, decisions and handoffs.","textChars":54,"textLines":1,"bbox":[420,304,750,52]}
+{"kind":"shape","id":"sh/w36t072d","slide":5,"bbox":[64,372,1104,1]}
+{"kind":"textbox","id":"sh/7yds321w","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[64,390,54,52]}
+{"kind":"textbox","id":"sh/md4buxkb","slide":5,"text":"Data rules","textPreview":"Data rules","textChars":10,"textLines":1,"bbox":[132,390,260,52]}
+{"kind":"textbox","id":"sh/90va5cj2","slide":5,"text":"What may enter the model, what stays out and who approves.","textPreview":"What may enter the model, what stays out and who approves.","textChars":58,"textLines":1,"bbox":[420,390,750,52]}
+{"kind":"shape","id":"sh/8zmtw72h","slide":5,"bbox":[64,458,1104,1]}
+{"kind":"textbox","id":"sh/zatszi10","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[64,476,54,52]}
+{"kind":"textbox","id":"sh/y9krqdkf","slide":5,"text":"SOP + training","textPreview":"SOP + training","textChars":14,"textLines":1,"bbox":[132,476,260,52]}
+{"kind":"textbox","id":"sh/25kbid47","slide":5,"text":"A simple runbook the owner can actually use.","textPreview":"A simple runbook the owner can actually use.","textChars":44,"textLines":1,"bbox":[420,476,750,52]}
+{"kind":"shape","id":"sh/n6tcbi5s","slide":5,"bbox":[64,544,1104,1]}
+{"kind":"textbox","id":"sh/o72tknmd","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[64,562,54,52]}
+{"kind":"textbox","id":"sh/p8budsny","slide":5,"text":"Measurement plan","textPreview":"Measurement plan","textChars":16,"textLines":1,"bbox":[132,562,260,52]}
+{"kind":"textbox","id":"sh/a9kbmx43","slide":5,"text":"A 30- or 90-day plan for adoption, quality and next decisions.","textPreview":"A 30- or 90-day plan for adoption, quality and next decisions.","textChars":62,"textLines":1,"bbox":[420,562,750,52]}
+{"kind":"notes","id":"nt/do51r2","slide":5,"text":"These are the tangible handoff items. Do not add extra deliverables unless they are explicitly scoped and priced.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/x8q8s5","slide":6,"title":"DATA BOUNDARY","textShapes":13}
+{"kind":"textbox","id":"sh/94va5cjq","slide":6,"text":"DATA BOUNDARY","textPreview":"DATA BOUNDARY","textChars":13,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/mh4ruxkf","slide":6,"text":"Sensitive data stays outside the model unless it is genuinely required.","textPreview":"Sensitive data stays outside the model unless it is genuinely required.","textChars":71,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/nids3210","slide":6,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/0f29s729","slide":6,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/1gva1c3u","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/edkrqxk3","slide":6,"bbox":[64,228,512,346]}
+{"kind":"shape","id":"sh/zetsz2lo","slide":6,"bbox":[656,228,576,346]}
+{"kind":"textbox","id":"sh/kb6t4r2d","slide":6,"text":"THE MODEL MAY RECEIVE","textPreview":"THE MODEL MAY RECEIVE","textChars":21,"textLines":1,"bbox":[92,256,430,30]}
+{"kind":"shape","id":"sh/lcfadwjy","slide":6,"bbox":[94,316,16,16]}
+{"kind":"textbox","id":"sh/9snelgny","slide":6,"text":"Aliases or pseudonyms","textPreview":"Aliases or pseudonyms","textChars":21,"textLines":1,"bbox":[124,302,390,48]}
+{"kind":"shape","id":"sh/8redcbmd","slide":6,"bbox":[94,388,16,16]}
+{"kind":"textbox","id":"sh/nq5wj65s","slide":6,"text":"The minimum context needed","textPreview":"The minimum context needed","textChars":26,"textLines":1,"bbox":[124,374,390,48]}
+{"kind":"shape","id":"sh/m5wva147","slide":6,"bbox":[94,460,16,16]}
+{"kind":"textbox","id":"sh/l4nehwnm","slide":6,"text":"Approved templates and rules","textPreview":"Approved templates and rules","textChars":28,"textLines":1,"bbox":[124,446,390,48]}
+{"kind":"textbox","id":"sh/03ed8rmh","slide":6,"text":"STAYS WITH THE CLIENT","textPreview":"STAYS WITH THE CLIENT","textChars":21,"textLines":1,"bbox":[684,256,460,30]}
+{"kind":"shape","id":"sh/z25wf65w","slide":6,"bbox":[686,316,16,16]}
+{"kind":"textbox","id":"sh/y1wv614b","slide":6,"text":"Identity and source files","textPreview":"Identity and source files","textChars":25,"textLines":1,"bbox":[716,302,430,48]}
+{"kind":"shape","id":"sh/50ret036","slide":6,"bbox":[686,388,16,16]}
+{"kind":"textbox","id":"sh/kzyxkvml","slide":6,"text":"Professional judgment","textPreview":"Professional judgment","textChars":21,"textLines":1,"bbox":[716,374,430,48]}
+{"kind":"shape","id":"sh/436hgzux","slide":6,"bbox":[686,460,16,16]}
+{"kind":"textbox","id":"sh/p4zyp4b2","slide":6,"text":"Final approval and send","textPreview":"Final approval and send","textChars":23,"textLines":1,"bbox":[716,446,430,48]}
+{"kind":"textbox","id":"sh/21oze9cr","slide":6,"text":"The pilot defines an operational boundary; it is not legal advice or a compliance certification.","textPreview":"The pilot defines an operational boundary; it is not legal advice or a compliance certification.","textChars":96,"textLines":1,"bbox":[64,606,1130,38]}
+{"kind":"notes","id":"nt/x8q8s5","slide":6,"text":"Privacy is an architecture decision made during the pilot. Never describe the engagement as a legal or compliance certification.\n\n[Sources]\n- docs/service/value-proposition.md\n- docs/toolkit/README.md"}
+{"kind":"slide","id":"sl/pahurf","slide":7,"title":"FIT CRITERIA","textShapes":16}
+{"kind":"textbox","id":"sh/29svadgn","slide":7,"text":"FIT CRITERIA","textPreview":"FIT CRITERIA","textChars":12,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/9c3ul8fy","slide":7,"text":"The pilot works only when the workflow is ready.","textPreview":"The pilot works only when the workflow is ready.","textChars":48,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/obadcnyd","slide":7,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/f61cfyhw","slide":7,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/e5sv6tgb","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/18juh8f2","slide":7,"bbox":[64,226,540,372]}
+{"kind":"shape","id":"sh/07ad83yh","slide":7,"bbox":[676,226,556,372]}
+{"kind":"textbox","id":"sh/j2lwr2x0","slide":7,"text":"GOOD FIT","textPreview":"GOOD FIT","textChars":8,"textLines":1,"bbox":[92,252,460,34]}
+{"kind":"shape","id":"sh/y1cvixgv","slide":7,"bbox":[94,316,14,14]}
+{"kind":"textbox","id":"sh/szix0rql","slide":7,"text":"Repeated often enough to observe","textPreview":"Repeated often enough to observe","textChars":32,"textLines":1,"bbox":[122,304,420,38]}
+{"kind":"shape","id":"sh/d0rytc76","slide":7,"bbox":[94,367,14,14]}
+{"kind":"textbox","id":"sh/qx0fyh8f","slide":7,"text":"A named owner can make decisions","textPreview":"A named owner can make decisions","textChars":32,"textLines":1,"bbox":[122,355,420,38]}
+{"kind":"shape","id":"sh/ry9wrmp0","slide":7,"bbox":[94,418,14,14]}
+{"kind":"textbox","id":"sh/4vixw7qp","slide":7,"text":"Inputs and outputs can be seen","textPreview":"Inputs and outputs can be seen","textChars":30,"textLines":1,"bbox":[122,406,420,38]}
+{"kind":"shape","id":"sh/5wrepc7a","slide":7,"bbox":[94,469,14,14]}
+{"kind":"textbox","id":"sh/itgfux8j","slide":7,"text":"Quality or effort can be measured","textPreview":"Quality or effort can be measured","textChars":33,"textLines":1,"bbox":[122,457,420,38]}
+{"kind":"shape","id":"sh/3u9wn2p4","slide":7,"bbox":[94,520,14,14]}
+{"kind":"textbox","id":"sh/gryxs7qd","slide":7,"text":"The data path can be designed","textPreview":"The data path can be designed","textChars":29,"textLines":1,"bbox":[122,508,420,38]}
+{"kind":"textbox","id":"sh/hs7els7y","slide":7,"text":"NOT A FIT","textPreview":"NOT A FIT","textChars":9,"textLines":1,"bbox":[704,252,460,34]}
+{"kind":"shape","id":"sh/xozupoz2","slide":7,"bbox":[706,316,14,14]}
+{"kind":"textbox","id":"sh/wnqdwjih","slide":7,"text":"Generic AI training is the goal","textPreview":"Generic AI training is the goal","textChars":31,"textLines":1,"bbox":[734,304,430,38]}
+{"kind":"shape","id":"sh/vmhcne1w","slide":7,"bbox":[706,367,14,14]}
+{"kind":"textbox","id":"sh/al8vu90b","slide":7,"text":"The process is still undefined","textPreview":"The process is still undefined","textChars":30,"textLines":1,"bbox":[734,355,430,38]}
+{"kind":"shape","id":"sh/90zulojq","slide":7,"bbox":[706,418,14,14]}
+{"kind":"textbox","id":"sh/8zqdsji5","slide":7,"text":"A full platform replacement is required","textPreview":"A full platform replacement is required","textChars":39,"textLines":1,"bbox":[734,406,430,38]}
+{"kind":"shape","id":"sh/nyxcje1k","slide":7,"bbox":[706,469,14,14]}
+{"kind":"textbox","id":"sh/mxovq90z","slide":7,"text":"No access to users or material","textPreview":"No access to users or material","textChars":30,"textLines":1,"bbox":[734,457,430,38]}
+{"kind":"shape","id":"sh/tgjex8zu","slide":7,"bbox":[706,520,14,14]}
+{"kind":"textbox","id":"sh/svad43ip","slide":7,"text":"Guaranteed ROI is required in advance","textPreview":"Guaranteed ROI is required in advance","textChars":37,"textLines":1,"bbox":[734,508,430,38]}
+{"kind":"notes","id":"nt/pahurf","slide":7,"text":"Use these criteria to qualify firmly. A no-fit decision protects both sides from a vague project.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/jc2fuf","slide":8,"title":"WHAT HAPPENS NEXT","textShapes":14}
+{"kind":"textbox","id":"sh/utsvi507","slide":8,"text":"WHAT HAPPENS NEXT","textPreview":"WHAT HAPPENS NEXT","textChars":17,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/hwjedkji","slide":8,"text":"After the pilot, you choose whether to stop or expand.","textPreview":"After the pilot, you choose whether to stop or expand.","textChars":54,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/gvaxkfix","slide":8,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/761w7a1g","slide":8,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/658ve50v","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/tsje90jm","slide":8,"bbox":[64,240,348,300]}
+{"kind":"textbox","id":"sh/sradgvi1","slide":8,"text":"STOP","textPreview":"STOP","textChars":4,"textLines":1,"bbox":[90,266,290,30]}
+{"kind":"textbox","id":"sh/j2hw3q14","slide":8,"text":"Keep the pilot","textPreview":"Keep the pilot","textChars":14,"textLines":1,"bbox":[90,318,296,60]}
+{"kind":"shape","id":"sh/i18val0z","slide":8,"bbox":[90,396,56,4]}
+{"kind":"textbox","id":"sh/c7u103ud","slide":8,"text":"Use the workflow, SOP and measurement plan internally.","textPreview":"Use the workflow, SOP and measurement plan internally.","textChars":54,"textLines":1,"bbox":[90,420,296,90]}
+{"kind":"shape","id":"sh/ds3298by","slide":8,"bbox":[454,240,348,300]}
+{"kind":"textbox","id":"sh/q5sjydc7","slide":8,"text":"EXPAND","textPreview":"EXPAND","textChars":6,"textLines":1,"bbox":[480,266,290,30]}
+{"kind":"textbox","id":"sh/b6l07yts","slide":8,"text":"4–8 week rollout","textPreview":"4–8 week rollout","textChars":16,"textLines":1,"bbox":[480,318,296,60]}
+{"kind":"shape","id":"sh/o3a1w3uh","slide":8,"bbox":[480,396,56,4]}
+{"kind":"textbox","id":"sh/p4ji58b2","slide":8,"text":"Extend the proven approach to adjacent users or workflows.","textPreview":"Extend the proven approach to adjacent users or workflows.","textChars":58,"textLines":1,"bbox":[480,420,296,90]}
+{"kind":"shape","id":"sh/21sjutcb","slide":8,"bbox":[844,240,348,300]}
+{"kind":"textbox","id":"sh/32103ytw","slide":8,"text":"PARTNER","textPreview":"PARTNER","textChars":7,"textLines":1,"bbox":[870,266,290,30]}
+{"kind":"textbox","id":"sh/8ze18nal","slide":8,"text":"Ongoing support","textPreview":"Ongoing support","textChars":15,"textLines":1,"bbox":[870,318,296,60]}
+{"kind":"shape","id":"sh/90n2hsb6","slide":8,"bbox":[870,396,56,4]}
+{"kind":"textbox","id":"sh/hgji1s3a","slide":8,"text":"Continue improvement, governance and new workflow launches.","textPreview":"Continue improvement, governance and new workflow launches.","textChars":59,"textLines":1,"bbox":[870,420,296,90]}
+{"kind":"textbox","id":"sh/wfa1sn2p","slide":8,"text":"The pilot stands on its own. Expansion is a new decision—not an obligation.","textPreview":"The pilot stands on its own. Expansion is a new decision—not an obligation.","textChars":75,"textLines":1,"bbox":[64,586,1160,42]}
+{"kind":"notes","id":"nt/jc2fuf","slide":8,"text":"The first engagement should be independently useful. Present rollout and ongoing support as optional follow-on choices.\n\n[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/z4uupa","slide":9,"title":"YOUR NEXT CONVERSATION","textShapes":14}
+{"kind":"textbox","id":"sh/jql4r65g","slide":9,"text":"YOUR NEXT CONVERSATION","textPreview":"YOUR NEXT CONVERSATION","textChars":22,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/krulkbm1","slide":9,"text":"The first call decides one thing: is there a workflow worth piloting?","textPreview":"The first call decides one thing: is there a workflow worth piloting?","textChars":69,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/5s3mtwnm","slide":9,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/6tc3m147","slide":9,"text":"NY AI SOLUTIONS · WORKFLOW PILOT","textPreview":"NY AI SOLUTIONS · WORKFLOW PILOT","textChars":32,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/7ul4v65c","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"shape","id":"sh/sfe5obmx","slide":9,"bbox":[64,228,340,340]}
+{"kind":"textbox","id":"sh/tgnmxgni","slide":9,"text":"30–45 MIN","textPreview":"30–45 MIN","textChars":9,"textLines":1,"bbox":[92,258,280,34]}
+{"kind":"textbox","id":"sh/mxs3ah4n","slide":9,"text":"Free fit call","textPreview":"Free fit call","textChars":13,"textLines":1,"bbox":[92,314,280,60]}
+{"kind":"textbox","id":"sh/ny14jm58","slide":9,"text":"Bring one recurring workflow that is slow, inconsistent or hard to control.","textPreview":"Bring one recurring workflow that is slow, inconsistent or hard to control.","textChars":75,"textLines":1,"bbox":[92,400,270,116]}
+{"kind":"textbox","id":"sh/vi5svytk","slide":9,"text":"FIT","textPreview":"FIT","textChars":3,"textLines":1,"bbox":[474,232,240,28]}
+{"kind":"textbox","id":"sh/uhwb2tsz","slide":9,"text":"We agree the workflow and prepare a fixed-scope proposal.","textPreview":"We agree the workflow and prepare a fixed-scope proposal.","textChars":57,"textLines":1,"bbox":[474,266,650,56]}
+{"kind":"shape","id":"sh/hk7axobq","slide":9,"bbox":[474,330,650,1]}
+{"kind":"textbox","id":"sh/wjyt43a5","slide":9,"text":"ONE FACT MISSING","textPreview":"ONE FACT MISSING","textChars":16,"textLines":1,"bbox":[474,344,240,28]}
+{"kind":"textbox","id":"sh/7u5sreto","slide":9,"text":"We name the evidence needed before making a decision.","textPreview":"We name the evidence needed before making a decision.","textChars":53,"textLines":1,"bbox":[474,378,650,56]}
+{"kind":"shape","id":"sh/mtwby9s3","slide":9,"bbox":[474,442,650,1]}
+{"kind":"textbox","id":"sh/9gnatobe","slide":9,"text":"NO FIT","textPreview":"NO FIT","textChars":6,"textLines":1,"bbox":[474,456,240,28]}
+{"kind":"textbox","id":"sh/8fet0jat","slide":9,"text":"We say so clearly and stop.","textPreview":"We say so clearly and stop.","textChars":27,"textLines":1,"bbox":[474,490,650,56]}
+{"kind":"shape","id":"sh/zqlsnetc","slide":9,"bbox":[474,584,658,52]}
+{"kind":"textbox","id":"sh/ypcbu9sr","slide":9,"text":"nadav@nyaisolutions.com   ·   +972 54 533 3773","textPreview":"nadav@nyaisolutions.com   ·   +972 54 533 3773","textChars":46,"textLines":1,"bbox":[496,591,614,36]}
+{"kind":"notes","id":"nt/z4uupa","slide":9,"text":"Do not run a generic discovery call. Ask the prospect to choose one workflow and decide fit against the criteria in this deck.\n\n[Sources]\n- docs/service/offer.md\n- docs/sales/service-pitch-and-call-runbook.md"}
+{"kind":"slide","id":"sl/6l3deb","slide":10,"title":"APPENDIX · DELIVERY SYSTEM","textShapes":18}
+{"kind":"textbox","id":"sh/4v6dsryp","slide":10,"text":"APPENDIX · DELIVERY SYSTEM","textPreview":"APPENDIX · DELIVERY SYSTEM","textChars":26,"textLines":1,"bbox":[64,42,600,24]}
+{"kind":"textbox","id":"sh/3axcjmx4","slide":10,"text":"How the internal methods support the pilot.","textPreview":"How the internal methods support the pilot.","textChars":43,"textLines":1,"bbox":[64,78,1120,94]}
+{"kind":"shape","id":"sh/29ovq1gj","slide":10,"bbox":[64,184,74,5]}
+{"kind":"textbox","id":"sh/d0zupgf6","slide":10,"text":"NY AI SOLUTIONS","textPreview":"NY AI SOLUTIONS","textChars":15,"textLines":1,"bbox":[64,675,250,22]}
+{"kind":"textbox","id":"sh/czqdwbyl","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,675,44,22]}
+{"kind":"textbox","id":"sh/byhcn6x0","slide":10,"text":"These are internal tools—not the client-facing offer.","textPreview":"These are internal tools—not the client-facing offer.","textChars":53,"textLines":1,"bbox":[772,48,444,24]}
+{"kind":"shape","id":"sh/qx8vu1gf","slide":10,"bbox":[64,238,260,292]}
+{"kind":"textbox","id":"sh/l4jutgf2","slide":10,"text":"OBSERVE","textPreview":"OBSERVE","textChars":7,"textLines":1,"bbox":[86,260,214,28]}
+{"kind":"textbox","id":"sh/03ad0byx","slide":10,"text":"Audit Toolkit","textPreview":"Audit Toolkit","textChars":13,"textLines":1,"bbox":[86,306,214,62]}
+{"kind":"shape","id":"sh/ilcjal0v","slide":10,"bbox":[86,386,52,4]}
+{"kind":"textbox","id":"sh/jmlk3q1g","slide":10,"text":"Map the current workflow, evidence and baseline.","textPreview":"Map the current workflow, evidence and baseline.","textChars":48,"textLines":1,"bbox":[86,410,214,92]}
+{"kind":"shape","id":"sh/knulcvi1","slide":10,"bbox":[356,238,260,292]}
+{"kind":"textbox","id":"sh/5o325gjm","slide":10,"text":"EXPLORE","textPreview":"EXPLORE","textChars":7,"textLines":1,"bbox":[378,260,214,28]}
+{"kind":"textbox","id":"sh/6pc3el07","slide":10,"text":"Innovation + STORM","textPreview":"Innovation + STORM","textChars":18,"textLines":1,"bbox":[378,306,214,62]}
+{"kind":"shape","id":"sh/7q5k7qhc","slide":10,"bbox":[378,386,52,4]}
+{"kind":"textbox","id":"sh/sbelgvix","slide":10,"text":"Generate alternatives when the problem is genuinely ambiguous.","textPreview":"Generate alternatives when the problem is genuinely ambiguous.","textChars":62,"textLines":1,"bbox":[378,410,214,92]}
+{"kind":"shape","id":"sh/tcn290zi","slide":10,"bbox":[648,238,260,292]}
+{"kind":"textbox","id":"sh/mtsj210n","slide":10,"text":"CHALLENGE","textPreview":"CHALLENGE","textChars":9,"textLines":1,"bbox":[670,260,214,28]}
+{"kind":"textbox","id":"sh/nu1kb618","slide":10,"text":"Red Team","textPreview":"Red Team","textChars":8,"textLines":1,"bbox":[670,306,214,62]}
+{"kind":"shape","id":"sh/ryxg32h0","slide":10,"bbox":[670,386,52,4]}
+{"kind":"textbox","id":"sh/qxozaxgf","slide":10,"text":"Test failure modes, privacy boundaries and approval points.","textPreview":"Test failure modes, privacy boundaries and approval points.","textChars":59,"textLines":1,"bbox":[670,410,214,92]}
+{"kind":"shape","id":"sh/d0zi5cz6","slide":10,"bbox":[940,238,260,292]}
+{"kind":"textbox","id":"sh/czqhc7yl","slide":10,"text":"DELIVER","textPreview":"DELIVER","textChars":7,"textLines":1,"bbox":[962,260,214,28]}
+{"kind":"textbox","id":"sh/3uxgzih4","slide":10,"text":"Pilot + measure","textPreview":"Pilot + measure","textChars":15,"textLines":1,"bbox":[962,306,214,62]}
+{"kind":"shape","id":"sh/2toz6dgj","slide":10,"bbox":[962,386,52,4]}
+{"kind":"textbox","id":"sh/pwfy1szu","slide":10,"text":"Build, test, hand over and decide what happens next.","textPreview":"Build, test, hand over and decide what happens next.","textChars":52,"textLines":1,"bbox":[962,410,214,92]}
+{"kind":"shape","id":"sh/4v6h8nyp","slide":10,"bbox":[64,568,1168,58]}
+{"kind":"textbox","id":"sh/nq10bmh8","slide":10,"text":"The buyer sees clear decisions, safeguards and deliverables—not methodology names.","textPreview":"The buyer sees clear decisions, safeguards and deliverables—not methodology names.","textChars":82,"textLines":1,"bbox":[92,578,1110,38]}
+{"kind":"notes","id":"nt/6l3deb","slide":10,"text":"Only use this appendix when someone asks how the work is performed. Keep the main sales story focused on the buyer's workflow and outcomes.\n\n[Sources]\n- docs/toolkit/README.md\n- docs/service/delivery-workflow.md\n- Builder OS internal Innovation/STORM/Red Team documentation"}

@@ -1,0 +1,33 @@
+{"kind":"deck","id":"pr/23bnll","name":"Deck"}
+{"kind":"layout","layoutId":"d55d5900-7238-492c-9dff-77b174a7e788","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"95dd94f4-ecf4-4490-a0c2-165eb4553bc5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/urnhlm","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/x4fahsba","slide":1,"name":"","alt":"NY AI Solutions Hebrew slide 1","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/urnhlm","slide":1,"text":"[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/o7uznm","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/b6d4rixs","slide":2,"name":"","alt":"NY AI Solutions Hebrew slide 2","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/o7uznm","slide":2,"text":"[Sources]\n- app/page.tsx\n- Builder OS: 2026-08-11-ny-ai-consulting-launch.md"}
+{"kind":"slide","id":"sl/auwc2y","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/cjq9kz29","slide":3,"name":"","alt":"NY AI Solutions Hebrew slide 3","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/auwc2y","slide":3,"text":"[Sources]\n- app/benefits/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/9pxawj","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/y9gzixwz","slide":4,"name":"","alt":"NY AI Solutions Hebrew slide 4","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/9pxawj","slide":4,"text":"[Sources]\n- docs/toolkit/README.md\n- Builder OS: thinking-tools-guide.md\n- Builder OS: IDEATION v0.2.md"}
+{"kind":"slide","id":"sl/plbmjf","slide":5,"title":"Slide 5","textShapes":0}
+{"kind":"image","id":"im/8z6dwfmd","slide":5,"name":"","alt":"NY AI Solutions Hebrew slide 5","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/plbmjf","slide":5,"text":"[Sources]\n- app/page.tsx\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/l9qloh","slide":6,"title":"Slide 6","textShapes":0}
+{"kind":"image","id":"im/c7u18fut","slide":6,"name":"","alt":"NY AI Solutions Hebrew slide 6","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/l9qloh","slide":6,"text":"[Sources]\n- docs/service/offer.md\n- docs/service/delivery-workflow.md"}
+{"kind":"slide","id":"sl/7pfwio","slide":7,"title":"Slide 7","textShapes":0}
+{"kind":"image","id":"im/bedsr2ds","slide":7,"name":"","alt":"NY AI Solutions Hebrew slide 7","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/7pfwio","slide":7,"text":"[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/p68pvg","slide":8,"title":"Slide 8","textShapes":0}
+{"kind":"image","id":"im/sri9wju5","slide":8,"name":"","alt":"NY AI Solutions Hebrew slide 8","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/p68pvg","slide":8,"text":"[Sources]\n- app/page.tsx\n- docs/service/value-proposition.md"}
+{"kind":"slide","id":"sl/y9nar6","slide":9,"title":"Slide 9","textShapes":0}
+{"kind":"image","id":"im/mxsbmh0f","slide":9,"name":"","alt":"NY AI Solutions Hebrew slide 9","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/y9nar6","slide":9,"text":"[Sources]\n- docs/clients/2026-08-30-michal-engagement-retro.md"}
+{"kind":"slide","id":"sl/2tszlx","slide":10,"title":"Slide 10","textShapes":0}
+{"kind":"image","id":"im/epgnex47","slide":10,"name":"","alt":"NY AI Solutions Hebrew slide 10","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/2tszlx","slide":10,"text":"[Sources]\n- docs/service/offer.md\n- docs/toolkit/01-intake.md"}
