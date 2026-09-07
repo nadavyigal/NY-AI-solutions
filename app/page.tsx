@@ -1,76 +1,47 @@
 import { LeadForm } from "./LeadForm";
 
-const capabilities = [
-  "מיפוי ושיפור של תהליכים ידניים שחוזרים על עצמם",
-  "טיפול עקבי בפניות, מעקבים והכנה לשיחות עם לקוחות",
-  "עבודה בטוחה ויעילה יותר עם מסמכים ומידע מקצועי",
-  "הפקת דוחות, סיכומים ותמונת מצב לקבלת החלטות",
-  "חיבור בין הכלים הקיימים כדי לצמצם העתקות והעברות ידניות",
-];
-
-const sprintDeliverables = [
-  "מלאי של מנויי ה־AI שהעסק כבר משלם עליהם ומי באמת משתמש בהם.",
-  "מיפוי של שלושה עד חמישה תהליכים כפי שהם עובדים בפועל, כולל השלבים הידניים שלא תמיד מדברים עליהם.",
-  "דירוג התהליכים לפי ערך, מאמץ וסיכון — כולל מה שעדיף להשאיר כפי שהוא.",
-  "Quick Win אחד בנוי ועובד.",
-  "תוכנית ל־90 יום שמגדירה גם מה למדוד.",
-];
-
-const processSteps = [
+const outcomes = [
   {
-    title: "מבינים את העסק ואת האנשים",
-    paragraphs: [
-      "אני נכנס לעומק של העסק, האנשים ותהליכי העבודה ומבין איך הדברים עובדים היום.",
-    ],
+    title: "ייעול תהליכי עבודה",
+    body: "פחות שלבים מיותרים ועבודה ידנית.",
   },
   {
-    title: "מזהים הזדמנויות עם ערך אמיתי",
-    paragraphs: [
-      "אני מזהה איפה AI יכול לחסוך זמן וכסף, לצמצם עבודה ידנית, לשפר תהליכים או לפתוח אפשרויות חדשות.",
-      "ומצד שני — גם איפה אין צורך לשנות את מה שכבר עובד.",
-    ],
+    title: "חיסכון משמעותי בזמן",
+    body: "אוטומציה של משימות שחוזרות על עצמן.",
   },
   {
-    title: "מתעדפים את מה שכדאי לעשות עכשיו",
-    paragraphs: [
-      "לא רשימה אינסופית של רעיונות.",
-      "מגדירים סדרי עדיפויות ומחליטים אילו פתרונות יתנו לעסק את הערך הגדול ביותר ביחס לזמן ולהשקעה.",
-    ],
+    title: "הגדלת תפוקת העובדים",
+    body: "יותר עבודה משמעותית בפחות זמן.",
   },
   {
-    title: "בונים ומחברים לסביבת העבודה",
-    paragraphs: [
-      "אני מתאים ובונה את הכלים, האוטומציות והמערכות הנדרשות ומחבר אותם ככל האפשר לצורת העבודה הקיימת בעסק.",
-    ],
+    title: "שיפור איכות ודיוק העבודה",
+    body: "פחות טעויות ויותר אחידות.",
   },
   {
-    title: "מטמיעים עם האנשים, לא מעליהם",
-    paragraphs: [
-      "טכנולוגיה טובה היא טכנולוגיה שאנשים באמת משתמשים בה.",
-      "לכן התהליך כולל גם הדרכה והטמעה, כדי שהפתרונות יהפכו לחלק טבעי מהעבודה.",
-    ],
+    title: "חיסכון בעלויות",
+    body: "שימוש חכם יותר בזמן ובמשאבים הקיימים.",
   },
   {
-    title: "מודדים, לומדים ומשפרים",
-    paragraphs: [
-      "אחרי שמתחילים לעבוד, בודקים מה עובד, מה אפשר לדייק ואיפה נמצאת ההזדמנות הבאה.",
-    ],
+    title: "שיפור השירות וחוויית הלקוח",
+    body: "תגובות מהירות ומדויקות יותר.",
+  },
+  {
+    title: "קבלת החלטות טובה ומהירה יותר",
+    body: "מידע נגיש ומסודר יותר.",
+  },
+  {
+    title: "פתרונות AI שמותאמים לעסק עצמו",
+    body: "לא עוד כלי גנרי שלא באמת משתמשים בו.",
+  },
+  {
+    title: "הטמעה אמיתית בקרב העובדים",
+    body: "כך שהמערכות הופכות לחלק משגרת העבודה.",
+  },
+  {
+    title: "עסק יעיל, מתקדם ותחרותי יותר",
+    body: "בלי שהמנהלים והעובדים צריכים להפוך למומחי AI.",
   },
 ];
-
-function BusinessCard() {
-  return (
-    <div className="business-card" role="img" aria-label="NY AI Solutions — Making AI work for your business">
-      <img src="/favicon.png" alt="" width="512" height="512" />
-      <div className="business-card-name">
-        <span />
-        <strong>AI SOLUTIONS</strong>
-        <span />
-      </div>
-      <p>Making AI work for your business.</p>
-    </div>
-  );
-}
 
 export default function Page() {
   return <Home />;
@@ -85,9 +56,8 @@ function Home() {
           <span>AI SOLUTIONS</span>
         </a>
         <nav className="header-nav" aria-label="קישורי עמוד">
+          <a href="#outcomes">מה תצאו מזה</a>
           <a href="#approach">הגישה</a>
-          <a href="#capabilities">הפתרונות</a>
-          <a href="#process">התהליך</a>
           <a href="#about">אודות</a>
           <a href="#products">מוצרים לדוגמה</a>
           <a href="/benefits">למה זה כדאי</a>
@@ -105,25 +75,39 @@ function Home() {
           </h1>
           <p className="hero-lead">מפתרון נקודתי וחכם ועד מערכת AI שלמה — בהתאם למה שהעסק באמת צריך.</p>
           <div className="hero-opening">
-            <p className="hero-opening-emphasis">אתם פשוט לא צריכים להפוך למומחי AI כדי שזה יקרה.</p>
+            <p className="hero-opening-emphasis">אתם לא צריכים להפוך למומחי AI כדי שזה יקרה.</p>
             <p>כולם מדברים היום על AI.</p>
             <p>כל שבוע יוצא עוד כלי, עוד מערכת, עוד אפשרות חדשה ש”אתם חייבים להכיר”.</p>
             <p>אבל כבעלי עסק, אתם לא באמת צריכים להכיר הכול.</p>
           </div>
           <div className="hero-actions">
             <a className="button button-primary" href="#contact">בואו נדבר</a>
-            <a className="text-link" href="#approach">איך AI יכול לעבוד בשבילכם? ←</a>
+            <a className="text-link" href="#outcomes">עם מה תצאו מהתהליך? ←</a>
           </div>
         </div>
 
         <div className="hero-stage">
-          <BusinessCard />
-          <div className="value-flow" aria-label="מהעסק לפתרון AI מעשי">
-            <p className="value-flow-label">BUSINESS FIRST</p>
+          <div className="value-flow" aria-label="איך זה עובד — בגדול">
+            <p className="value-flow-label">איך זה עובד — בגדול</p>
             <div><span>01</span><p>מבינים איך העסק עובד היום</p></div>
             <div><span>02</span><p>מזהים איפה AI מייצר ערך אמיתי</p></div>
             <div><span>03</span><p>בונים, מטמיעים וממשיכים לשפר</p></div>
           </div>
+        </div>
+      </section>
+
+      <section className="outcomes-section section-shell" id="outcomes" aria-labelledby="outcomes-title">
+        <div className="section-heading compact-heading">
+          <h2 id="outcomes-title">עם מה תצאו מהתהליך:</h2>
+        </div>
+        <div className="outcome-grid">
+          {outcomes.map((outcome, index) => (
+            <article key={outcome.title}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h3>{outcome.title}</h3>
+              <p>{outcome.body}</p>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -186,76 +170,12 @@ function Home() {
         </div>
       </section>
 
-      <section className="privacy-section" aria-labelledby="privacy-title">
-        <div className="section-shell privacy-layout">
-          <div className="section-heading section-heading-light">
-            <p className="section-label section-label-light">פרטיות מתכננים לפני שבונים</p>
-            <h2 id="privacy-title">המידע של הלקוחות שלכם לא נכנס ל־AI.</h2>
-          </div>
-          <div className="privacy-copy">
-            <p><strong>הכלל פשוט:</strong> למודל נכנסים כינויים בלבד. הוא לא רואה שם או פרט מזהה, ואת הזהות האמיתית אתם מחברים מחדש אצלכם, מחוץ למודל, רק ברגע השליחה.</p>
-            <p>את הארכיטקטורה הזאת מתכננים לפני שבונים אוטומציה. התהליך הרגיש ביותר מקבל עוזר שאינו מחובר לשום מערכת, כדי שהגבול יהיה חלק מהפתרון ולא הבטחה שמוסיפים בסוף.</p>
-            <p>שיקול הדעת הזה מגיע משתים־עשרה שנים בניהול סוכנות ביטוח ומעבודה בבנקאות ובניהול סיכונים. זו פרקטיקת ארכיטקטורה — לא הסמכת ציות ולא חוות דעת משפטית.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
-        <div className="section-shell">
-          <div className="section-heading compact-heading">
-            <p className="section-label">פתרונות בהתאמה לעסק</p>
-            <h2 id="capabilities-title">תהליכי עבודה שמתקדמים בלי לאבד שליטה.</h2>
-            <p className="section-intro">לא מתחילים מרשימת כלי AI. מתחילים בעבודה שחוזרת כל שבוע ובודקים איפה נכון לצמצם עומס, לחבר בין שלבים או להשאיר אדם בהחלטה.</p>
-          </div>
-          <div className="capabilities-grid">
-            {capabilities.map((capability, index) => (
-              <article key={capability}>
-                <span>{String(index + 1).padStart(2, "0")}</span>
-                <p>{capability}</p>
-              </article>
-            ))}
-          </div>
-          <div className="small-change-note">
-            <p>ולפעמים לא צריך לבנות מערכת גדולה.</p>
-            <strong>כמה שינויים חכמים בתהליכים שחוזרים על עצמם יכולים לחסוך לעסק ולעובדים שעות של עבודה בכל שבוע.</strong>
-          </div>
-        </div>
-      </section>
-
-      <section className="process-section section-shell" id="process" aria-labelledby="process-title">
-        <div className="section-heading compact-heading">
-          <p className="section-label">מהצורך לתוצאה</p>
-          <h2 id="process-title">תהליך מסודר, החלטות ברורות והטמעה שאנשים מאמצים.</h2>
-          <p className="section-intro">לא מתחילים מרשימת רעיונות אינסופית. מתקדמים שלב אחר שלב, מהבנת העבודה ועד פתרון שמשתלב בה.</p>
-        </div>
-        <div className="process-list">
-          {processSteps.map((step, index) => (
-            <article key={step.title}>
-              <span className="process-number">{String(index + 1).padStart(2, "0")}</span>
-              <h3>{step.title}</h3>
-              <div>
-                {step.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="offer-section" id="sprint" aria-labelledby="sprint-title">
+      <section className="offer-section" id="offer" aria-labelledby="offer-title">
         <div className="section-shell offer-layout">
           <div className="fit-call-panel">
             <p className="section-label">הצעד הראשון — ללא עלות</p>
-            <h2>שיחת התאמה של 30–45 דקות.</h2>
+            <h2 id="offer-title">שיחת התאמה של 30–45 דקות.</h2>
             <p>נזהה תהליך אחד ששווה למפות — או שנגיד בכנות שאין כרגע התאמה. זו התוצאה של השיחה, בלי מצגת ובלי מסלול מכירה נוסף.</p>
-          </div>
-          <div className="sprint-card">
-            <p className="section-label">הצעד הראשון שאפשר לקנות</p>
-            <h2 id="sprint-title">AI Value Sprint</h2>
-            <p className="sprint-duration">7–10 ימי עסקים</p>
-            <ol>
-              {sprintDeliverables.map((deliverable) => <li key={deliverable}>{deliverable}</li>)}
-            </ol>
-            <strong>בסוף יש תהליך אחד שעובד — לא מצגת.</strong>
           </div>
           <div className="offer-form">
             <div>
@@ -263,7 +183,7 @@ function Home() {
               <h2>ספרו לי מה כבר קניתם ואיזה תהליך עדיין מכביד.</h2>
               <p>הטופס פותח הודעת WhatsApp אצלכם. שום פרט לא נשמר באתר.</p>
             </div>
-            <LeadForm sourceLine="שלום נדב, אני רוצה לבדוק התאמה ל־AI Value Sprint." />
+            <LeadForm sourceLine="שלום נדב, אני רוצה לבדוק התאמה לתהליך AI בעסק שלי." />
           </div>
         </div>
       </section>
@@ -271,14 +191,12 @@ function Home() {
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-shell about-layout">
           <div className="section-heading section-heading-light">
-            <p className="section-label section-label-light">ניסיון עסקי + יכולת ביצוע</p>
-            <h2 id="about-title">לא רק להמליץ על פתרון.<br />לדעת גם לבנות אותו.</h2>
-            <p className="about-role">ייעוץ עסקי, AI ופיתוח מוצר — באותו תהליך.</p>
+            <h2 id="about-title">נדב יגאל</h2>
           </div>
           <div className="copy-stack about-copy">
-            <p><strong>אני נדב יגאל, ואני עוזר לעסקים להפוך את האפשרויות של AI לפתרונות מעשיים שאנשים באמת יכולים לעבוד איתם.</strong></p>
-            <p>אני בעל תואר ראשון בכלכלה וניהול עסקים, עם ניסיון מקצועי בייעוץ, בנקאות וניהול סיכונים. הרקע הזה לימד אותי להסתכל על טכנולוגיה דרך שאלות עסקיות: מה הבעיה שאנחנו פותרים, מה הערך הצפוי, מה הסיכון, ואיך נדע שהפתרון באמת עובד.</p>
-            <p>בשנתיים האחרונות אני עובד באופן מעמיק ומעשי עם AI — מחקר ובחירת כלים, תכנון תהליכי עבודה, בניית סוכנים ואוטומציות, בדיקות איכות וסיכון, ופיתוח מערכות ומוצרים.</p>
+            <p><strong>אני עוזר לעסקים להפוך את האפשרויות של AI לפתרונות מעשיים שאנשים באמת יכולים לעבוד איתם.</strong></p>
+            <p>אני בעל תואר ראשון בכלכלה וניהול עסקים, עם ניסיון מקצועי בייעוץ, בנקאות וניהול סיכונים, ועם שתים־עשרה שנים בניהול סוכנות ביטוח. הרקע הזה לימד אותי להסתכל על טכנולוגיה דרך שאלות עסקיות: מה הבעיה שאנחנו פותרים, מה הערך הצפוי, מה הסיכון, ואיך נדע שהפתרון באמת עובד.</p>
+            <p>אני עובד עם AI באופן מעמיק ומעשי — מחקר ובחירת כלים, תכנון תהליכי עבודה, בניית סוכנים ואוטומציות, בדיקות איכות וסיכון, ופיתוח מערכות ומוצרים.</p>
             <p>כדי להפוך את העבודה הזאת לשיטתית בניתי גם את Agentic OS ו־Builder OS: מערכות עבודה שמחברות בין מחקר, קבלת החלטות, בנייה, בדיקה ושיפור מתמשך.</p>
             <p>במקביל תכננתי, בניתי והבאתי ל־App Store שתי אפליקציות iOS מבוססות AI. העבודה עליהן כללה מעבר מלא מרעיון וצורך משתמש, דרך החלטות מוצר וחוויית שימוש, ועד פיתוח, השקה ושיפור.</p>
             <div className="three-worlds">
