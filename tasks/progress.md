@@ -1,16 +1,23 @@
 # NY AI Solutions: Progress
 
-- **Status:** live; concise founder-edited landing page published at both `/` and `/benefits` as Sites version 14.
+- **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
 - **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
 - **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** replaced the long landing page with the founder-supplied concise five-section narrative and removed the marked opportunity-card sentence.
+- **Last Completed Story:** separated the concise benefits page from the full main page and added a bottom CTA from `/benefits` to `/`.
 - **Next Recommended Story:** collect reader feedback on whether the five outcomes make the delivered value immediately clear.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-07 - production build and rendered HTML tests 3/3 passed; mobile browser QA passed with no horizontal overflow; live `/` and `/benefits` returned HTTP 200 with the new copy and without the marked sentence.
-- **Rollback point (last deployed):** `7417ce8d9d5c96d5aaa2fa01acbd49057621f922` (Sites version 14)
-- **Last Updated: 2026-09-07**
+- **Last Validation:** 2026-09-08 - production build and rendered HTML tests 3/3 passed; live `/` and `/benefits` returned HTTP 200; root contains the full product page, benefits contains the concise copy and a direct root-page link.
+- **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
+- **Last Updated: 2026-09-08**
 
 ## Log
+
+### 2026-09-08 (benefits and main pages separated)
+Made `/benefits` the dedicated concise benefits page and restored the full NY AI
+Solutions page at `/`. Added a clear bottom card on the benefits page that links
+to the full main page; the main page retains its existing benefits navigation.
+Production build and all three rendered HTML tests passed. Published as Sites
+version 15 and verified both routes with HTTP 200 and distinct route content.
 
 ### 2026-09-07 (concise full-page rewrite deployed)
 Replaced the previous long landing page with the founder's supplied copy and
