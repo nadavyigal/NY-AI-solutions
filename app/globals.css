@@ -837,6 +837,36 @@ main { overflow: hidden; }
 
 .outcome-grid > article:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
+.main-page-link-section {
+  padding: 0 24px 96px;
+  background: var(--paper);
+}
+
+.main-page-link-card {
+  max-width: 960px;
+  padding: 56px;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  background: var(--white);
+  box-shadow: 0 18px 48px rgba(10, 27, 49, 0.08);
+}
+
+.main-page-link-card h2 {
+  max-width: 720px;
+  margin: 14px auto 18px;
+  font-size: clamp(34px, 4.2vw, 58px);
+  line-height: 1.05;
+}
+
+.main-page-link-card > p:not(.section-label) {
+  max-width: 660px;
+  margin: 0 auto 28px;
+  color: var(--slate-600);
+  font-size: 19px;
+  line-height: 1.75;
+}
+
 .outcome-grid span {
   color: var(--blue-600);
   font-size: 12px;
@@ -1006,6 +1036,9 @@ main { overflow: hidden; }
   .benefits-hero { padding-block: 104px 56px; }
   .outcome-grid, .short-process { grid-template-columns: 1fr; }
   .outcome-close { padding: 26px 22px; }
+  .main-page-link-section { padding: 0 16px 64px; }
+  .main-page-link-card { padding: 36px 22px; border-radius: 24px; }
+  .main-page-link-card > p:not(.section-label) { font-size: 17px; }
   .story-grid, .approach-layout, .privacy-layout, .offer-form, .about-layout, .contact-layout { grid-template-columns: 1fr; gap: 38px; }
   .promise-panel, .small-change-note { grid-template-columns: 1fr; padding: 30px 24px; }
   .promise-panel > strong { grid-column: auto; }

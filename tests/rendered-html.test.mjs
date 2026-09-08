@@ -51,6 +51,8 @@ function assertRewrittenPage(html) {
   assert.match(html, /החיבור בין הבנה עסקית ליכולת הטכנולוגית/);
 
   assert.match(html, /href="#outcomes"/);
+  assert.match(html, /המשיכו לעמוד הראשי של NY AI Solutions/);
+  assert.match(html, /href="\/"/);
   assert.match(html, /972545333773/);
   assert.doesNotMatch(html, /איפה AI באמת יכול לעזור דווקא לעסק שלכם\? בשביל זה אני כאן/);
   assert.doesNotMatch(html, /כולם מדברים היום על AI/);
@@ -61,14 +63,22 @@ function assertRewrittenPage(html) {
   assert.doesNotMatch(html, /מחיר|₪|AI Value Sprint|7–10 ימי עסקים/);
 }
 
-test("server-renders the shortened Hebrew landing page", async () => {
-  assertRewrittenPage(await renderedHtml("/"));
+test("server-renders the full NY AI Solutions page at the root", async () => {
+  const html = await renderedHtml("/");
+  assert.match(html, /אתם מביאים את המומחיות העסקית/);
+  assert.match(html, /מוצרים לדוגמה/);
+  assert.match(html, /RunSmart/);
+  assert.match(html, /Resumely/);
+  assert.match(html, /דוגמה אנונימית מהשטח/);
+  assert.match(html, /href="\/benefits"/);
+  assert.doesNotMatch(html, /המשיכו לעמוד הראשי של NY AI Solutions/);
 });
 
 test("keeps the lead flow private and client-side", async () => {
-  const [form, page, layout, packageJson] = await Promise.all([
+  const [form, page, benefitsPage, layout, packageJson] = await Promise.all([
     readFile(new URL("../app/LeadForm.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/BenefitsLandingPage.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
@@ -82,11 +92,12 @@ test("keeps the lead flow private and client-side", async () => {
   assert.match(form, /name="workflow"/);
   assert.doesNotMatch(form, /fetch\(|localStorage|sessionStorage/);
   assert.doesNotMatch(page, /\/admin\/page-posts\//);
+  assert.doesNotMatch(benefitsPage, /\/admin\/page-posts\//);
   assert.equal((page.match(/src="\/favicon\.png"/g) ?? []).length, 0);
   assert.match(layout, /openGraph/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });
 
-test("server-renders the same shortened page at the benefits URL", async () => {
+test("server-renders the shortened page with a root-page link at the benefits URL", async () => {
   assertRewrittenPage(await renderedHtml("/benefits"));
 });
