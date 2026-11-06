@@ -2,8 +2,9 @@
 
 Last updated: 2026-08-30.
 
-The AI Audit Toolkit is not a separate product. It is the delivery engine of the
-AI Value Sprint. Its six steps are the sprint's working days, and its templates
+The AI Audit Toolkit is not a separate product. It is the delivery engine of step 4
+(One live process) of the AI Adoption Journey, and in compressed form of step 0
+(Discovery); see [offer.md](offer.md). Its six steps are the sprint's working days, and its templates
 are in [../toolkit/](../toolkit/).
 
 ## The six steps
@@ -27,14 +28,16 @@ are in [../toolkit/](../toolkit/).
   6 Implementation  the Quick Win built and running, then embedding
 ```
 
-## Where each step lands in the ladder
+## Where each step lands in the journey
 
-| Ladder rung | Steps |
+| Journey step | Toolkit steps |
 |---|---|
-| Fit call | A compressed step 3, plus whatever step 1 they volunteered |
-| **AI Value Sprint** | Steps 1 through 5, plus **one** Quick Win from step 6 |
-| Implementation | The rest of step 6, repeatedly |
-| Ongoing partner | Step 6 plus a recurring cut of steps 2 and 4 |
+| 0 Discovery | A compressed step 3, plus whatever step 1 the client volunteered |
+| 1 to 3 Foundations | Steps 1 and 2 inform the choice; the work itself is not yet templated |
+| **4 One live process** | Steps 1 through 5, plus **one** Quick Win from step 6 |
+| 5 System connection | The rest of step 6, only if step 4 needs it |
+| 6 Independence | Re-measure the step 3 quantities and read the adoption metric |
+| 7 Monthly improve | Step 6 plus a recurring cut of steps 2 and 4 |
 
 ## The rules that keep it honest
 
@@ -57,8 +60,8 @@ pays for before any new tool is considered. New tools are allowed; they are just
 not the opening move.
 
 **One workflow at a time.** The Quick Win is one workflow. Scope creep after a
-successful Quick Win is the named risk in EXD-026 and it is managed by keeping
-sprint, implementation and retainer as separate scopes with separate agreements.
+successful Quick Win is the named risk in EXD-026 and EXD-038 and it is managed
+by keeping journey steps as separate scopes with separate agreements.
 
 ## What the Michal engagement changed about this method
 

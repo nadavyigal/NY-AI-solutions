@@ -4,8 +4,7 @@ Last updated: 2026-08-30.
 
 ## What this is
 
-An AI consulting practice for Israeli professional-services businesses of 10 to
-100 employees. The repository holds both the public site and the practice
+An AI consulting practice for any business that wants AI to do real work. The repository holds both the public site and the practice
 itself: the offer, the delivery method, and the toolkit templates used in client
 engagements.
 
@@ -33,8 +32,9 @@ as of 2026-08-30.
 
 ## Decisions this must not contradict
 
-- **EXD-026** (2026-08-11): niche and offer. Review 2026-09-11 or 10 fit calls.
-- No published pricing before real client patterns exist.
+- **EXD-038** (2026-11-06): any business, sold as the three-track AI Adoption
+  Journey. Supersedes EXD-026's niche and offer clauses. Reminder review 2026-12-31.
+- No published pricing. Price is set only after Discovery, which is free.
 - No ROI claim without a measured baseline on both sides of the change.
 
 ## Known state

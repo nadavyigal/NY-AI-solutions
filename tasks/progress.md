@@ -1,16 +1,26 @@
 # NY AI Solutions: Progress
 
 - **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
-- **Current Phase:** first outreach cycle before the EXD-026 gate, now 4 days away
-- **Active Story:** PR #4, `nyai-connect-the-tools`: operating index, rescued untracked work, client-side nav. Awaiting review.
-- **Last Completed Story:** separated the concise benefits page from the full main page and added a bottom CTA from `/benefits` to `/`.
-- **Next Recommended Story:** collect reader feedback on whether the five outcomes make the delivered value immediately clear.
+- **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038, 2026-11-06); EXD-026 niche and single-sprint clauses superseded
+- **Active Story:** branch `claude/2026-11-06-ai-adoption-journey`: offer.md, homepage journey section and docs aligned to EXD-038. PR open, not deployed.
+- **Last Completed Story:** AI Adoption Journey offer and homepage section drafted and tested (EXD-038).
+- **Next Recommended Story:** founder reviews the PR; deploy is a separate yes (`git push sites main`); then run Discovery calls and log them in `docs/gtm/fit-call-log.md`.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-09-08 - production build and rendered HTML tests 3/3 passed; live `/` and `/benefits` returned HTTP 200; root contains the full product page, benefits contains the concise copy and a direct root-page link.
+- **Last Validation:** 2026-11-06 - `npm test` 4/4 passed (build plus rendered HTML), eslint 0 errors (2 existing `<img>` warnings). Not deployed; `sites` remote untouched.
 - **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
-- **Last Updated: 2026-09-08**
+- **Last Updated: 2026-11-06**
 
 ## Log
+
+### 2026-11-06 (AI Adoption Journey, EXD-038)
+Replaced the single AI Value Sprint offer with the three-track AI Adoption Journey
+(steps 0 to 7). Discovery (45-60 min) is free; price is set only after it and is not
+published. Rewrote `docs/service/offer.md`; added a journey section, nav link and
+`app/journey.ts` to the homepage; renamed the first step from fit call to Discovery;
+removed niche wording from CLAUDE.md, project-context, value-proposition,
+delivery-workflow and docs/README. Kept "AI לעסקים בישראל" in the page metadata at
+the founder's request. Added a rendered-HTML test for the journey, no price and no
+niche. Not deployed. The live site still serves the previous version.
 
 ### 2026-09-08 (benefits and main pages separated)
 Made `/benefits` the dedicated concise benefits page and restored the full NY AI
