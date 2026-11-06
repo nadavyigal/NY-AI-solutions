@@ -1,4 +1,5 @@
 import { LeadForm } from "./LeadForm";
+import { journey } from "./journey";
 
 const outcomes = [
   {
@@ -57,6 +58,7 @@ function Home() {
         <nav className="header-nav" aria-label="קישורי עמוד">
           <a href="#outcomes">מה תצאו מזה</a>
           <a href="#approach">הגישה</a>
+          <a href="#journey">המסע</a>
           <a href="#about">אודות</a>
           <a href="#products">מוצרים לדוגמה</a>
           <a href="/benefits">למה זה כדאי</a>
@@ -169,16 +171,39 @@ function Home() {
         </div>
       </section>
 
+      <section className="journey-section section-shell" id="journey" aria-labelledby="journey-title">
+        <div className="section-heading compact-heading">
+          <p className="section-label">מסע אימוץ AI</p>
+          <h2 id="journey-title">מתחילים בקטן. ממשיכים רק כשזה עובד.</h2>
+          <p className="section-intro">לא חייבים להתחיל בפרויקט גדול. המסע בנוי בשלבים, אפשר לעצור אחרי כל מסלול, והוא מתאים גם למי שרק מתחיל עם AI וגם לצוות שכבר משתמש בו, אבל עדיין לא בעבודה היומיומית.</p>
+        </div>
+        <div className="journey-grid">
+          {journey.map((track) => (
+            <article key={track.title}>
+              <span>{track.track}</span>
+              <h3>{track.title}</h3>
+              <p className="journey-lead">{track.lead}</p>
+              <ul>
+                {track.steps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+        <p className="journey-note">ההצעה והמחיר נקבעים רק אחרי שיחת האפיון הראשונה, לפי מה שהעסק באמת צריך.</p>
+      </section>
+
       <section className="offer-section" id="offer" aria-labelledby="offer-title">
         <div className="section-shell offer-layout">
           <div className="fit-call-panel">
             <p className="section-label">הצעד הראשון — ללא עלות</p>
-            <h2 id="offer-title">שיחת התאמה של 30–45 דקות.</h2>
-            <p>נזהה תהליך אחד ששווה למפות — או שנגיד בכנות שאין כרגע התאמה. בסוף השיחה תהיה לכם תמונה ברורה יותר של האפשרויות ושל הצעד הבא שנכון לעסק.</p>
+            <h2 id="offer-title">שיחת אפיון של 45–60 דקות.</h2>
+            <p>נבין את העסק, את הכלים שכבר יש לכם ומה הייתם רוצים ש־AI ישנה. בסוף השיחה נמליץ מאיפה להתחיל, או נגיד בכנות שעדיין לא הזמן.</p>
           </div>
           <div className="offer-form">
             <div>
-              <p className="section-label section-label-light">מתחילים בשיחת התאמה</p>
+              <p className="section-label section-label-light">מתחילים בשיחת אפיון</p>
               <h2>ספרו לי איך אתם עובדים היום ולאן הייתם רוצים להגיע.</h2>
               <p>הטופס פותח הודעת WhatsApp אצלכם. שום פרט לא נשמר באתר.</p>
             </div>

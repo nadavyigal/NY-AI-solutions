@@ -74,6 +74,19 @@ test("server-renders the full NY AI Solutions page at the root", async () => {
   assert.doesNotMatch(html, /המשיכו לעמוד הראשי של NY AI Solutions/);
 });
 
+test("shows the AI Adoption Journey on the root page with no price and no niche", async () => {
+  const html = await renderedHtml("/");
+  assert.match(html, /id="journey"/);
+  assert.match(html, /מסע אימוץ AI/);
+  assert.equal((html.match(/class="journey-grid"/g) ?? []).length, 1);
+  assert.match(html, /יסודות/);
+  assert.match(html, /תהליך חי/);
+  assert.match(html, /שותף מתמשך/);
+  assert.match(html, /שיחת אפיון של 45–60 דקות/);
+  assert.match(html, /הצעה והמחיר נקבעים רק אחרי שיחת האפיון הראשונה/);
+  assert.doesNotMatch(html, /₪|\d\s?ש"ח|USD|שירותים מקצועיים בישראל|10[–-]100 עובדים/);
+});
+
 test("keeps the lead flow private and client-side", async () => {
   const [form, page, benefitsPage, layout, packageJson] = await Promise.all([
     readFile(new URL("../app/LeadForm.tsx", import.meta.url), "utf8"),

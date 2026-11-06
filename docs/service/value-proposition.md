@@ -1,6 +1,7 @@
 # NY AI Solutions: Value Proposition
 
-Last updated: 2026-08-30. Supersedes nothing; sharpens EXD-026 (2026-08-11).
+Last updated: 2026-11-06. Sharpens EXD-026 (2026-08-11). The audience clause of
+EXD-026 is superseded by EXD-038: the offer is no longer limited to one niche.
 
 ## The sentence
 
@@ -14,18 +15,15 @@ Hebrew:
 
 ## Who this is for
 
-Israeli professional-services businesses, 10 to 100 employees: insurance
-agencies, law firms, finance and accounting practices, real estate, consulting.
+Any business. Two starting points:
 
-The qualifying signal is not size. It is this shape:
+- **Beginners:** no AI tool in regular use, or an account nobody opens.
+- **Shallow users:** the team uses AI to draft an email or answer a quick
+  question, and nothing in the daily work has changed.
 
-- The business already pays for at least one AI subscription that nobody uses
-  beyond drafting an email.
-- The real work runs through a repeated workflow a human does by hand every week.
-- The business holds client data it is not allowed to be careless with.
-
-A business missing the third item does not need me specifically. That is the
-segment where a generic automation vendor is a fine answer.
+Privacy-first design and existing subscriptions first are how the work is done
+by default, not conditions the buyer must meet. A business that holds client
+data it must protect gets the privacy path before anything else is proposed.
 
 ## The three claims, and what backs each
 
@@ -62,7 +60,7 @@ copy.
 
 | The buyer's real alternative | Why they still lose | The honest counter |
 |---|---|---|
-| Do it themselves with ChatGPT | The owner's attention is the scarcest asset in a 10-100 person firm. Learning tools comes out of managing, selling and serving. | True for a curious owner with spare evenings. Say so; the buyer respects it. |
+| Do it themselves with ChatGPT | The owner's attention is the scarcest asset in a small or mid-size firm. Learning tools comes out of managing, selling and serving. | True for a curious owner with spare evenings. Say so; the buyer respects it. |
 | Buy vertical software | Solves the workflow the vendor chose, not the one costing this firm money, and starts a procurement and migration cycle. | Sometimes vertical software is the right answer. Saying that when it is true is what makes the rest credible. |
 | Hire an automation freelancer | Automates the process as described rather than as it actually runs, and treats data handling as an afterthought. | This is the closest competitor and the one to beat on process understanding and risk, not on price. |
 | A generic AI workshop | Teaches tools, changes no workflow, leaves nothing running on Monday. | The Value Sprint's deliverable is one thing working, not a slide deck. |

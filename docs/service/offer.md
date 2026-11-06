@@ -1,52 +1,63 @@
 # NY AI Solutions: Offer
 
-Last updated: 2026-08-30. Implements EXD-026.
+Last updated: 2026-11-06. Implements EXD-038, which supersedes the niche and
+single-sprint clauses of EXD-026 (2026-08-11).
 
-## The ladder
+## Who it is for
 
-| # | Offer | Length | Buyer's question it answers | Deliverable |
-|---|---|---|---|---|
-| 0 | Fit call | 30-45 min, free | "Is there anything here for us?" | A named workflow worth mapping, or an honest no |
-| 1 | **AI Value Sprint** | 7-10 business days | "Is there real value, and can you find it?" | Subscription and workflow map, prioritised opportunities, one Quick Win running, a 90-day plan |
-| 2 | Implementation and embedding | 4-8 weeks | "Can this become how we actually work?" | The prioritised workflows built, connected, and in use by the team |
-| 3 | Ongoing AI partner | Retainer | "Who keeps this working and finds the next one?" | Monitoring, improvement, training, next opportunity |
+Any business that wants AI to do real work. Two common starting points: the
+team has never used AI in earnest, or it uses AI for the odd email draft and
+nothing in the daily work has changed.
 
-Pricing stays customised after the fit call. It is not published.
+Privacy-first design and "existing subscription first" are how the work is
+done by default. They are not conditions a buyer has to meet.
 
-## The Value Sprint is the product
+## The AI Adoption Journey
 
-Everything above and below it exists to make the sprint sellable and repeatable.
-The sprint is what turns a conversation into evidence, and it is the only rung
-that should be actively sold right now.
+Sold as three tracks. A client can stop after any track.
 
-**What the client gets, concretely:**
+| Track | Step | Length | What the client gets |
+|---|---|---|---|
+| **A. Foundations** | 0 Discovery | 45-60 min, free | A recommendation on where to start, or an honest "not now" |
+| | 1 Safe start | | One tool in the client's own account, written rules for what may and may not go to AI, three real tasks done with it |
+| | 2 Taste and voice | | A taste document and custom instructions, so output sounds like the business |
+| | 3 OS core | | One knowledge asset and one or two assistants built on it |
+| **B. Live process** | 4 One live process | | One process improved in the client's working environment, with a numeric before/after baseline and a runbook |
+| | 5 System connection | | Only if step 4 needs it. A person approves every action. No writes to an ERP without the ERP vendor |
+| | 6 Independence | ~2 weeks | A check of real usage after setup, with the adoption result reported as it is |
+| **C. Ongoing partner** | 7 Monthly improve | monthly | A monthly review and the next process to improve. Opens only after step 6 shows proven usage |
 
-1. An inventory of every AI subscription the business pays for and who actually
-   uses it.
-2. Three to five workflows mapped as they truly run, including the manual steps
-   people do not mention.
-3. Those workflows scored on value, effort and risk, with the ones to leave
-   alone named explicitly.
-4. **One Quick Win built and running**, not described.
-5. A 90-day plan with what to measure.
+**Discovery is free. Pricing is set only after Discovery and is not
+published.** No price is quoted before step 0 is done.
 
-**What the client gives:** access to a few people for an hour each, a look at
-the tools in use, and permission to see one workflow end to end. No data
-migration and no IT project.
+## What every step must produce
 
-## The gate that decides whether this offer survives
+These four rules come from running the method end to end with a first client.
+They decide whether a step counts as delivered.
 
-EXD-026 set the review at **2026-09-11, or 10 completed fit calls, whichever
-comes first**. As of 2026-08-30 the recorded count is **zero**, because no
-record existed to count. See [../gtm/fit-call-log.md](../gtm/fit-call-log.md).
+1. **The setup hour in the client's own account is the delivery.** A document
+   that is ready to paste is not a working system. Book that hour at the start.
+2. **A numeric baseline comes before step 4 builds anything.** Hours, manual
+   steps, handoffs, corrections. No baseline means no improvement claim later.
+3. **A written "leave this alone" list.** It names processes that already work
+   and should not be touched.
+4. **An adoption metric at step 6.** Agreed before the build and read from real
+   use, not from a handover sign-off.
 
-The kill criteria, unchanged: the promise is repeatedly unclear; fewer than
-three conversations surface a concrete workflow worth mapping; no qualified
-prospect asks for a sprint proposal; or the professional-services segments turn
-out to need materially different offers.
+## Sequencing
 
-## Sequencing rule
+Step 0 comes first for every client, including a returning one. Step 4 does
+not start without a recorded baseline. Step 7 does not start without step 6
+evidence. Wider scope after a good result is a new step with its own agreement.
 
-Do not build another asset before the gate. The page is live, the method is
-written, and the toolkit templates now exist. The missing input is
-conversations, and no amount of further building substitutes for them.
+## Evidence gate
+
+EXD-026 set the first review at **2026-09-11 or 10 completed fit calls**; the
+last recorded count in [../gtm/fit-call-log.md](../gtm/fit-call-log.md) was
+**zero**. EXD-038 sets a reminder review on 2026-12-31. It is a reminder, not a gate.
+
+The kill criteria carry over, minus the niche clause: the promise is repeatedly
+unclear; fewer than three conversations surface a concrete process worth
+improving; no qualified prospect asks for a proposal.
+
+The method behind each step is kept in a private repository.

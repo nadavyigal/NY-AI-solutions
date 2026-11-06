@@ -1,6 +1,6 @@
 # CLAUDE.md: NY AI Solutions
 
-AI consulting for Israeli professional-services businesses, 10 to 100 employees.
+AI consulting for any business that wants AI to do real work (EXD-038).
 This repo holds both the public site and the practice: offer, method, and the
 toolkit used in engagements.
 
@@ -18,11 +18,11 @@ then [docs/service/value-proposition.md](docs/service/value-proposition.md).
 4. **Every proposed client workflow carries a privacy path** before it is
    proposed: what the model sees, what it never sees, where identity is
    re-attached.
-5. **No published pricing** before real client patterns exist (EXD-026).
+5. **No published pricing.** Price is set only after Discovery (EXD-038).
 6. Update `tasks/progress.md` after every commit.
 
 ## The trap this practice keeps falling into
 
-Building assets instead of having conversations. EXD-026's gate is measured in
-fit calls. If a request would add another artifact while the fit-call count is
-still zero, say so before doing it.
+Building assets instead of having conversations. EXD-038's review is measured in
+completed Discovery sessions, logged in `docs/gtm/fit-call-log.md`. If a request
+would add another artifact while that count is still zero, say so before doing it.
