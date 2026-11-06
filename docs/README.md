@@ -38,7 +38,7 @@ it honest: [service/delivery-workflow.md](service/delivery-workflow.md).
 
 | Step | Template | When | Client time |
 |---|---|---|---|
-| 1 Intake | [toolkit/01-intake.md](toolkit/01-intake.md) | before the fit call | 10 min, async |
+| 1 Intake | [toolkit/01-intake.md](toolkit/01-intake.md) | before Discovery | 10 min, async |
 | 2 Pre-audit | [toolkit/02-pre-audit.md](toolkit/02-pre-audit.md) | before discovery | none |
 | 3 Discovery | [toolkit/03-discovery.md](toolkit/03-discovery.md) | sprint days 1-2 | 60-90 min per workflow |
 | 4 Audit report | [toolkit/04-audit-report.md](toolkit/04-audit-report.md) | sprint days 3-5 | none |
@@ -55,7 +55,7 @@ and an explicit "leave this alone" finding (step 4).
 
 | Asset | Use it when | File |
 |---|---|---|
-| Service pitch and call runbook | preparing to run a fit call | [sales/service-pitch-and-call-runbook.md](sales/service-pitch-and-call-runbook.md) |
+| Service pitch and call runbook | preparing to run a Discovery call | [sales/service-pitch-and-call-runbook.md](sales/service-pitch-and-call-runbook.md) |
 | Hebrew service pitch, v5 | sending a written pitch | [sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md](sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md) |
 | Prospect call cheat sheet, Hebrew | during the call itself | [sales/prospect-call-cheat-sheet-he.md](sales/prospect-call-cheat-sheet-he.md) |
 | Hebrew RTL deck, v5 | when a prospect asks for something to forward | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
@@ -97,10 +97,10 @@ venture: [research/IDEATION-2026-09-06-AI-WORK-01/8_decision_handoff.md](researc
 
 ## The sequencing rule
 
-From [service/offer.md](service/offer.md): **do not build another asset before
-the gate.** The page is live, the method is written, the toolkit exists and the
-research is done. The missing input is conversations, and no amount of further
-building substitutes for them.
+**Check the Discovery log before building another asset.** The page is live, the
+method is written, the toolkit exists and the research is done. The missing
+input is conversations, and no amount of further building substitutes for them.
+The 2026-12-31 review is a reminder, not a gate; the rule is a habit, not a block.
 
 ## Working here
 
