@@ -14,8 +14,9 @@ The delivery engine of the AI Value Sprint. Six steps, one template each.
 Method and rules: [../service/delivery-workflow.md](../service/delivery-workflow.md).
 First full run: [../clients/2026-08-30-michal-engagement-retro.md](../clients/2026-08-30-michal-engagement-retro.md).
 
-**Three things every engagement must produce, or the sprint is not done:**
-a measured baseline (step 3), a privacy path for every proposed workflow
-(step 4), and a "leave this alone" finding (step 4).
+**Four things every engagement must produce, or the sprint is not done:**
+a measured baseline (step 3), an adoption metric agreed in step 3 and read at
+close-out (step 6), a privacy path for every proposed workflow (step 4), and a
+"leave this alone" finding (step 4).
 
 Part of the practice: [../README.md](../README.md) is the operating index.

@@ -22,6 +22,10 @@ with them.
 most sensitive workflow should be a closed box: text in, drafts out, no
 integrations. Connectors are earned per workflow, not granted by default.
 
+**The never-connect list is enforced, not only written.** Take the list from the
+audit report and apply it through the tool's own permission settings where they
+exist. A rule that only lives in a document is a hope.
+
 **A human stays at the send step.** Drafts out, a person reviews, a person
 sends. Anything that goes out unreviewed needs an explicit decision by the
 client, recorded.
@@ -34,7 +38,9 @@ anything was live, purely because that hour was not scheduled.
 
 Live session checklist:
 
-1. Verify the tier and what it allows, in the account.
+1. Verify the tier and what it allows, in the account. Check the plan type and
+   the data or training setting, set it where the plan allows and the client
+   agrees, and keep a dated screenshot in the internal record.
 2. Audit connected apps and disconnect anything that exposes client data.
 3. Stand up each assistant, attach the shared knowledge asset.
 4. Walk the privacy path out loud, with the client, for each workflow.

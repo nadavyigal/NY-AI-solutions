@@ -34,8 +34,10 @@ one workflow instead of about AI in general.
 | Source of the introduction | |
 | Segment | insurance / legal / finance / real estate / consulting / other |
 | Headcount | |
-| Paid AI subscriptions and **verified** tier | |
+| Paid AI subscriptions, plan type (personal or business) and data or training setting, all **verified** in the account | |
+| AI use today | none / occasional / daily, and by whom |
 | Named candidate workflow | |
+| Files-and-folders signal | Does the candidate work live in folders of files, repeat across many documents, or need scheduled runs? Note only, nothing is offered yet |
 | Data sensitivity | low / client-identifying / regulated |
 | Framing question that must be resolved before a report | |
 | Qualified? | yes / no, and why |

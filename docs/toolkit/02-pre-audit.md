@@ -5,8 +5,8 @@ discovery with hypotheses to test rather than questions to ask.
 
 ## Inventory
 
-| Subscription | Tier (verified) | Seats | Actually used by | Monthly cost | Capability the tier allows |
-|---|---|---|---|---|---|
+| Subscription | Tier (verified) | Plan type (personal / business) | Data or training setting (verified) | Seats | Actually used by | Monthly cost | Capability the tier allows |
+|---|---|---|---|---|---|---|---|
 
 Then the number that opens the conversation: **what the business pays per month
 for AI, and what fraction of it is used beyond drafting text.**

@@ -2,15 +2,28 @@
 
 - **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038, 2026-11-06); EXD-026 niche and single-sprint clauses superseded
-- **Active Story:** branch `claude/2026-11-06-ai-adoption-journey`: offer.md, homepage journey section and docs aligned to EXD-038. PR open, not deployed.
-- **Last Completed Story:** AI Adoption Journey offer and homepage section drafted and tested (EXD-038).
+- **Active Story:** branch `claude/2026-11-06-section6-learning-paths` (stacked on PR #5): offer.md one-liners and the toolkit templates aligned to how the Journey is taught (EXD-039). Docs only. PR open, not deployed.
+- **Last Completed Story:** AI Adoption Journey offer and homepage section drafted and tested (EXD-038); toolkit and offer aligned to the learning paths (EXD-039, docs only).
 - **Next Recommended Story:** founder reviews the PR; deploy is a separate yes (`git push sites main`); then run Discovery calls and log them in `docs/gtm/fit-call-log.md`.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-11-06 - `npm test` 4/4 passed (build plus rendered HTML), eslint 0 errors (2 existing `<img>` warnings). Not deployed; `sites` remote untouched.
+- **Last Validation:** 2026-11-06 - `npm test` 4/4 passed (build plus rendered HTML), eslint 0 errors (2 existing `<img>` warnings) on the section 6 branch. Docs-only change. Not deployed; `sites` remote untouched.
 - **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
 - **Last Updated: 2026-11-06**
 
 ## Log
+
+### 2026-11-06 (offer and toolkit aligned to the learning paths, EXD-039)
+Stacked on PR #5. `docs/service/offer.md`: step 1 now records the plan type and data
+settings, one sentence says steps 1 to 3 are done on real tasks in the client's own
+account, and one sequencing line says a folder-based app is offered only after step 4
+and a readiness check. Toolkit: intake records plan type, data or training setting, AI
+use today and a files-and-folders signal; pre-audit inventory gains two columns;
+discovery agrees the adoption metric; the audit report gains section 7 (where it runs,
+what is never connected); the roadmap names the readiness check; implementation records
+the settings and enforces the never-connect list; the README now lists four required
+outputs. Method detail stays in the private hub. No vendor names, no prices, no client
+names. The fit-call log still reads zero. The toolkit README still calls the toolkit the
+engine of the "AI Value Sprint" and was left as is.
 
 ### 2026-11-06 (AI Adoption Journey, EXD-038)
 Replaced the single AI Value Sprint offer with the three-track AI Adoption Journey

@@ -19,13 +19,16 @@ Sold as three tracks. A client can stop after any track.
 | Track | Step | Length | What the client gets |
 |---|---|---|---|
 | **A. Foundations** | 0 Discovery | 45-60 min, free | A recommendation on where to start, or an honest "not now" |
-| | 1 Safe start | | One tool in the client's own account, written rules for what may and may not go to AI, three real tasks done with it |
+| | 1 Safe start | | One tool in the client's own account, written rules for what may and may not go to AI, three real tasks done with it, and the plan type and data settings checked and recorded |
 | | 2 Taste and voice | | A taste document and custom instructions, so output sounds like the business |
 | | 3 OS core | | One knowledge asset and one or two assistants built on it |
 | **B. Live process** | 4 One live process | | One process improved in the client's working environment, with a numeric before/after baseline and a runbook |
 | | 5 System connection | | Only if step 4 needs it. A person approves every action. No writes to an ERP without the ERP vendor |
 | | 6 Independence | ~2 weeks | A check of real usage after setup, with the adoption result reported as it is |
 | **C. Ongoing partner** | 7 Monthly improve | monthly | A monthly review and the next process to improve. Opens only after step 6 shows proven usage |
+
+Steps 1 to 3 are taught on the client's real tasks, in the client's own
+account. A step counts as delivered when it runs there.
 
 **Discovery is free. Pricing is set only after Discovery and is not
 published.** No price is quoted before step 0 is done.
@@ -49,6 +52,10 @@ They decide whether a step counts as delivered.
 Step 0 comes first for every client, including a returning one. Step 4 does
 not start without a recorded baseline. Step 7 does not start without step 6
 evidence. Wider scope after a good result is a new step with its own agreement.
+
+A process that works on files in a folder can move from chat to an app that
+works on those files directly. That is offered only after step 4 and a short
+readiness check, never before.
 
 ## Evidence gate
 
