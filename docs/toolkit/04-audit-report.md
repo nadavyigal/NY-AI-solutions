@@ -47,3 +47,14 @@ will measure, using the same units as the step-3 baseline.
 
 Name what was considered and rejected, and why. This is where "buy vertical
 software instead" or "this does not need AI at all" gets said when it is true.
+
+## 7. Where it runs, and what is never connected
+
+Where the recommended workflow runs: in chat, as a hand-off task in the same
+app, or in an app that works on a folder of files. The default is chat. A
+folder-based app is proposed only after the readiness check in the roadmap.
+
+Then list what is never connected for this client. Start from: ERP writes
+without the ERP vendor, payment and invoice issuing, exports that carry client
+names or ID numbers unless a privacy path exists, sending that is not
+draft-only, and credential files.

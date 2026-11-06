@@ -34,6 +34,18 @@ Without this the sprint cannot claim a result. Record for the candidate workflow
 This is a required artifact. The first engagement skipped it and consequently
 has no claimable outcome.
 
+## Adoption metric (agree now)
+
+Pick the number that close-out will read, before anything is built. For example:
+how many times a week the operator ran the process without being asked, and how
+many of those runs needed no help. A handover sign-off is not adoption.
+
+## Files-and-folders signal
+
+Note it, do not offer anything. Does the candidate workflow live in folders of
+files, repeat across many documents, or need to run on a schedule? These answers
+are the first input to the readiness check in the roadmap.
+
 ## Data map
 
 For each step: what client-identifying data is present, where it currently sits,

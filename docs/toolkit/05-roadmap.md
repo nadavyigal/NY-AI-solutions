@@ -23,6 +23,11 @@ controlled improvement. The first engagement produced this as a standing weekly
 review and it is the mechanism that stops an operating system decaying into
 unused tools.
 
+**The readiness check.** Between days 15 and 45, a short check decides whether
+a process that works on files in a folder moves from chat to an app that works
+on those files directly. Skip it if chat is enough. The check itself is kept in
+the private method.
+
 **Explicitly out of scope.** The ideas raised and deliberately deferred. This is
 the scope-creep control named in EXD-026, and it belongs in writing before
 implementation starts, not after.
