@@ -2,15 +2,24 @@
 
 - **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038, 2026-11-06); EXD-026 niche and single-sprint clauses superseded
-- **Active Story:** branch `claude/2026-11-06-section6-learning-paths` (stacked on PR #5): offer.md one-liners and the toolkit templates aligned to how the Journey is taught (EXD-039). Docs only. PR open, not deployed.
-- **Last Completed Story:** AI Adoption Journey offer and homepage section drafted and tested (EXD-038); toolkit and offer aligned to the learning paths (EXD-039, docs only).
-- **Next Recommended Story:** founder reviews the PR; deploy is a separate yes (`git push sites main`); then run Discovery calls and log them in `docs/gtm/fit-call-log.md`.
+- **Active Story:** branch `claude/2026-11-07-mark-value-sprint-superseded`: superseded notes on the old Value Sprint call docs (START-HERE, call runbook, Hebrew cheat sheet) and the docs index. Docs only. Committed locally, not pushed.
+- **Last Completed Story:** PRs #5 and #6 merged 2026-11-06 (AI Adoption Journey offer, EXD-038; learning paths, EXD-039).
+- **Next Recommended Story:** founder approves push and PR for the superseded notes; then decide whether to rewrite the Hebrew pitch v5 and RTL deck v5 for the Journey; deploy is a separate yes (`git push sites main`).
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-11-06 - `npm test` 4/4 passed (build plus rendered HTML), eslint 0 errors (2 existing `<img>` warnings) on the section 6 branch. Docs-only change. Not deployed; `sites` remote untouched.
+- **Last Validation:** 2026-11-07 - docs only: every link in the new notes resolves, no em or en dashes added. No code changed, so no test run. Not deployed; `sites` remote untouched.
 - **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
-- **Last Updated: 2026-11-06**
+- **Last Updated: 2026-11-07**
 
 ## Log
+
+### 2026-11-07 (old Value Sprint call docs marked superseded)
+START-HERE, the service pitch and call runbook, and the Hebrew prospect cheat sheet
+still ran the 7-10 day AI Value Sprint after the offer moved to the Journey. Each now
+opens with a superseded note that points at `docs/service/offer.md`; content kept for
+history. `docs/README.md` points "Start here" at the offer and marks those three, the
+Hebrew pitch v5 and the RTL deck v5 as superseded. The working Discovery method lives in
+the private hub. The pitch v5 and deck v5 themselves are unchanged and still sell the
+sprint.
 
 ### 2026-11-06 (offer and toolkit aligned to the learning paths, EXD-039)
 Stacked on PR #5. `docs/service/offer.md`: step 1 now records the plan type and data
