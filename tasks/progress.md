@@ -19,7 +19,10 @@ opens with a superseded note that points at `docs/service/offer.md`; content kep
 history. `docs/README.md` points "Start here" at the offer and marks those three, the
 Hebrew pitch v5 and the RTL deck v5 as superseded. The working Discovery method lives in
 the private hub. The pitch v5 and deck v5 themselves are unchanged and still sell the
-sprint.
+sprint. After review, three more docs got the same treatment: the toolkit README
+names Journey step 4 and flags its "Sprint days" timings as old, value-proposition's
+competitor row names the Journey, and the landing-page plan's sprint offer-block to-do
+is marked do-not-act.
 
 ### 2026-11-06 (offer and toolkit aligned to the learning paths, EXD-039)
 Stacked on PR #5. `docs/service/offer.md`: step 1 now records the plan type and data
