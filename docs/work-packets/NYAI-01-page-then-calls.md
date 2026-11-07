@@ -43,7 +43,7 @@ The trap this practice keeps falling into is building assets instead of having c
 ### Story 1: the privacy section (highest value)
 Add a section above the capabilities list. Suggested heading: **המידע של הלקוחות שלכם לא נכנס ל־AI.**
 
-Content: the rule in plain Hebrew (aliases in, the model never sees a name, identities re-attached by the client offline at the send step); that the architecture is designed before any automation; that the most sensitive workflow gets an assistant connected to nothing; and where the judgement comes from, twelve years running an insurance agency plus banking risk work.
+Content: the rule in plain Hebrew (aliases in, the model never sees a name, identities re-attached by the client offline at the send step); that the architecture is designed before any automation; that the most sensitive workflow gets an assistant connected to nothing; and where the judgement comes from, risk-management consulting, business development and global banking (approved wording: the About section in `app/page.tsx`; the earlier insurance-agency claim was wrong).
 
 Claim only what `docs/service/value-proposition.md` says is backed. This is an architecture practice, **not** a compliance certification and not a legal opinion. Do not imply otherwise.
 

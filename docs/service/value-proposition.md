@@ -44,8 +44,8 @@ Most AI consulting answers that with reassurance. This offer answers it with an
 architecture: workflows designed so identifying data never enters the model at
 all, demonstrated on a live engagement before the client's own data is touched.
 
-That is the thing a 12-year insurance-agency and banking risk background is
-actually for, and it is the hardest part of this offer for a generic vendor to
+That is the thing a background in risk-management consulting and global
+banking is actually for, and it is the hardest part of this offer for a generic vendor to
 copy.
 
 ## What I will not claim

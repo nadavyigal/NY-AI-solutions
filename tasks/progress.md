@@ -20,7 +20,10 @@ including price and time saved (no number promised), closing line. Deck v6 keeps
 and slides 3, 7, 8 and 9; slides 1, 2, 4, 5, 6 and 10 are new (no internal method names, the
 Journey tracks, measured not promised, 45-60 minute Discovery). Built by rendering HTML in
 Chrome and swapping the images into v5's package; alt text added to every slide. v5 files
-kept as history.
+kept as history. Founder review: slide 7 and the pitch bio repeated the false
+"12 years running an insurance agency" claim from v5. Slide 7 rebuilt from the
+founder's CV and the site's About wording; the claim also removed from
+value-proposition and the landing-page plan; lesson added.
 
 ### 2026-11-07 (old Value Sprint call docs marked superseded)
 START-HERE, the service pitch and call runbook, and the Hebrew prospect cheat sheet

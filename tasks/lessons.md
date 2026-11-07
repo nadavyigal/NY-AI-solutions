@@ -32,3 +32,12 @@ In the Codex shell, `npm`, `npx` and `node` were absent from `PATH`. The packet'
 with no output and a misleading zero exit status, and its alarm did not stop a
 child launched by absolute path. Use the bundled Node executable directly and
 verify child output or process state before treating a bounded check as a pass.
+
+## The founder's background has one source, and it is not an insurance agency
+
+"Twelve years running an insurance agency" is false. It was removed from the
+site on 2026-09-08, then came back through deck v4/v5 and two strategy docs,
+and was caught again on 2026-11-07. The approved bio is the About section in
+`app/page.tsx`: risk-management and process-improvement consulting (EY),
+business development, global banking (HSBC, Citi), and two AI iOS apps. Copy
+the bio from there; never from an older deck or doc.
