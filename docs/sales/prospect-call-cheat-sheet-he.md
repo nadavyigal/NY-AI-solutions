@@ -1,5 +1,10 @@
 # דף שיחה ללקוח פוטנציאלי
 
+> **Superseded on 2026-11-07. Do not use this page on calls.** It describes the
+> old 7-10 day AI Value Sprint, which is no longer sold. The current offer is the
+> AI Adoption Journey, starting with a free Discovery call:
+> [../service/offer.md](../service/offer.md). Kept for history only.
+
 ## מה אני מוכר
 
 **ספרינט תהליך חכם — 7–10 ימי עבודה.**

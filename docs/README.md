@@ -3,12 +3,13 @@
 Every asset in this repository, what it is for, and when to open it. This page
 is a map. It restates nothing: each row points at the file that owns the claim.
 
-Last updated: 2026-09-07.
+Last updated: 2026-11-07.
 
 ## Start here
 
-Running an engagement, in order, with what to send at each step:
-**[START-HERE.md](START-HERE.md)**.
+The offer is the AI Adoption Journey: **[service/offer.md](service/offer.md)**.
+[START-HERE.md](START-HERE.md) is superseded: it runs the old 7-10 day Value Sprint
+and is kept for history only.
 
 First test run of the method, on this business itself:
 [runs/2026-09-07-self-audit/README.md](runs/2026-09-07-self-audit/README.md).
@@ -55,10 +56,10 @@ and an explicit "leave this alone" finding (step 4).
 
 | Asset | Use it when | File |
 |---|---|---|
-| Service pitch and call runbook | preparing to run a Discovery call | [sales/service-pitch-and-call-runbook.md](sales/service-pitch-and-call-runbook.md) |
-| Hebrew service pitch, v5 | sending a written pitch | [sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md](sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md) |
-| Prospect call cheat sheet, Hebrew | during the call itself | [sales/prospect-call-cheat-sheet-he.md](sales/prospect-call-cheat-sheet-he.md) |
-| Hebrew RTL deck, v5 | when a prospect asks for something to forward | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
+| Service pitch and call runbook (superseded 2026-11-07, old Value Sprint) | history only | [sales/service-pitch-and-call-runbook.md](sales/service-pitch-and-call-runbook.md) |
+| Hebrew service pitch, v5 (superseded 2026-11-07, sells the old Value Sprint) | do not send | [sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md](sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md) |
+| Prospect call cheat sheet, Hebrew (superseded 2026-11-07, old Value Sprint) | history only | [sales/prospect-call-cheat-sheet-he.md](sales/prospect-call-cheat-sheet-he.md) |
+| Hebrew RTL deck, v5 (superseded 2026-11-07, sells the old Value Sprint) | do not send | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
 
 ## The site
 
