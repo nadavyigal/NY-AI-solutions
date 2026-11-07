@@ -2,15 +2,25 @@
 
 - **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038, 2026-11-06); EXD-026 niche and single-sprint clauses superseded
-- **Active Story:** branch `claude/2026-11-07-mark-value-sprint-superseded`: superseded notes on the old Value Sprint call docs (START-HERE, call runbook, Hebrew cheat sheet) and the docs index. Docs only. Committed locally, not pushed.
+- **Active Story:** branch `claude/2026-11-07-pitch-deck-v6` (stacked on the superseded-notes PR): Hebrew pitch v6 and RTL deck v6 for the AI Adoption Journey. Docs and one deck file.
 - **Last Completed Story:** PRs #5 and #6 merged 2026-11-06 (AI Adoption Journey offer, EXD-038; learning paths, EXD-039).
-- **Next Recommended Story:** founder approves push and PR for the superseded notes; then decide whether to rewrite the Hebrew pitch v5 and RTL deck v5 for the Journey; deploy is a separate yes (`git push sites main`).
+- **Next Recommended Story:** founder reviews and merges the superseded-notes PR, then the v6 PR; deploy is a separate yes (`git push sites main`); then run Discovery calls and log them in `docs/gtm/fit-call-log.md`.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-11-07 - docs only: every link in the new notes resolves, no em or en dashes added. No code changed, so no test run. Not deployed; `sites` remote untouched.
+- **Last Validation:** 2026-11-07 - deck v6 opens in macOS Quick Look, same package parts as v5, every XML part parses; 6 new slides rendered and checked by eye; no long dashes or exclamation marks in the new copy. No code changed, so no test run. Not deployed; `sites` remote untouched.
 - **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
 - **Last Updated: 2026-11-07**
 
 ## Log
+
+### 2026-11-07 (Hebrew pitch v6 and RTL deck v6)
+The pitch and deck now sell the AI Adoption Journey. Pitch v6: one sentence, 30-second and
+two-minute versions, the free 45-60 minute Discovery (work on one real task in the client's
+own AI tool, measure today's minutes, recommend or "not now"), the three tracks, objections
+including price and time saved (no number promised), closing line. Deck v6 keeps v5's look
+and slides 3, 7, 8 and 9; slides 1, 2, 4, 5, 6 and 10 are new (no internal method names, the
+Journey tracks, measured not promised, 45-60 minute Discovery). Built by rendering HTML in
+Chrome and swapping the images into v5's package; alt text added to every slide. v5 files
+kept as history.
 
 ### 2026-11-07 (old Value Sprint call docs marked superseded)
 START-HERE, the service pitch and call runbook, and the Hebrew prospect cheat sheet
