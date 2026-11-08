@@ -25,8 +25,9 @@ competitor cannot copy.
   in; identities re-attached by you, offline, at the send step.
 - That the architecture is designed before any automation is built.
 - That the most sensitive workflow gets an assistant connected to nothing.
-- Where the judgement comes from: 12 years running an insurance agency plus
-  banking risk work.
+- Where the judgement comes from: risk-management consulting, business
+  development and global banking (approved wording: the About section in
+  `app/page.tsx`). Not an insurance agency: that claim was wrong.
 
 Suggested heading: **המידע של הלקוחות שלכם לא נכנס ל־AI.**
 
