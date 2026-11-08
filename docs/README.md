@@ -61,7 +61,6 @@ and an explicit "leave this alone" finding (step 4).
 | Hebrew RTL deck, v6 (AI Adoption Journey) | when a prospect asks for something to forward | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v6.pptx` |
 | Hebrew service pitch, v5 (superseded 2026-11-07, sells the old Value Sprint) | do not send | [sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md](sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md) |
 | Prospect call cheat sheet, Hebrew (superseded 2026-11-07, old Value Sprint) | history only | [sales/prospect-call-cheat-sheet-he.md](sales/prospect-call-cheat-sheet-he.md) |
-| Hebrew RTL deck, v5 (superseded 2026-11-07, sells the old Value Sprint) | do not send | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
 
 ## The site
 

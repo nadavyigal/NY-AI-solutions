@@ -6,11 +6,19 @@
 - **Last Completed Story:** PRs #5 and #6 merged 2026-11-06 (AI Adoption Journey offer, EXD-038; learning paths, EXD-039).
 - **Next Recommended Story:** founder reviews and merges the superseded-notes PR, then the v6 PR; deploy is a separate yes (`git push sites main`); then run Discovery calls and log them in `docs/gtm/fit-call-log.md`.
 - **Blockers:** The EXD-026 gate still has zero recorded fit calls.
-- **Last Validation:** 2026-11-07 - deck v6 opens in macOS Quick Look, same package parts as v5, every XML part parses; 6 new slides rendered and checked by eye; no long dashes or exclamation marks in the new copy. No code changed, so no test run. Not deployed; `sites` remote untouched.
+- **Last Validation:** 2026-11-08 - v4 and v5 deck files deleted; no file in the repo still names them (grep). 2026-11-07 - deck v6 opens in macOS Quick Look, same package parts as v5, every XML part parses; 6 new slides rendered and checked by eye; no long dashes or exclamation marks in the new copy. No code changed, so no test run. Not deployed; `sites` remote untouched.
 - **Rollback point (last deployed):** `5a2355eb6c151db5ac8e19d5dc5b584ca069b495` (Sites version 15)
-- **Last Updated: 2026-11-07**
+- **Last Updated: 2026-11-08**
 
 ## Log
+
+### 2026-11-08 (old v4 and v5 decks deleted)
+The Hebrew deck v4 and RTL deck v5, with their `.inspect.ndjson` files, are deleted at the
+founder's request: their slide images carried the false insurance-agency bio line, so
+keeping them "as history" risked one being sent again. Git history still has them.
+`docs/README.md` drops the v5 deck row; the superseded START-HERE now points to deck v6.
+The pitch v5 text file stays (it does not carry the claim). The older v1, v2 and v3 decks
+were checked: their text has no such claim.
 
 ### 2026-11-07 (Hebrew pitch v6 and RTL deck v6)
 The pitch and deck now sell the AI Adoption Journey. Pitch v6: one sentence, 30-second and
@@ -20,7 +28,7 @@ including price and time saved (no number promised), closing line. Deck v6 keeps
 and slides 3, 7, 8 and 9; slides 1, 2, 4, 5, 6 and 10 are new (no internal method names, the
 Journey tracks, measured not promised, 45-60 minute Discovery). Built by rendering HTML in
 Chrome and swapping the images into v5's package; alt text added to every slide. v5 files
-kept as history. Founder review: slide 7 and the pitch bio repeated the false
+kept as history (deleted 2026-11-08). Founder review: slide 7 and the pitch bio repeated the false
 "12 years running an insurance agency" claim from v5. Slide 7 rebuilt from the
 founder's CV and the site's About wording; the claim also removed from
 value-proposition and the landing-page plan; lesson added.
