@@ -63,4 +63,4 @@ copy.
 | Do it themselves with ChatGPT | The owner's attention is the scarcest asset in a small or mid-size firm. Learning tools comes out of managing, selling and serving. | True for a curious owner with spare evenings. Say so; the buyer respects it. |
 | Buy vertical software | Solves the workflow the vendor chose, not the one costing this firm money, and starts a procurement and migration cycle. | Sometimes vertical software is the right answer. Saying that when it is true is what makes the rest credible. |
 | Hire an automation freelancer | Automates the process as described rather than as it actually runs, and treats data handling as an afterthought. | This is the closest competitor and the one to beat on process understanding and risk, not on price. |
-| A generic AI workshop | Teaches tools, changes no workflow, leaves nothing running on Monday. | The Value Sprint's deliverable is one thing working, not a slide deck. |
+| A generic AI workshop | Teaches tools, changes no workflow, leaves nothing running on Monday. | Every Journey step ends with something working, not a slide deck. |

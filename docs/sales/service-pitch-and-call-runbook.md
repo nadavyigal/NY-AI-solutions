@@ -1,5 +1,10 @@
 # NY AI Solutions: Service Pitch and Prospect Call Runbook
 
+> **Superseded on 2026-11-07. Do not use this page on calls.** It describes the
+> old 7-10 day AI Value Sprint, which is no longer sold. The current offer is the
+> AI Adoption Journey, starting with a free Discovery call:
+> [../service/offer.md](../service/offer.md). Kept for history only.
+
 Use this document to run the first prospect call, decide whether there is a fit,
 and move a qualified prospect into an AI Value Sprint. The client-facing service
 is simple. Audit Toolkit, Innovation, STORM, and Red Team are internal engines;

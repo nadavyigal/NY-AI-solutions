@@ -1,5 +1,10 @@
 # How to start an engagement
 
+> **Superseded on 2026-11-07. Do not use this page on calls.** It describes the
+> old 7-10 day AI Value Sprint, which is no longer sold. The current offer is the
+> AI Adoption Journey, starting with a free Discovery call:
+> [service/offer.md](service/offer.md). Kept for history only.
+
 Everything you need, in order. No theory. Each step says what you send or say,
 and what has to be true before you move on.
 

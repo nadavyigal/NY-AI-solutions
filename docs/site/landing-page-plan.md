@@ -37,6 +37,10 @@ This is the highest-value change on the page.
 A visitor cannot tell what buying looks like. There is no offer, no shape, no
 duration. "Contact me" is the only path, which is a big step from a cold read.
 
+> **Superseded on 2026-11-07. Do not act on the next two paragraphs.** The offer is
+> now the AI Adoption Journey, shown by the homepage journey section (`app/journey.ts`),
+> and the free first step is the Discovery call in [../service/offer.md](../service/offer.md).
+
 **Add an offer block:** the AI Value Sprint, 7 to 10 business days, with the five
 concrete deliverables from [../service/offer.md](../service/offer.md), ending on
 "one workflow working, not a slide deck". No price.

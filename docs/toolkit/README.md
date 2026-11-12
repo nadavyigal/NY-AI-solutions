@@ -1,6 +1,8 @@
 # AI Audit Toolkit
 
-The delivery engine of the AI Value Sprint. Six steps, one template each.
+The delivery engine for Journey step 4, one live process ([../service/offer.md](../service/offer.md)).
+Six steps, one template each. The "Sprint days" in the When column come from the old
+7-10 day AI Value Sprint (superseded 2026-11-07) and are not current timings.
 
 | Step | Template | When | Client time |
 |---|---|---|---|
