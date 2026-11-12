@@ -1,5 +1,14 @@
 # NY AI Solutions: Progress
 
+## 2026-11-12: service pilot
+
+- **Current Phase:** AI Adoption Journey (EXD-038); first arm's-length Discovery held 2026-11-08, proposal sent 2026-11-11, no reply yet.
+- **Active Story:** `claude/service-pilot-659c5c`: blind-spot map, pilot protocol, process map; first call logged. Docs only, not deployed.
+- **Next Recommended Story:** on the client's yes, run meeting 1 with the pilot protocol: one value metric, baseline, hours log.
+- **Blockers:** waiting for the client's reply to the proposal.
+- **Last Validation:** 2026-11-12 grep checks: no em dashes, prices or client names in changed files. Docs only, site tests not run.
+- **Last Updated: 2026-11-12**
+
 ## 2026-11-11: repo audit
 
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); repo hygiene pass on `claude/2026-11-11-site-audit`.
