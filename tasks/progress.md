@@ -1,5 +1,14 @@
 # NY AI Solutions: Progress
 
+## 2026-11-11: repo audit
+
+- **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); repo hygiene pass on `claude/2026-11-11-site-audit`.
+- **Active Story:** untrack the TypeScript build cache, drop pptx inspection dumps, write the review list. Not deployed; `sites` remote untouched.
+- **Next Recommended Story:** founder picks one outcomes wording so both pages share `app/outcomes.ts` (audit item 1).
+- **Blockers:** the fit-call log still shows zero calls.
+- **Last Validation:** 2026-11-11 lint 0 errors, `npm test` 4/4; `tsc --noEmit` 3 pre-existing Worker-type errors (audit item 2).
+- **Last Updated: 2026-11-11**
+
 - **Status:** live; full main page at `/` and concise benefits page at `/benefits`, connected in both directions, published as Sites version 15.
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038, 2026-11-06); EXD-026 niche and single-sprint clauses superseded
 - **Active Story:** branch `claude/2026-11-06-section6-learning-paths` (stacked on PR #5): offer.md one-liners and the toolkit templates aligned to how the Journey is taught (EXD-039). Docs only. PR open, not deployed.
