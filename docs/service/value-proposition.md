@@ -29,9 +29,9 @@ data it must protect gets the privacy path before anything else is proposed.
 
 | Claim | Evidence | What it is not |
 |---|---|---|
-| I work inside what you already pay for | Michal's operating system runs entirely on the Google AI Plus tier she already had (~₪19/mo). No new platform, no migration, no procurement cycle. | Not a refusal to recommend new tools. It is an ordering rule: existing subscriptions first, because that is where value is already paid for and unclaimed. |
+| I work inside what you already pay for | Client A's operating system runs entirely on the Google AI Plus tier she already had (~₪19/mo). No new platform, no migration, no procurement cycle. | Not a refusal to recommend new tools. It is an ordering rule: existing subscriptions first, because that is where value is already paid for and unclaimed. |
 | I build, I do not only advise | RunSmart and Resumely are both live on the App Store, built and shipped solo. The consulting is done by someone who ships production software. | Not a promise that every engagement produces custom software. Most produce configured workflows. |
-| Client data stays under your control | The Michal engagement's privacy architecture: aliases go in, the AI never sees a client's name or identifying detail, real identities are re-attached by the client offline at the moment of sending. Designed before any automation was built. | Not a compliance certification, and not a legal opinion. It is an architecture practice. |
+| Client data stays under your control | The Client A engagement's privacy architecture: aliases go in, the AI never sees a client's name or identifying detail, real identities are re-attached by the client offline at the moment of sending. Designed before any automation was built. | Not a compliance certification, and not a legal opinion. It is an architecture practice. |
 
 ## Why the privacy claim is the wedge, not a footnote
 

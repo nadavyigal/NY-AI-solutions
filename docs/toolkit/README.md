@@ -12,7 +12,7 @@ The delivery engine of the AI Value Sprint. Six steps, one template each.
 | 6 | [06-implementation.md](06-implementation.md) | Sprint days 6-10, then ongoing | varies |
 
 Method and rules: [../service/delivery-workflow.md](../service/delivery-workflow.md).
-First full run: [../clients/2026-08-30-michal-engagement-retro.md](../clients/2026-08-30-michal-engagement-retro.md).
+First full run: the Client A engagement retro, nyai-hub (private): `business/clients/2026-08-30-client-a-engagement-retro.md`.
 
 **Four things every engagement must produce, or the sprint is not done:**
 a measured baseline (step 3), an adoption metric agreed in step 3 and read at
