@@ -1,5 +1,14 @@
 # NY AI Solutions: Progress
 
+## 2026-11-14: unused starter template code removed
+
+- **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); audit follow-ups decided by the founder.
+- **Active Story:** delete the D1/Drizzle example, empty schema, drizzle config and ChatGPT sign-in helper; drop drizzle-orm and drizzle-kit. Not deployed.
+- **Next Recommended Story:** log real Discovery calls in `docs/gtm/fit-call-log.md`.
+- **Blockers:** none for this PR.
+- **Last Validation:** 2026-11-14 lint 0 errors, `npm test` 4/4, `tsc` 3 errors to 1 (Fetcher; Worker types not installed by choice).
+- **Last Updated: 2026-11-14**
+
 ## 2026-11-11: repo audit
 
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); repo hygiene pass on `claude/2026-11-11-site-audit`.
