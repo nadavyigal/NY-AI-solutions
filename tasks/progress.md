@@ -7,6 +7,14 @@
 - **Next Recommended Story:** remove template leftovers (D1, drizzle, ChatGPT auth helper) in their own PR.
 - **Blockers:** the fit-call log still shows zero calls; older commits still contain the client name.
 - **Last Validation:** 2026-11-14 lint 0 errors, `npm test` 4/4; no "Michal" left outside history.
+
+## 2026-11-14: unused starter template code removed
+
+- **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); audit follow-ups decided by the founder.
+- **Active Story:** delete the D1/Drizzle example, empty schema, drizzle config and ChatGPT sign-in helper; drop drizzle-orm and drizzle-kit. Not deployed.
+- **Next Recommended Story:** log real Discovery calls in `docs/gtm/fit-call-log.md`.
+- **Blockers:** none for this PR.
+- **Last Validation:** 2026-11-14 lint 0 errors, `npm test` 4/4, `tsc` 3 errors to 1 (Fetcher; Worker types not installed by choice).
 - **Last Updated: 2026-11-14**
 
 ## 2026-11-11: repo audit
