@@ -58,17 +58,16 @@ and an explicit "leave this alone" finding (step 4).
 | Service pitch and call runbook | preparing to run a Discovery call | [sales/service-pitch-and-call-runbook.md](sales/service-pitch-and-call-runbook.md) |
 | Hebrew service pitch, v5 | sending a written pitch | [sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md](sales/NY-AI-Solutions-Service-Pitch-Hebrew-v5.md) |
 | Prospect call cheat sheet, Hebrew | during the call itself | [sales/prospect-call-cheat-sheet-he.md](sales/prospect-call-cheat-sheet-he.md) |
-| Hebrew RTL deck, v5 | when a prospect asks for something to forward | `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
+| Hebrew RTL deck, v5 | when a prospect asks for something to forward | nyai-hub (private): `business/decks/sales-pptx/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx` |
 
 ## The site
 
-Two routes, one shared outcomes list so they cannot drift.
+Two routes. Each keeps its own outcomes list on purpose: `/benefits` is the short version (5 outcomes, its own wording, checked by `tests/rendered-html.test.mjs`); `/` has the full 10.
 
 | Route | Source | Purpose |
 |---|---|---|
 | `/` | [`../app/page.tsx`](../app/page.tsx) | the full version |
 | `/benefits` | [`../app/benefits/page.tsx`](../app/benefits/page.tsx) | "למה זה כדאי", the short why-it-matters version |
-| shared | [`../app/outcomes.ts`](../app/outcomes.ts) | the ten outcomes both routes render |
 
 Plan of record for the page: [site/landing-page-plan.md](site/landing-page-plan.md).
 Work packet that produced the current version:
@@ -87,7 +86,7 @@ Nothing here is a claim about demand. These are the records that will answer it.
 | Record | What it establishes | File |
 |---|---|---|
 | Fit call log | the countable input the EXD-026 and EXD-038 reviews read | [gtm/fit-call-log.md](gtm/fit-call-log.md) |
-| Michal engagement retro | one full run of the method; setup evidence, **no baseline**, related party | [clients/2026-08-30-michal-engagement-retro.md](clients/2026-08-30-michal-engagement-retro.md) |
+| Client A engagement retro | one full run of the method; setup evidence, **no baseline**, related party | the Client A engagement retro, nyai-hub (private): `business/clients/2026-08-30-client-a-engagement-retro.md` |
 | IDEATION run, 2026-09-06 | desk research on the AI-work opportunity; verdict REFRAME, conditional go for service validation only | [research/IDEATION-2026-09-06-AI-WORK-01/README.md](research/IDEATION-2026-09-06-AI-WORK-01/README.md) |
 
 The gate: EXD-026 set **2026-09-11, or ten completed fit calls**; EXD-038 sets a

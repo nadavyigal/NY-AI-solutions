@@ -42,7 +42,7 @@ are in [../toolkit/](../toolkit/).
 ## The rules that keep it honest
 
 **Privacy architecture comes before automation.** Step 4 does not propose a
-workflow until it can state where identifying data goes. In the Michal
+workflow until it can state where identifying data goes. In the Client A
 engagement this produced the alias rule: aliases in, the model never sees a
 name, identities re-attached by the client offline at the send step. That rule
 was written before a single Gem was built, and every artifact restates it.
@@ -63,12 +63,12 @@ not the opening move.
 successful Quick Win is the named risk in EXD-026 and EXD-038 and it is managed
 by keeping journey steps as separate scopes with separate agreements.
 
-## What the Michal engagement changed about this method
+## What the Client A engagement changed about this method
 
 The engagement ran the whole loop against a real, non-technical
 professional-services client. Four things came back and are now rules, not
 preferences. The detail is in
-[../clients/2026-08-30-michal-engagement-retro.md](../clients/2026-08-30-michal-engagement-retro.md).
+the Client A engagement retro, nyai-hub (private): `business/clients/2026-08-30-client-a-engagement-retro.md`.
 
 1. The client's existing tier was enough. Verify the tier and its limits in the
    account before designing anything that assumes a higher one.

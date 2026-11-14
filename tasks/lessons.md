@@ -15,7 +15,7 @@ created at the same time as the gate.
 
 ## Build the record of an engagement while it is running
 
-The Michal engagement's most valuable output for the practice was its method
+The Client A engagement's most valuable output for the practice was its method
 lessons, and they had to be reconstructed weeks later from planning documents.
 Write the retro as the engagement runs.
 

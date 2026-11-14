@@ -25,7 +25,7 @@ NY AI Solutions (`/Users/nadavyigal/Documents/Projects /NY AI Consulting`), bran
 Make the live page state the one claim only this practice can make, name a purchasable first step, and then get out of the way of outreach.
 
 ## Context
-The page is well written and on message. It is missing four things, and the biggest is that a buyer in insurance, law or finance reads it without ever learning where their client data goes. That is the objection that stalls AI adoption in those firms, and the Michal engagement answered it with an architecture rather than reassurance.
+The page is well written and on message. It is missing four things, and the biggest is that a buyer in insurance, law or finance reads it without ever learning where their client data goes. That is the objection that stalls AI adoption in those firms, and the Client A engagement answered it with an architecture rather than reassurance.
 
 The trap this practice keeps falling into is building assets instead of having conversations. Two weeks of finished page work sat uncommitted and undeployed while the fit-call count stayed at zero. This packet is deliberately boxed so that pattern does not repeat.
 
@@ -35,7 +35,7 @@ The trap this practice keeps falling into is building assets instead of having c
 - `docs/site/landing-page-plan.md` (the four gaps, already ordered)
 - `docs/service/value-proposition.md` (the three claims and what backs each)
 - `docs/service/offer.md` (the ladder and the sprint's five deliverables)
-- `docs/clients/2026-08-30-michal-engagement-retro.md` (the proof, and its honest limits)
+- nyai-hub (private): `business/clients/2026-08-30-client-a-engagement-retro.md` (the proof, and its honest limits)
 - `tasks/progress.md`, `tasks/lessons.md`
 
 ## Task
