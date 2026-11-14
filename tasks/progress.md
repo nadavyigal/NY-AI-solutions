@@ -1,5 +1,13 @@
 # NY AI Solutions: Progress
 
+## 2026-11-14: client aliased, decks moved private, outcomes docs corrected
+
+- **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); audit follow-ups decided by the founder.
+- **Active Story:** public repo stops naming the client ("Client A"); retro and all 5 .pptx decks moved to nyai-hub (#11); docs say /benefits keeps its own short outcomes list. Not deployed.
+- **Next Recommended Story:** remove template leftovers (D1, drizzle, ChatGPT auth helper) in their own PR.
+- **Blockers:** the fit-call log still shows zero calls; older commits still contain the client name.
+- **Last Validation:** 2026-11-14 lint 0 errors, `npm test` 4/4; no "Michal" left outside history.
+
 ## 2026-11-14: unused starter template code removed
 
 - **Current Phase:** offer rebuilt as the AI Adoption Journey (EXD-038); audit follow-ups decided by the founder.
@@ -233,7 +241,7 @@ was not attempted; cached `sites/main` before deployment is
 Repo moved to GitHub (`nadavyigal/NY-AI-solutions`). The 2026-08-16 site work was
 committed after two weeks uncommitted. Practice definition written: value
 proposition, offer ladder, delivery workflow, the AI Audit Toolkit as the sprint's
-delivery engine with all six templates, the Michal engagement retro, the landing
+delivery engine with all six templates, the Client A engagement retro, the landing
 page plan, and the fit call log the EXD-026 gate requires.
 
 ### 2026-08-11

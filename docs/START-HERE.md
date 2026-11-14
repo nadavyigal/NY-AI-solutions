@@ -34,7 +34,7 @@ The ten questions are in [toolkit/01-intake.md](toolkit/01-intake.md), under
 
 Its only job: make the call about **one workflow** instead of about AI in general.
 
-Also send the short Hebrew deck: `sales/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx`.
+Also send the short Hebrew deck: nyai-hub (private): `business/decks/sales-pptx/NY-AI-Solutions-Service-Presentation-Hebrew-RTL-v5.pptx`.
 
 ---
 
